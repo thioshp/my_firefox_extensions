@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://googlepreview/content/googlepreview.css" type="text/css"?> 
+
+<!DOCTYPE dialog SYSTEM "chrome://googlepreview/locale/googlepreview.dtd">
+
+<overlay id="googlepreview-overlay" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"> 
+<script type="application/x-javascript" src="chrome://googlepreview/content/main.js" />   
+  <menupopup id="contentAreaContextMenu">
+    <menuitem hidden="true" id="googlepreview_update" insertbefore="context-openlink" label="&gp.options.request.image.update;" oncommand="searchPreviewUpdatePreview()"/>
+    <menuseparator hidden="true" id="googlepreview_sep" insertbefore="context-openlink"/>
+  </menupopup>  
+  
+  <stringbundleset id="stringbundleset">
+   <stringbundle id="googlepreview" src="chrome://googlepreview/locale/googlepreview.properties"/>
+ </stringbundleset>
+</overlay> 

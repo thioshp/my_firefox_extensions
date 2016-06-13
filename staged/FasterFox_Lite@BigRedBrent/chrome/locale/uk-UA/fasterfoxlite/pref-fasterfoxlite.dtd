@@ -1,0 +1,68 @@
+<!ENTITY options.title "Налаштування Fasterfox Lite">
+<!ENTITY main.tab "Налаштування">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Кеш">
+<!ENTITY connection.tab "З&apos;єднання">
+<!ENTITY pipelining.tab "Конвеєрна обробка">
+<!ENTITY rendering.tab "Візуалізація">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Таймер завантаження сторінок">
+<!ENTITY timer.label "Ввімкнути таймер завантаження сторінок">
+<!ENTITY timer.desc "Перед повторним тестуванням сторінки пересвідчитесь, що очистили кеш.">
+<!ENTITY main.captionLabel "Оберіть набор налаштувань">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Стандартно">
+<!ENTITY defaultPreset.desc "Відновлення стандартних налаштувань.">
+<!ENTITY courteousPreset.label "Полегшений">
+<!ENTITY courteousPreset.desc "Оптимізація тільки налаштувань візуалізації. Не збільшує навантаження на сервер.">
+<!ENTITY optimizedPreset.label "Оптимізований">
+<!ENTITY optimizedPreset.desc "Оптимізація мережевих налаштувань для збільшення продуктивності роботи. У межах вимог RFC.">
+<!ENTITY turboPreset.label "Максимальний">
+<!ENTITY turboPreset.desc "Максимальна продуктивність. Више за вимоги RFC (збільшує навантаження на сервер).">
+<!ENTITY customPreset.label "Особистий">
+<!ENTITY customPreset.desc "Відображення ширших налаштувань для можливості формування особистої конфігурації.">
+<!ENTITY cache.captionLabel "Налаштування кешу браузера">
+<!ENTITY diskCache.label "Розмір дискового кешу:">
+<!ENTITY memoryCache.label "Розмір кешу пам&apos;яті:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Збільшення об&apos;єму кешу зменшує час завантаження сторінок, усуваючи надлишкове повторне завантаження інформації.">
+<!ENTITY dnscache.captionLabel "Налаштування кешу DNS">
+<!ENTITY dnscacheExp.label "Термін зберігання запису DNS:">
+<!ENTITY dnscacheEntries.label "Кількість записів DNS:">
+<!ENTITY dnscache.desc "Кеш DNS дозволяє уникнути надлишкових повторних DNS запросів, які знижують продуктивність. Термін зберігання записів DNS зазначається у секундах.">
+<!ENTITY connection.captionLabel "Налаштування HTTP-з&apos;єднань">
+<!ENTITY connectionMaxConn.label "Максимальна кількість з&apos;єднань:">
+<!ENTITY connectionMaxConnServ.label "Максимальна кількість з&apos;єднань з одним сервером:">
+<!ENTITY connectionMaxPerConnServ.label "Максимальна кількість постійних одночасних з&apos;єднань з одним сервером:">
+<!ENTITY connectionMaxPerConnProxy.label "Максимальна кількість одночасних з&apos;єднань через проксі:">
+<!ENTITY connection.desc "Збільшення кількості одночасних з&apos;єднань дозволяє збільшити кількість елементів, які завантажуються з одночасно.">
+<!ENTITY pipelining.captionLabel "Налаштування конвеєрної обробки даних HTTP">
+<!ENTITY pipeliningEnable.label "Ввімкнути конвеєрну обробку даних">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Використовувати конвеєрну обробку даних при проксі з&apos;єднанні">
+<!ENTITY pipeliningMax.label "Максимальна кількість конвеєрних запитів:">
+<!ENTITY pipelining.desc "Конвеєрна обробка даних дозволяє вирішити багаточисленні запити, що відправляються на сервер, без затримки на очікування відгуків попередніх запитів у відповідь. Це додає значний приріст у швидкості">
+<!ENTITY rendering.captionLabel "Налаштування візуалізації">
+<!ENTITY fastback.label "Ввімкнути FastBack">
+<!ENTITY fastback.pagesInMem "Сторінок у пам&apos;яті:">
+<!ENTITY fastback.desc "Функція FastBack дозволяє зберегти вказану кількість сторінок з історії відвідувань у пам&apos;яті та в подальшому отримати негайний доступ до цих сторінок за допомогою кнопок Назад і Вперед.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Затримка перед початком креслення сторінки:">
+<!ENTITY rendering.desc "Затримка перед початком креслення сторінки - це час після якого Firefox починає креслити сторінку (стандартно=250мс, найкраще=0мс). Затримка перед показом субменю - це час після якого Firefox відображає субменю (стандартно=300мс). Час необхідно вказувати у мілісекундах (1 секунда = 1000 мілісекунд).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "Гаразд">
+<!ENTITY button.cancel "Відміна">
+<!ENTITY    stats.stats "Дозволити анонімну статистику">

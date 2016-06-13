@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - Beállítások">
+<!ENTITY main.tab "Beállítások">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Gyorsítótár">
+<!ENTITY connection.tab "Kapcsolat">
+<!ENTITY pipelining.tab "Csatornakezelés">
+<!ENTITY rendering.tab "Oldalleképzés">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Fasterfox Oldalbetöltés időmérő">
+<!ENTITY timer.label "Oldalbetöltés időmérő engedélyezése">
+<!ENTITY timer.desc "Legyen biztos abban, hogy egy oldal mindegyik újratesztelésekor kiürítette a gyorsítótárat.">
+<!ENTITY main.captionLabel "Válasszon ki egy sablont vagy az &apos;Egyedi&apos; lehetőséget a speciális beállításokhoz">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Alapértelmezett">
+<!ENTITY defaultPreset.desc "Az összes beállítás visszaállítása a Firefox optimalizálatlan alapértékeire.">
+<!ENTITY courteousPreset.label "Előzékeny">
+<!ENTITY courteousPreset.desc "Csak olyan oldalleképzést finomhangolások, amelyek nem növelik a kiszolgáló leterheltségét.">
+<!ENTITY optimizedPreset.label "Optimalizált">
+<!ENTITY optimizedPreset.desc "Hálózati optimalizálások a teljesítménynövelés céljából az RFC-előírások betartásával.">
+<!ENTITY turboPreset.label "Turbó">
+<!ENTITY turboPreset.desc "Maximális teljesítmény, az RFC-előírások figyelmen kívül hagyásával (növeli a webkiszolgálók leterheltségét).">
+<!ENTITY customPreset.label "Egyedi">
+<!ENTITY customPreset.desc "A sebesség finomhangolására szolgáló további beállítások megjelenítése.">
+<!ENTITY cache.captionLabel "Böngésző-gyorsítótár beállításai">
+<!ENTITY diskCache.label "Lemez gyorsítótár mérete">
+<!ENTITY memoryCache.label "Memória gyorsítótár mérete">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "A gyorsítótár méretének növelése csökkenti a letöltési az időt azáltal, hogy a már letöltött elemeket a böngésző tárolja.">
+<!ENTITY dnscache.captionLabel "DNS gyorsítótár beállításai">
+<!ENTITY dnscacheExp.label "DNS gyorsítótár lejárati idő">
+<!ENTITY dnscacheEntries.label "DNS gyorsítótár bejegyzések száma">
+<!ENTITY dnscache.desc "A böngésző DNS gyorsítótárának növelése kiküszöböli a teljesítményt csökkentő fölösleges DNS lekérdezéseket. A DNS gyorsítótár lejárati idő másodpercben értendő.">
+<!ENTITY connection.captionLabel "HTTP csatlakozás beállításai">
+<!ENTITY connectionMaxConn.label "A kapcsolatok száma:">
+<!ENTITY connectionMaxConnServ.label "A kapcsolatok kiszolgálónkénti száma:">
+<!ENTITY connectionMaxPerConnServ.label "Az állandó kapcsolatok kiszolgálónkénti száma:">
+<!ENTITY connectionMaxPerConnProxy.label "Az állandó kapcsolatok proxy kiszolgálónkénti száma:">
+<!ENTITY connection.desc "A kapcsolatok számának növelésével a böngésző mindegyik kiszolgálón megnöveli az egyidejűleg letölthető elemek számát. Ez nagymértékben segít a sok képet vagy egyéb tartalmat közzétevő oldalaknál.">
+<!ENTITY pipelining.captionLabel "HTTP csatornakezelés beállításai">
+<!ENTITY pipeliningEnable.label "A csatornakezelés engedélyezése">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "A proxy kiszolgáló csatornakezelésének engedélyezése">
+<!ENTITY pipeliningMax.label "A csatornakezelések száma:">
+<!ENTITY pipelining.desc "A csatornakezelés segítségével lehetőség van több kérés küldésére a szervernek anélkül, hogy az előző kérésre érkező választ meg kellene várni. Ez a beállítás jelentős sebességnövekedést eredményezhet.">
+<!ENTITY rendering.captionLabel "Oldalleképzés beállításai">
+<!ENTITY fastback.label "GyosanVissza engedélyezése">
+<!ENTITY fastback.pagesInMem "Oldalak a memóriában:">
+<!ENTITY fastback.desc "A GyorsanVissza - az Előzményekben tárolt - megadottszámú oldalt az a memóriában tárolja, amely így azonnal elérhető a Vissza és az Előre gombra kattintva.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Kezdeti oldalleképzés késleltetése:">
+<!ENTITY rendering.desc "Kezdeti oldalleképzési késleltetés megadja, hogy a Firefox böngésző mennyi időt vár mielött megkezdi az oldal kirajzolását. Alapértelmezésben 250 ezredmásodperc idő elteltével indul a kirajzolás. Almenű késleltetés, hogy a Firefox böngésző mennyi időt vár mielött megjeleníti az almenüket. Alapértelmezésben 300 ezredmásodperc idő elteltével jelennek meg az almenük. Minden idő ezredmásodperc van megadva (1 másodperc = 1000 ezredmásodperc).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "OK">
+<!ENTITY button.cancel "Mégse">
+<!ENTITY    stats.stats "Névtelen statisztikák">

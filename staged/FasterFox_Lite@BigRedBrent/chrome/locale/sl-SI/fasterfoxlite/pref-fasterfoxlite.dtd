@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - Možnosti">
+<!ENTITY main.tab "Prednastavitve">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Predpomnilnik">
+<!ENTITY connection.tab "Povezava">
+<!ENTITY pipelining.tab "Cevovodenje">
+<!ENTITY rendering.tab "Prikaz">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Štoparica nalaganja strani Fasterfox">
+<!ENTITY timer.label "Omogoči štoparico">
+<!ENTITY timer.desc "Zagotovo izpraznite predpomnilnik, vsakič ko ponovno preizkusite stran.">
+<!ENTITY main.captionLabel "Izberite prednastavitev ali &apos;Po meri ...&apos; za napredne možnosti">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Privzeto">
+<!ENTITY defaultPreset.desc "Obnovi vse nastavitve na njihove privzete ne-optimirane vrednosti Firefoxa.">
+<!ENTITY courteousPreset.label "Vljudno">
+<!ENTITY courteousPreset.desc "Le posebne nastavitve prikaza, ne poveča bremenitve spletnega strežnika.">
+<!ENTITY optimizedPreset.label "Optimizirano">
+<!ENTITY optimizedPreset.desc "Omrežne optimizacije za izboljšano delovanje v okviru specifikacij RFC.">
+<!ENTITY turboPreset.label "Turbo nabrito">
+<!ENTITY turboPreset.desc "Maksimalno delovanje, presega specifikacije RFC (povečuje obremenitev spletnih strežnikov).">
+<!ENTITY customPreset.label "Po meri ...">
+<!ENTITY customPreset.desc "Prikaže napredne možnosti za prilagoditev lastnih hitrostnih nastavitev.">
+<!ENTITY cache.captionLabel "Nastavitve predpomnilnika brskalnika">
+<!ENTITY diskCache.label "Kapaciteta predpomnilnika diska:">
+<!ENTITY memoryCache.label "Kapaciteta predpomnilnika pomnilnika:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Povečevanje predpomnilnika skrajša čas nalaganja z odstranitvijo nepotrebnih ponovnih prenosov informacij.">
+<!ENTITY dnscache.captionLabel "Nastavitve predpomnilnika DNS">
+<!ENTITY dnscacheExp.label "Potek predpomnilnika DNS:">
+<!ENTITY dnscacheEntries.label "Vnosi v predpomnilniku DNS:">
+<!ENTITY dnscache.desc "Povečevanje predpomnilnika DNS brskalnika odstrani nepotrebna povpraševanja DNS, ki upočasnijo delovanje. Potek predpomnilnika DNS je izražen v sekundah.">
+<!ENTITY connection.captionLabel "Nastavitve povezave HTTP">
+<!ENTITY connectionMaxConn.label "Največ povezav:">
+<!ENTITY connectionMaxConnServ.label "Največ povezav na strežnik:">
+<!ENTITY connectionMaxPerConnServ.label "Največ vztrajnih povezav na strežnik:">
+<!ENTITY connectionMaxPerConnProxy.label "Največ vztrajnih povezav na proxy:">
+<!ENTITY connection.desc "Povečevanje števila povezav, ki jih brskalnik opravi na vsak strežnik, poveča število enot, ki jih lahko hkrati prenaša. To zelo pomaga pri straneh z veliko slikami ali drugimi vsebinami.">
+<!ENTITY pipelining.captionLabel "Možnosti cevovoda HTTP">
+<!ENTITY pipeliningEnable.label "Omogoči cevovod">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Omogoči cevovod za proxy">
+<!ENTITY pipeliningMax.label "Največ zahtev v cevovodu">
+<!ENTITY pipelining.desc "Cevovodi omogočajo pošiljanje več hkratnih zahtev k strežniku brez čakanja na odziv za vsako posamično zahtevo. To lahko povzroči občutno povečanje hitrosti.">
+<!ENTITY rendering.captionLabel "Nastavitve prikaza">
+<!ENTITY fastback.label "Omogoči FastBack">
+<!ENTITY fastback.pagesInMem "Strani v spominu:">
+<!ENTITY fastback.desc "FastBack hrani dano število strani iz Zgodovine v spominu, tako da so na voljo takoj ob kliku na gumba Nazaj ali Naprej.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Začeten časovni zamik risanja:">
+<!ENTITY rendering.desc "Začetni časovni zamik izpisa je čas, ko Firefox čaka, preden začne izrisovati stran (privzeto=250ms). Časovni zamik podmenija je čas, ko Firefox čaka pred izrisom podmenijev (privzeto=300ms). Vnesite čas v milisekundah (1 sekunda= 1000 milisekund).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "V redu">
+<!ENTITY button.cancel "Prekliči">
+<!ENTITY    stats.stats "Dovoli anonimna statistiko">

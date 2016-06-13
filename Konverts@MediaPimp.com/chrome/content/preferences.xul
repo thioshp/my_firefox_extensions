@@ -1,0 +1,418 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://vidbar/skin/vid.css" type="text/css"?>
+
+<prefwindow 
+	id="vidbar-preferences" 
+	title="Preferences" 
+	flex="1"
+	windowtype="vidbar:preferences"
+	ondialogaccept="return com.VidBar.Preferences.doOk();"
+	ondialogcancel="return com.VidBar.Preferences.IsInstantApply();"
+	onload="com.VidBar.Preferences.onLoad()"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+>
+
+  	<script type="application/x-javascript"  src="chrome://vidbar/content/errHandler.js"/>	
+	<script type="application/x-javascript" src="chrome://vidbar/content/consts.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/utils.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/vid.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/downloader.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/screenshot.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/favorites.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/io.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/preferences.js" />
+
+	<prefpane>
+		<preferences>
+			<preference id="pref-vidbar-min-file-size" name="extensions.vidbar.min-file-size" type="int"/>
+			<preference id="pref-vidbar-max-per-page" name="extensions.vidbar.max-per-page" type="int"/>
+			<preference id="pref-vidbar-download-location" name="extensions.vidbar.download-location" type="string"/>
+			<preference id="pref-vidbar-filename-type" name="extensions.vidbar.filename-type" type="string"/>
+			<preference id="pref-vidbar-show-file-size" name="extensions.vidbar.show-file-size" type="bool"/>
+			<preference id="pref-vidbar-show-in-context-menu" name="extensions.vidbar.show-in-context-menu" type="bool"/>
+			<preference id="pref-vidbar-icon-style" name="extensions.vidbar.icon-style" type="string"/>
+			<preference id="pref-vidbar-default_action" name="extensions.vidbar.default_action" type="string"/>
+			<preference id="pref-vidbar-default_target" name="extensions.vidbar.default_target" type="string"/>
+			<preference id="pref-vidbar-default_type" name="extensions.vidbar.default_type" type="string"/>
+			<preference id="pref-vidbar-default_folder" name="extensions.vidbar.default_folder" type="string"/>
+			<preference id="pref-vidbar-layout-type" name="extensions.vidbar.layout-type" type="string"/>
+			<preference id="pref-vidbar-player-type" name="extensions.vidbar.player-type" type="string"/>
+			<preference id="pref-vidbar-fb-messages" name="extensions.vidbar.fb.notify_messages" type="bool"/>
+			<preference id="pref-vidbar-fb-pokes" name="extensions.vidbar.fb.notify_pokes" type="bool"/>
+			<preference id="pref-vidbar-fb-friends" name="extensions.vidbar.fb.notify_friends" type="bool"/>
+			<preference id="pref-vidbar-fb-groups" name="extensions.vidbar.fb.notify_groups" type="bool"/>
+			<preference id="pref-vidbar-fb-events" name="extensions.vidbar.fb.notify_events" type="bool"/>
+			<preference id="pref-vidbar-fb-notifications" name="extensions.vidbar.fb.notify_notifications" type="bool"/>
+			<preference id="pref-vidbar-enablesounds" name="extensions.vidbar.enablesounds" type="bool"/>
+			
+		</preferences>
+		
+	<tabbox id="tabboxid" flex="1">
+		<tabs>
+			<tab label="Facebook" />
+			<tab label="Download" />
+			<tab label="Screenshot" />
+			<tab label="Appearance" />
+			<tab label="Library" />
+		</tabs>
+		<tabpanels flex="1" id="preferences-tabs">
+		
+			<tabpanel>
+				<vbox>
+					<description width="200">
+Here you can change what is included in the toolbar notifier count.
+We are specifically referring to the white number "7" 
+in the red bubble seen below:
+					</description>
+					<vbox align="center">
+						<image src="chrome://vidbar/skin/facebook-notify-demo.png" />
+					</vbox>
+					<groupbox>
+						<caption label="Include in Notification count" />
+						<checkbox label="Unread Messages" checked="true" preference="pref-vidbar-fb-messages" />
+						<checkbox label="Active Pokes" checked="true" preference="pref-vidbar-fb-pokes" />
+						<checkbox label="Pending Friend Requests" checked="true" preference="pref-vidbar-fb-friends" />
+						<checkbox label="Pending Group Invites" checked="true" preference="pref-vidbar-fb-groups" />
+						<checkbox label="Pending Event Invites" checked="true" preference="pref-vidbar-fb-events" />
+						<hbox>
+							<checkbox label="New Notifications from" checked="true" preference="pref-vidbar-fb-notifications" />
+							<label href="http://www.facebook.com/notifications.php" class="text-link" value="http://www.facebook.com/notifications.php"/>							
+						</hbox>
+					</groupbox>
+					<description width="200">
+All of the checked above will be added together to arive at the 
+number to be displayed.					
+					</description>
+				</vbox>
+			</tabpanel>
+			<tabpanel>
+				<vbox flex="1">
+					<hbox>
+						<label control="min-file-size" value="Minimum Video Size (Kb)" />
+						<textbox id="min-file-size" value="100" preference="pref-vidbar-min-file-size"/>
+					</hbox>
+					
+					<hbox>
+						<label control="max-per-page" value="Maximum of items per web page" />
+						<textbox id="max-per-page" value="50" preference="pref-vidbar-max-per-page" />
+						<label value="0=infinite" />
+					</hbox>
+
+					<hbox>
+						<label control="download-location" value="Download Folder" />
+						<textbox id="download-location" flex="1" preference="pref-vidbar-download-location" />
+						<button label="Browse" oncommand="com.VidBar.Preferences.changeDownloadDir()" />
+					</hbox>
+					
+					<hbox>
+						<label value="File name type" />
+						<radiogroup id="filename-type" orient="horizontal" preference="pref-vidbar-filename-type" >
+							<radio id="filename-type-title" value="title" label="Use title" selected="true" />
+							<radio id="filename-type-standart" value="standart" label="Use type video-[N].[ext]" />							
+						</radiogroup>
+					</hbox>
+					
+					<groupbox flex="1">
+						<caption label="Recognized File Extensions" />
+						<listbox rows="6" flex="1" id="media-extensions">
+						</listbox>
+						<hbox>
+							<textbox id="new-file-ext" width="128" value="" />
+							<button label="Add" oncommand="com.VidBar.Preferences.addExt()" />
+							<button label="Remove" oncommand="com.VidBar.Preferences.removeExt()" />
+						</hbox>
+					</groupbox>
+					
+					<groupbox>
+						<caption label="Video File Menu" />
+						<checkbox id="show-file-size" label="Show file size in menu" checked="false" 
+							preference="pref-vidbar-show-file-size" />
+						<!--
+							<checkbox id="show-file-duration" label="Show file duration" checked="false" />
+						-->
+						<checkbox id="show-in-context-menu" label="Show in context menu" checked="true" 
+							preference="pref-vidbar-show-in-context-menu" />
+					</groupbox>
+					
+					<groupbox>
+						<caption label="Icon Style" />
+						<radiogroup id="icon-style" orient="horizontal" preference="pref-vidbar-icon-style" >
+							<radio id="check-icon-style-3d" value="3D" label="Animated"
+								selected="true" />
+							<radio id="check-icon-style-std" value="Standard" label="Inert" />
+						</radiogroup>
+					</groupbox>
+					
+				</vbox>
+			</tabpanel>
+			
+			<tabpanel>
+				<vbox flex="1">
+					
+					<groupbox>
+						<checkbox label="Enable sounds" checked="true" preference="pref-vidbar-enablesounds" />
+					</groupbox>
+					<groupbox>
+						<caption label="Default Button Click Action" />
+						<radiogroup orient="horizontal" id="default_action" preference="pref-vidbar-default_action" >
+							<radio label="Save" observes="disable_toolbar_button" value="save" />
+							<radio label="Save As" observes="disable_toolbar_button" value="saveAs"/>
+							<radio label="Copy to Clipboard" observes="disable_toolbar_button" value="copy"/>
+						</radiogroup>
+					</groupbox>
+					
+					<groupbox>
+						<caption label="Default Button Click Action Target" />
+						<radiogroup orient="horizontal" id="default_target" preference="pref-vidbar-default_target" >
+							<radio label="Complete Page" observes="disable_toolbar_button" value="getComplete"/>
+							<radio label="Visible Portion" observes="disable_toolbar_button" value="getVisible"/>
+							<radio label="Selection" observes="disable_toolbar_button" value="getSelection"/>
+						</radiogroup>
+					</groupbox>
+					
+					<groupbox>
+						<caption label="Default Image Format" />
+						<radiogroup orient="horizontal" id="default_type" preference="pref-vidbar-default_type" >
+							<radio label="PNG" value="image/png"/>
+							<radio label="JPEG" value="image/jpeg"/>
+						</radiogroup>
+					</groupbox>
+					
+					<groupbox>
+						<caption label="Default Save Folder" />
+						<hbox>
+							<textbox id="default_folder" flex="1" preference="pref-vidbar-default_folder" />
+							<button label="Browse" oncommand="com.VidBar.Preferences.changeSaveFolder()" />
+						</hbox>
+					</groupbox>
+					
+					<groupbox flex="1">
+						<caption label="HotKeys" />
+						<tree id="screenshot-keys-tree" flex="1" 
+							hidecolumnpicker="true" 
+							ondblclick="com.VidBar.Preferences.onScreenshotKeysTreeDblClick(event)">
+							<treecols>
+								<treecol label="Action" flex="2" />
+								<treecol label="Key" flex="1" />
+							</treecols>
+	
+							<treechildren id="screenshot-keys-treechildren">
+								<treeitem>
+									<treerow>
+										<treecell label="Save Complete Page as JPEG" />
+										<treecell id="save_complete_jpeg_key" label="Ctrl+Alt+J" />
+									</treerow>
+								</treeitem>
+								<treeitem>
+									<treerow>
+										<treecell label="Save Complete Page as PNG" />
+										<treecell id="save_complete_png_key" label="Ctrl+Alt+P" />
+									</treerow>
+								</treeitem>
+							</treechildren>
+						</tree>
+					</groupbox>
+
+				</vbox>
+			</tabpanel>
+			
+			<tabpanel>
+				<vbox flex="1">
+<!--
+					<groupbox>
+						<caption label="Layout" />
+						<radiogroup id="layout-type" orient="vertical" preference="pref-vidbar-layout-type" >
+							<radio id="check-layout-type-toolbar" value="toolbar" 
+								label="Only Show Standalone Toolbar" checked="true" />
+							<radio id="check-layout-type-button" value="button" 
+								label="Only Show Browser Toolbar Button" checked="false" />
+							<radio id="check-layout-type-both" value="both" 
+								label="Show Browser Toolbar Button and Standalone Toolbar" 
+								checked="false" />
+						</radiogroup>
+					</groupbox>
+-->
+					<groupbox flex="1">
+						<caption label="Toolbar Buttons" />
+						<tree id="toolbar-buttons-config" editable="true" flex="1" 
+							hidecolumnpicker="true">
+							<treecols>
+								<treecol label="Button" flex="1" />
+								<treecol label="Show In Toolbar" type="checkbox" editable="true" />
+								<treecol label="Show Text" type="checkbox" editable="true" />
+							</treecols>
+					
+							<treechildren id="toolbar-buttons-config-treechildren">
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-download-button" 
+											label="Save Video" 
+											src="chrome://vidbar/skin/vid16-on.png" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-screenshot-button" 
+											label="Screenshot" 
+											src="chrome://vidbar/skin/screenshot16.gif" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+								<!-- 
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-autofill-toolbaritem" 
+											label="AutoFill" 
+											src="chrome://vidbar/skin/auto-fill.png" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-inbox-button" 
+											label="Inbox" 
+											src="chrome://vidbar/skin/mail.png" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+								-->
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-translate-button" 
+											label="Translate" 
+											src="chrome://vidbar/skin/translate.gif" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+								<!--
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-stumble-button" 
+											label="Stumble!" 
+											src="chrome://vidbar/skin/stumble.png" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-similar-button" 
+											label="Similar" 
+											src="chrome://vidbar/skin/similar.png" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+								-->
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-skipity-button" 
+											label="Skipity" 
+											src="chrome://vidbar/skin/skipity.ico" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>								
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-facebook-button" 
+											label="Facebook" 
+											src="chrome://vidbar/skin/facebook.png" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+								<treeitem>
+									<treerow>
+										<treecell id="vidbar-fb-share-button" 
+											label="Share" 
+											src="chrome://vidbar/skin/fblike.png" />
+										<treecell value="true" editable="true" />
+										<treecell value="true" editable="true" />
+									</treerow>
+								</treeitem>
+							</treechildren>
+						</tree>
+					</groupbox>
+				</vbox>
+			</tabpanel>
+
+			<tabpanel>
+				<keyset>
+				  <key id="select-all-key" modifiers="control" key="A" oncommand="com.VidBar.Preferences.selectAllFavorites();"/>
+				</keyset>			
+				<vbox flex="1">
+					<vbox>
+						<label value="Player using" />
+						<radiogroup id="player-type" orient="horizontal" preference="pref-vidbar-player-type">
+							<radio id="player-type-wmp" value="wmp" label="WMP" />
+							<radio id="player-type-vlc" value="vlc" label="VLC" />							
+						</radiogroup>
+					</vbox>
+					<vbox>
+						<tree flex="1" id="media-folders" height="150" seltype="single" context="media-folders-menu" 
+							onselect="return com.VidBar.Preferences.selectFavoriteFolder(event);" 
+							ondragstart="com.VidBar.Preferences.onFavoritesGroupDragStart(event);" 
+							ondragover="com.VidBar.Preferences.onFavoritesGroupOver(event);" 
+							ondrop="com.VidBar.Preferences.onFavoritesGroupDrop(event);">
+							<treecols>
+								<treecol label="Directory" flex="1" primary="true"/> 
+							</treecols>
+							<treechildren id="media-folders-body" />
+						</tree>					
+						<hbox>
+							<button label="Add" oncommand="com.VidBar.Preferences.addFavoritesGroup()" />
+							<button label="Remove" oncommand="com.VidBar.Preferences.removeFavoritesGroup()" />
+							<button label="Edit" oncommand="com.VidBar.Preferences.editFavoritesGroup()" />
+							<button label="Update predefined" oncommand="com.VidBar.Preferences.updatePredefined()" />
+						</hbox>
+					</vbox>
+					<splitter/>
+					<vbox flex="1">
+						<listbox flex="1" rows="6" seltype="multiple" id="media-favorites" context="media-favorites-menu" 
+							ondragstart="com.VidBar.Preferences.onFavoritesDragStart(event);" 
+							ondragover="com.VidBar.Preferences.onFavoritesOver(event);" 
+							ondrop="com.VidBar.Preferences.onFavoritesDrop(event);"
+							ondblclick="com.VidBar.Preferences.playFavorites()">
+							<listhead>
+								<listheader label="Stream URL / Playlist / Directory" />
+								<listheader label="Description" />
+							</listhead>
+							<listcols>
+								<listcol flex="0" width="200" />
+								<listcol flex="1"/>
+							</listcols>
+						</listbox>
+						<menupopup id="media-favorites-menu">
+							<menuitem label="Select all" accesskey="a" key="select-all-key" oncommand="com.VidBar.Preferences.selectAllFavorites()" />
+							<menuseparator/>
+							<menuitem label="Add to playlist" oncommand="com.VidBar.Preferences.AddPlaylist()" />
+							<menuitem label="Remove from playlist" oncommand="com.VidBar.Preferences.RemovePlaylist()" />
+							<menuitem label="Remove from library" oncommand="com.VidBar.Preferences.removeFavorites()" />
+						</menupopup>						
+						<menupopup id="media-folders-menu">
+							<menuitem label="Add new folder" oncommand="com.VidBar.Preferences.addFavoritesGroup()" />
+							<menuitem label="Remove" oncommand="com.VidBar.Preferences.removeFavoritesGroup()" />
+							<menuitem label="Edit" oncommand="com.VidBar.Preferences.editFavoritesGroup()" />
+						</menupopup>						
+						<hbox>
+							<button label="Add" oncommand="com.VidBar.Preferences.addFavorites()" />
+							<button label="Remove" oncommand="com.VidBar.Preferences.removeFavorites()" />
+							<button label="Edit" oncommand="com.VidBar.Preferences.editFavorites()" />
+							<button label="Play" oncommand="com.VidBar.Preferences.playFavorites()" />
+							<button label="Stop" oncommand="com.VidBar.Preferences.stopFavorites()" />
+						</hbox>
+					</vbox>
+				</vbox>
+			</tabpanel>
+		</tabpanels>
+		</tabbox>
+	</prefpane>
+</prefwindow>

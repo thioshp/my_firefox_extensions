@@ -1,0 +1,12 @@
+<!ENTITY about.title "Про Fasterfox">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Особлива подяка:">
+<!ENTITY about.artwork "Artwork">
+<!ENTITY about.homepage "Домашня сторінка:">
+<!ENTITY about.close "Закрити">
+<!ENTITY pageload.clearCache "Очистити кеш">
+<!ENTITY pageload.hideTimer "Cховати таймер">
+<!ENTITY pageload.options "Налаштування">
+<!ENTITY pageload.pageLoadTimer "Таймер завантаження сторінок">
+<!ENTITY    stats.stats "Дозволити анонімну статистику">

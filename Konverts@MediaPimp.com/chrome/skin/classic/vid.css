@@ -1,0 +1,365 @@
+
+#vidbar-toolbar {
+	height: 28px;
+}
+
+#vidbar-toolbar .toolbarbutton-menubutton-button {
+	padding: 4px;
+	-moz-box-orient: horizontal;
+}
+
+#vidbar-download-button {
+	list-style-image: url("chrome://vidbar/skin/vid16-off.png");
+}
+
+#vidbar-download-button.on {
+	list-style-image: url("chrome://vidbar/skin/vid16-anim.gif");
+}
+
+#vidbar-download-button.off {
+	list-style-image: url("chrome://vidbar/skin/vid16-off.png");
+}
+
+#vidbar-download-button.on-noanim {
+	list-style-image: url("chrome://vidbar/skin/vid16-on.png");
+}
+
+#vidbar-screenshot-button {
+	list-style-image: url("chrome://vidbar/skin/camera-plus1.png");
+}
+
+
+
+#about-version {
+	font-weight: bold;
+}
+
+tab.vidbar-tab label {
+	padding-left: 4px;
+}
+
+tab.vidbar-tab image {
+	margin-top: 4px;
+}
+
+#vidbar-media-sites {
+	width: 600px;
+	height: 200px;
+	margin-top: 5px;
+}
+
+.vidbar-button-line {
+	padding-top: 10px;
+}
+
+#vidbar-media-sites treechildren::-moz-tree-row(selected) { background-color: #FFFFAA; }
+#vidbar-media-sites treechildren::-moz-tree-row(odd) { background-color: #EEEEEE; }
+#vidbar-media-sites treechildren::-moz-tree-row(odd, selected) { background-color: #FFFFAA; }
+#vidbar-media-sites treechildren::-moz-tree-cell-text(selected) { color: #000000; }
+#vidbar-media-sites treechildren::-moz-tree-cell-text(odd, selected) { color: #000000; }
+
+#vidbar-site-info {
+	width: 250px;
+}
+
+#vidbar-site-info description {
+	font-style: italic;
+	max-width: 200px;
+}
+
+#vidbar-site-name {
+	font-size: medium;
+	font-weight: bold;
+}
+
+#vidbar-sites>vbox {
+	overflow: auto;
+}
+
+#vidbar-site>vbox {
+	overflow: auto;
+}
+
+#vidbar-sites-tabbox {
+	padding: 8px;
+}
+
+#vidbar-wait-panel {
+	padding: 20px;
+}
+
+#vidbar-sites tree treechildren::-moz-tree-cell-text(adult) {
+	color: #806060;
+}
+
+description.feature-descr {
+	width: 350px;
+	font-style: italic;
+	padding: 0px 0px 0px 5px;
+}
+
+#vidbar-toolbar-sys-button {
+	list-style-image: url("chrome://vidbar/skin/logo.png");
+}
+
+#vidbar-search-button {
+	list-style-image: url("chrome://vidbar/skin/bing-logo.png");
+}
+
+#vidbar-search-video-menuitem {
+	list-style-image: url("chrome://vidbar/skin/bing-logo.png");
+}
+
+
+
+#vidbar-edit-profile-menuitem {
+	list-style-image: url("chrome://vidbar/skin/options.png");
+}
+
+
+
+#vidbar-translate-button {
+	list-style-image: url("chrome://vidbar/skin/translate.gif");
+}
+
+/*#vidbar-stumble-button {
+	list-style-image: url("chrome://vidbar/skin/stumble.png");
+}
+
+#vidbar-stumble-button :hover {
+	list-style-image: url("chrome://vidbar/skin/stumble2.png");
+}*/
+
+#vidbar-similar-button {
+	list-style-image: url("chrome://vidbar/skin/similar.png");
+}
+#vidbar-skipity-button {
+	list-style-image: url("chrome://vidbar/skin/skipity.ico");
+}
+#vidbar-facebook-button {
+	list-style-image: url("chrome://vidbar/skin/facebook.png");
+}
+
+#vidbar-facebook-nav-button {
+	list-style-image: url("chrome://vidbar/skin/facebook.png");
+}
+
+#vidbar-fb-share-button {
+	list-style-image: url("chrome://vidbar/skin/fblike.png");
+}
+
+#vidbar-fb-share-nav-button {
+	list-style-image: url("chrome://vidbar/skin/fblike.png");
+}
+
+treechildren::-moz-tree-checkbox(checked) { /* css for checked cells */
+	list-style-image: url("chrome://vidbar/skin/cbox-check.gif");
+}
+
+#vidbtn-mediaprev-button {
+	list-style-image: url("chrome://vidbar/skin/prev.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-mediaprev-button:active {
+	list-style-image: url("chrome://vidbar/skin/prev_down.png");
+}
+
+#vidbtn-mediaplay-button {
+	list-style-image: url("chrome://vidbar/skin/play.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-mediaplay-button:active {
+	list-style-image: url("chrome://vidbar/skin/play_down.png");
+}
+
+#vidbtn-mediaplay-button[playing="true"] {
+	list-style-image: url("chrome://vidbar/skin/pause.png");
+}
+
+#vidbtn-mediaplay-button[playing="true"]:active {
+	list-style-image: url("chrome://vidbar/skin/pause_down.png");
+}
+
+#vidbtn-mediastop-button {
+	list-style-image: url("chrome://vidbar/skin/stop.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-mediastop-button:active {
+	list-style-image: url("chrome://vidbar/skin/stop_down.png");
+}
+
+#vidbtn-medianext-button {
+	list-style-image: url("chrome://vidbar/skin/next.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-medianext-button:active {
+	list-style-image: url("chrome://vidbar/skin/next_down.png");
+}
+
+#vidbtn-mediamute-button {
+	list-style-image: url("chrome://vidbar/skin/unmute.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-mediamute-button[mute="true"] {
+	list-style-image: url("chrome://vidbar/skin/mute.png");
+}
+
+#vidbtn-mediavolume-hbox {
+    width: 50px !important; 
+    height: 16px !important;
+	background-image: url("chrome://vidbar/skin/slider_bg.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+.vidbtn-volume-thumb {
+    -moz-appearance: none !important;
+    width: 15px; 
+    height: 16px !important;
+    background-color: transparent;
+    
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+
+    min-height: 16px !important;
+    min-width: 0px !important;
+
+	background-image: url("chrome://vidbar/skin/slider.png");
+}
+
+.vidbtn-volume-thumb[orient="horizontal"] {
+    min-height: 16px !important;
+    min-width: 0px !important;
+}
+
+.vidbtn-volume-thumb > gripper {
+    -moz-appearance: none !important;
+    background-color: transparent;
+    border: none;
+}
+
+#vidbtn-mediasongtrack-hbox {
+    width: 250px !important; 
+    height: 7px !important;
+	background-image: url("chrome://vidbar/skin/tracker_bg.png");
+}
+
+.vidbtn-mediasongtrack-thumb {
+    -moz-appearance: none !important;
+    width: 20px; 
+    height: 7px !important;
+    background-color: transparent;
+    
+    border-top-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    border-right-width: 0px;
+
+    min-height: 7px !important;
+    min-width: 0px !important;
+
+	background-image: url("chrome://vidbar/skin/tracker.png");
+}
+
+.vidbtn-mediasongtrack-thumb[orient="horizontal"] {
+    min-height: 7px !important;
+    min-width: 0px !important;
+}
+
+.vidbtn-mediasongtrack-thumb > gripper {
+    -moz-appearance: none !important;
+    background-color: transparent;
+    border: none;
+}
+
+#vidbtn-medialist-button {
+	list-style-image: url("chrome://vidbar/skin/playlist.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-mediadisplay-hbox {
+	background-image: url("chrome://vidbar/skin/display.gif"); 
+	/* -moz-box-align: right;  */
+	/* -moz-background-clip: -moz-initial; */ 
+	/* -moz-background-origin: -moz-initial;  */
+	-moz-background-inline-policy: 
+	-moz-initial; 
+	height: 13px !important; 
+	max-height: 20px; 
+	width: 250px !important;
+	max-width: 250px;
+}
+
+#vidbtn-mediacurrent-label {
+    width: 250px !important;
+    font-size: 10px; 
+    border: 0px none; 
+    margin: 0px; 
+    -moz-appearance: none;
+    background-color: transparent;
+    color: white;
+	max-width: 250px !important;
+}
+
+#vidbtn-mediarepeat-button {
+	list-style-image: url("chrome://vidbar/skin/repeat.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-mediarepeat-button:active {
+	list-style-image: url("chrome://vidbar/skin/repeat_down.png");
+}
+
+#vidbtn-mediarepeat-button[checked="true"] {
+	list-style-image: url("chrome://vidbar/skin/repeat_down.png");
+}
+
+#vidbtn-mediashuffle-button {
+	list-style-image: url("chrome://vidbar/skin/shuffle.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-mediashuffle-button:active {
+	list-style-image: url("chrome://vidbar/skin/shuffle_down.png");
+}
+
+#vidbtn-mediashuffle-button[checked="true"] {
+	list-style-image: url("chrome://vidbar/skin/shuffle_down.png");
+}
+
+#vidbtn-mediafavorite-button {
+	list-style-image: url("chrome://vidbar/skin/favorite.png");
+	padding-right: 2px;
+	padding-left: 2px;
+}
+
+#vidbtn-mediafavorite-button:active {
+	list-style-image: url("chrome://vidbar/skin/favorite_down.png");
+}
+#vidbtn-mediafavorite-button[favorite="true"] {
+	list-style-image: url("chrome://vidbar/skin/favorite_down.png");
+}
+marquee {
+	-moz-binding:	url("chrome://xbl-marquee/content/xbl-marquee.xml#marquee-horizontal");	/* needed */
+	display:		block;		/* needed */
+	overflow:		hidden;		/* needed */
+	height:			13px;		/* not needed */
+
+	width:			179px;		/* not needed */
+	/*position:		relative;	/* not needed but there might be rendering errors in some weird cases */
+}

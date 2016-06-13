@@ -1,0 +1,12 @@
+<!ENTITY about.title "O Fasterfoxu">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Zvláštní poděkování:">
+<!ENTITY about.artwork "Gafické zpracování">
+<!ENTITY about.homepage "Domovská stránka:">
+<!ENTITY about.close "Zavřít">
+<!ENTITY pageload.clearCache "Vyprázdnit cache">
+<!ENTITY pageload.hideTimer "Schovat stopky">
+<!ENTITY pageload.options "Nastavení">
+<!ENTITY pageload.pageLoadTimer "Stopky stahování stránek Fasterfoxu">
+<!ENTITY stats.stats "Povolit anonymní statistiky">

@@ -1,0 +1,12 @@
+<!ENTITY about.title "Fasterfox - O razširitvi">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Posebna zahvala:">
+<!ENTITY about.artwork "Ilustracije">
+<!ENTITY about.homepage "Domača stran:">
+<!ENTITY about.close "Zapri">
+<!ENTITY pageload.clearCache "Počisti predpomnilnik">
+<!ENTITY pageload.hideTimer "Skrij štoparico">
+<!ENTITY pageload.options "Možnosti">
+<!ENTITY pageload.pageLoadTimer "Štoparica prenosa strani Fasterfox">
+<!ENTITY    stats.stats "Dovoli anonimna statistiko">

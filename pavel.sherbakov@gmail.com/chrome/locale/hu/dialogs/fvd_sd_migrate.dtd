@@ -1,0 +1,12 @@
+<!ENTITY dialog.title "Gyorshívók/Csoportok importálása más bővítményekből">
+<!ENTITY step_select_addon.caption "Válassza ki az importálandó bővítményt">
+<!ENTITY step_select_groups.caption "Válassza ki az importálandó csoportokat">
+<!ENTITY step_select_urls.caption "Válassza ki az importálandó gyorshívókat">
+<!ENTITY import_urls.caption "Gyorshívók importálása">
+
+<!ENTITY btn_select_all "Összes kijelölése">
+<!ENTITY btn_unselect_all "Kijelölések visszavonása">
+<!ENTITY btn_previous "Előző">
+<!ENTITY btn_next "Következő">
+<!ENTITY btn_close "Kész">
+<!ENTITY btn_abort "Bezárás">

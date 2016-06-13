@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - 选项">
+<!ENTITY main.tab "主要设置">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "缓存">
+<!ENTITY connection.tab "连接">
+<!ENTITY pipelining.tab "管道">
+<!ENTITY rendering.tab "渲染">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Fasterfox页面装载计时器">
+<!ENTITY timer.label "启用页面装载计时器">
+<!ENTITY timer.desc "每次重新测试页面加载时间时务必要清空缓存。">
+<!ENTITY main.captionLabel "选择一个主要设置或“自定义”高级选项">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "默认">
+<!ENTITY defaultPreset.desc "还原Firefox未优化时所有的默认设置。">
+<!ENTITY courteousPreset.label "微小调整">
+<!ENTITY courteousPreset.desc "只调整渲染设置,而不增加页面服务器的工作量。">
+<!ENTITY optimizedPreset.label "优化">
+<!ENTITY optimizedPreset.desc "在RFC规范允许范围内优化网络设置以提高性能。">
+<!ENTITY turboPreset.label "较大调整">
+<!ENTITY turboPreset.desc "超越RFC规范允许范围最大限度的提高性能，但这样会增加页面服务器的工作量。">
+<!ENTITY customPreset.label "自定义">
+<!ENTITY customPreset.desc "显示更多可自定义的高级优化选项。">
+<!ENTITY cache.captionLabel "浏览器缓存参数">
+<!ENTITY diskCache.label "磁盘缓存大小:">
+<!ENTITY memoryCache.label "内存缓存大小:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "增加的缓存可以保存先前已经加载过的网页信息，当重新加载该页面时可以有效减少所需要的时间。">
+<!ENTITY dnscache.captionLabel "DNS 缓存参数">
+<!ENTITY dnscacheExp.label "DNS 缓存有效时间:">
+<!ENTITY dnscacheEntries.label "DNS 缓存大小:">
+<!ENTITY dnscache.desc "增加浏览器DNS缓存可以减少多余的DNS响应请求以提高网络效能。其中DNS缓存有效时间以秒为单位。">
+<!ENTITY connection.captionLabel "HTTP 连接参数">
+<!ENTITY connectionMaxConn.label "最大连接数:">
+<!ENTITY connectionMaxConnServ.label "每个服务器最大连接数:">
+<!ENTITY connectionMaxPerConnServ.label "每个服务器最大稳定连接数:">
+<!ENTITY connectionMaxPerConnProxy.label "每个代理服务器最大稳定连接数:">
+<!ENTITY connection.desc "增加浏览器每个服务器的连接数可以有效增加浏览器同时下载的信息量，有助于提高多个页面下载图片或者其他内容的速度。">
+<!ENTITY pipelining.captionLabel "HTTP 管道参数">
+<!ENTITY pipeliningEnable.label "启用管道">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "启用代理服务器的管道">
+<!ENTITY pipeliningMax.label "最大管道请求数:">
+<!ENTITY pipelining.desc "管道允许发送多个请求到服务器而不需要等待前一个请求响应。">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY rendering.captionLabel "渲染参数">
+<!ENTITY fastback.label "启用快速返回">
+<!ENTITY fastback.pagesInMem "内存中的页面数量:">
+<!ENTITY fastback.desc "为了在按下后退或前进按钮时他们可以立即显示，在内存中保留一定数量的历史页面。该功能仅支持 Firefox 1.5。">
+<!ENTITY renderingInitPait.label "初始化延时:">
+<!ENTITY rendering.desc "初始化延时是Firefox开始渲染整个网页前的等待时间(默认值为250毫秒)。子菜单延时是Firefox显示部分已渲染网页前的等待时间(默认值为300毫秒)。输入到框里的时间是以毫秒为单位(1秒=1000毫秒)。">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "确定">
+<!ENTITY button.cancel "取消">
+<!ENTITY    stats.stats "允許匿名統計">

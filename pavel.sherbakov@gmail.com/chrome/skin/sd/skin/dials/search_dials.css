@@ -1,0 +1,118 @@
+#dial-search-container {
+  display: none;
+}
+
+#dial-search-container[active="1"] {
+  display: -moz-box;
+}
+
+#dial-search-container .dial-search-icon {
+  min-width: 18px;
+  min-height: 18px;
+  max-width: 18px;
+  max-height: 18px;
+  background-image: url('./magnifier.png');
+  background-size: 16px 16px;
+  background-position: center center;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 100%;
+  -moz-box-flex: 2;
+  cursor: text;
+}
+
+window[themename="white"] #dial-search-container .dial-search-input:not([expanded="1"]) .dial-search-icon {
+  background-image: url('./magnifier_white.png');
+  background-color: rgba(0,0,0,0.6);
+}
+
+#dial-search-container .dial-search-reset-icon {
+  background-image: url('./simple_close.png');
+  background-size: 8px 8px;
+  max-width: 8px;
+  min-width: 8px;
+  max-height: 8px;
+  min-height: 8px;
+  cursor: pointer;
+  display: none;
+}
+
+#dial-search-container .dial-search-input[with-text="1"] .dial-search-reset-icon {
+  display: block;
+}
+
+#dial-search-container #dial-search-query {
+  -moz-box-flex: 2;
+  margin: 0;
+  opacity: 0;
+  transition: 200ms ease opacity;
+  width: 200px;
+  border: none;
+  padding: 2px 20px 3px 20px;
+  border-radius: 18px;
+}
+
+#dial-search-container {
+  padding-left: 10px;
+}
+
+#dial-search-container .dial-search-input {
+  -moz-box-flex: 2;
+  min-width: 18px;
+  max-width: 18px;
+  max-height: 18px;
+  min-height: 18px;
+  overflow: hidden;
+  border-radius: 18px;
+  transition: 200ms ease max-width,
+    200ms ease outline;
+}
+
+window[themename="white"] #dial-search-container .dial-search-input {
+  border-radius: 18px;
+  border: 1px solid transparent;
+  min-width: 20px;
+  max-width: 20px;
+  max-height: 20px;
+  min-height: 20px;
+}
+
+window #dial-search-container .dial-search-input[expanded="1"] {
+  min-width: 200px;
+  max-width: 200px;
+}
+
+window[themename="white"] #dial-search-container .dial-search-input[expanded="1"] {
+  border-color: rgba(0,0,0,0.6);
+}
+
+#dial-search-container .dial-search-input[expanded="1"] #dial-search-query {
+  opacity: 1;
+}
+
+#dial-search-not-found-container {
+  display: none;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  -moz-box-flex: 2;
+}
+
+#dial-search-not-found-container .search-not-found-content {
+  -moz-box-pack: center;
+  -moz-box-align: center;
+  background: rgba(255, 255, 255, 0.6);
+  padding: 10px;
+  border-radius: 10px;
+  width: 300px;
+}
+
+#dial-search-not-found-container .search-not-found-content description {
+  text-align: center;
+}
+
+window[dial-search-not-found="1"] #dial-search-not-found-container {
+  display: -moz-box;
+}
+
+window[dial-search-not-found="1"] #dialExpandedContent {
+  display: none;
+}

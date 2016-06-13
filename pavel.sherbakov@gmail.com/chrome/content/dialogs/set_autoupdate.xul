@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://fvd.speeddial/skin/sd/skin/dials/icons.css" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://fvd.speeddial/locale/fvd.toolbar.dialogs.dtd">
+
+<dialog
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  title="&fvd_sd_set_autoupdate.dialog.title;"
+  ondialogcancel="window.close()" 
+  ondialogaccept="accept()" 
+>
+
+  <script src="chrome://fvd.speeddial/content/dialogs/set_autoupdate.js"/>
+  
+  <groupbox>
+    <caption></caption>
+    <hbox id="autoUpdateBox" align="center">
+      <label value="&fvd_sd_new_dial.autoupdate.every;"/>
+      <textbox min="1" type="number" id="autoUpdateInterval"/>
+      <menulist id="autoUpdateIntervalType">
+        <menupopup>
+          <menuitem label="&fvd_sd_new_dial.autoupdate.minutes;" value="minutes"/>
+          <menuitem label="&fvd_sd_new_dial.autoupdate.hours;" value="hours"/>
+          <menuitem label="&fvd_sd_new_dial.autoupdate.days;" value="days"/>
+        </menupopup>
+      </menulist>
+    </hbox>
+  </groupbox> 
+
+</dialog>

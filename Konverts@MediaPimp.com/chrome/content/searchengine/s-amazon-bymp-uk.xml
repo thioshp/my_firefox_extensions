@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:ie="http://schemas.microsoft.com/Search/2008/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+	<ShortName>Amazon by Skipity</ShortName> 
+  <Description>Amazon UK Search Suggestions by Mediapimp</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16">data:image/x-icon;base64,R0lGODlhEAAQAPcAAAMFBQQFBRsdHRwdHTAxMTAyMkNFRURFRVRVVVRWVlVWVmVmZmZnZ3Z2dv6nAP+nAP+oAP+tE/+zKf+zKv+4Pf++UP++Uv/Jcv/KcoSGhpOUlKKioq+wsL29vf/Qgv/UkP/VkP/Vkf/an/7Yov/frf/grv/ku//kvP/lvMzMzNjY2NnZ2f/qy//v2Obm5vPu5//z5v/05f/15vLy8v/68v///wQFBRwdHb29vf///////////////////83NzQQFBQQFBQQFBQQFBQQFBQQFBQQFBVVWVv///////////////////////////////////////////////////////////////////////////////////////////////+bm5hwdHQMFBQMFBQQFBQQFBQQFBQMEBAQFBQQFBVVWVr29vfPz8////////83NzQMFBQQFBQQFBQQFBQQFBQMFBQQFBVVWVv///////////////////////////////////////////////////////////////////////////////////////////////////76+vgQFBQQFBQQFBQQFBQQFBQMFBQQFBQQFBQQFBQQFBQQFBQQFBVRWVkNERAQFBQQFBQQFBQMFBQQFBQQFBQQFBVRVVf///////////////////////////////////////////////////////////////////////////////////////////////////////8zMzBsdHQQFBQQFBQQFBQQFBQQFBQQFBQMFBQQFBQQFBQQFBQQFBQMFBQQFBQQFBQQFBQQFBQQFBQMFBQMFBVRVVf////////////////////////////////////////////////////////////////////////////////////////////////////////////Ly8nZ2dgQFBQQFBQQFBQQFBQMFBQQFBQQFBQQFBQQFBQQFBQMFBQMFBSH+JUNyZWF0ZWQgYnkgZkNvZGVyIEdyYXBoaWNzIFByb2Nlc3NvcgAAIfkEAAEAAAAsAAAAABAAEAAHCI4AawgcSLCgwRUNECDYYJBgCgABIgZo0FAggwAHVlwcULGGixQdOCCI2HFFAYkkK44s4EJDyoYRM9S4GGBGxZMYIQbQUFCGwBQCAgjQgMDAixEYMAic0KKiBQweHghEAQEDDIMySLSIMLAEBAgUPIQYa+FBCRQeCLKwAOGB2wcTTNSgQcNgCxFjUXTcOzAgADs=</Image>
+  
+	<Url type="text/html" method="get" template="http://www.amazon.co.uk/gp/search?ie=UTF8&amp;keywords={searchTerms}&amp;index=blended&amp;linkCode=ur2&amp;camp=1634&amp;creative=6738&amp;tag=amazon_complete-uk-21"/> 
+  
+  
+	<Url type="application/x-suggestions+json" 
+    rel="results" 
+    template="http://completion.amazon.com/search/complete?method=completion&amp;q={searchTerms}&amp;search-alias=aps&amp;client=amzn-search-suggestions/9fe582406fb5106f343a84083d78795713c12d68&amp;mkt=1"/>
+
+	<Url type="application/x-suggestions+xml" 
+    template="http://asp.assoc-amazon.com/suggestions?q={searchTerms}&amp;t=amazon_complete-uk-21"/>
+
+		<Url type="application/opensearchdescription+xml" rel="self" template="http://www.skipity.com/s-amazon-bymp-uk.xml"/>
+  <moz:SearchForm>http://www.amazon.co.uk/gp/redirect.html?ie=UTF8&amp;location=http://www.amazon.co.uk/&amp;linkCode=ur2&amp;camp=1634&amp;creative=6738&amp;tag=amazon_complete-uk-21</moz:SearchForm>
+</OpenSearchDescription>

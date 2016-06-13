@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://browser/skin/"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+
+<!DOCTYPE dialog SYSTEM "chrome://googlepreview/locale/googlepreview.dtd">
+
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+        id="gp-options"
+        title="SearchPreview 8.8"
+        onload="GP_OptionsInit();"
+        ondialogaccept="GP_OptionsSave();"
+        buttons="accept,cancel">    
+
+    <script type="application/x-javascript" src="chrome://googlepreview/content/options.js"/>  
+
+    <vbox style="max-width: 500px;">
+       <groupbox>
+	<caption label="&option.caption;"/>
+            <checkbox id="gp.insertImages"  label="&option.insert.images.label;" prefstring="googlepreview.insertimages"/>
+            <hbox>
+			<checkbox id="gp.insertRanks"  label="&option.insert.ranks.label;" prefstring="extensions.googlepreview.insertranks"/>
+			<hbox height="7" align="center">
+				<image align="bottom" src="chrome://googlepreview/content/4.png" width="50" height="7"/>
+			</hbox>
+			</hbox>
+            <checkbox id="gp.showADS"  label="&option.insert.ads.label;" prefstring="googlepreview.insertads"/>                       
+       </groupbox> 
+   </vbox>
+
+</dialog>

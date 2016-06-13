@@ -1,0 +1,12 @@
+<!ENTITY    about.title			"Acerca de Fasterfox">
+<!ENTITY    about.By "By:">
+<!ENTITY    about.createdBy "Original Fasterfox Author:">
+<!ENTITY    about.specialThanks	"Agradecimientos especiales para:">
+<!ENTITY    about.artwork		"Trabajo artístico">
+<!ENTITY    about.homepage 		"Sitio Web:">
+<!ENTITY    about.close 		"Cerrar">
+<!ENTITY    pageload.clearCache "Borrar Caché">
+<!ENTITY    pageload.hideTimer 	"Esconder Timer">
+<!ENTITY    pageload.options	"Options">
+<!ENTITY    pageload.pageLoadTimer 	"Timer de carga de página de Fasterfox">
+<!ENTITY    stats.stats "Permitir el envío de estadísticas anónimas">

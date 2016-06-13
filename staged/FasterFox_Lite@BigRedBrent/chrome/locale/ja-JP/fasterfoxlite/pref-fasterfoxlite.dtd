@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - オプション">
+<!ENTITY main.tab "プリセット">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "キャッシュ">
+<!ENTITY connection.tab "接続">
+<!ENTITY pipelining.tab "パイプライン">
+<!ENTITY rendering.tab "レンダリング">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Fasterfox ページの読み込み時間">
+<!ENTITY timer.label "ページの読み込み時間を表示">
+<!ENTITY timer.desc "ページの読み込みテストを行なう時は、必ずキャッシュを消去した後に実行してください。">
+<!ENTITY main.captionLabel "プリセットの選択 - &apos;カスタム&apos; で詳細設定">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "デフォルト">
+<!ENTITY defaultPreset.desc "すべての値を Firefox の規定値に戻します。">
+<!ENTITY courteousPreset.label "微調整">
+<!ENTITY courteousPreset.desc "レンダリングにのみ調整を加え、ウェブサーバーからのページの読み込み等には調整を加えません。">
+<!ENTITY optimizedPreset.label "最適化">
+<!ENTITY optimizedPreset.desc "RFC 仕様に基づいてネットワーク接続を最適化します。">
+<!ENTITY turboPreset.label "ターボ チャージャー">
+<!ENTITY turboPreset.desc "最大性能。RFC 仕様を超える設定でウェブサーバーへ接続します。">
+<!ENTITY customPreset.label "カスタム">
+<!ENTITY customPreset.desc "Firefox をあなた自身でカスタマイズするためのオプションを表示します。">
+<!ENTITY cache.captionLabel "ブラウザ キャッシュの設定">
+<!ENTITY diskCache.label "ディスク キャッシュの容量:">
+<!ENTITY memoryCache.label "メモリ キャッシュの容量:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "ディスクキャッシュの容量を増やすと、既にある情報を再度ダウンロードする必要が無くなり読み込み時間を短縮する事ができます。">
+<!ENTITY dnscache.captionLabel "DNS キャッシュの設定">
+<!ENTITY dnscacheExp.label "DNS キャッシュの有効期限:">
+<!ENTITY dnscacheEntries.label "キャッシュする DNS の数:">
+<!ENTITY dnscache.desc "キャッシュする DNS の量を増やすことで、サーバーへ DNS を問い合わせる回数を減らすことができます。DNS キャッシュの有効期限は秒単位で設定します。">
+<!ENTITY connection.captionLabel "HTTP 接続の設定">
+<!ENTITY connectionMaxConn.label "最大接続数:">
+<!ENTITY connectionMaxConnServ.label "1つのサーバーに対する最大接続数:">
+<!ENTITY connectionMaxPerConnServ.label "1つのサーバーに対する最大持続的接続数:">
+<!ENTITY connectionMaxPerConnProxy.label "1つのプロキシサーバーに対する最大持続的接続数:">
+<!ENTITY connection.desc "ブラウザのサーバーへの接続数を増やす事で、一度にダウンロードするデータの量を増やします。これは多くの画像を含んだページを読み込むさいに有効です。">
+<!ENTITY pipelining.captionLabel "HTTP パイプライン処理の設定">
+<!ENTITY pipeliningEnable.label "パイプライン処理を有効">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "プロキシでのパイプライン処理を有効">
+<!ENTITY pipeliningMax.label "パイプラインの最大接続数:">
+<!ENTITY pipelining.desc "パイプラインは送信したデータの応答を待たずに次のデータを送信する機能です。この機能を使用することで速度を劇的に速くする事が可能です。">
+<!ENTITY rendering.captionLabel "レンダリングの設定">
+<!ENTITY fastback.label "FastBack を使用">
+<!ENTITY fastback.pagesInMem "メモリに保持するページ数:">
+<!ENTITY fastback.desc "FastBack はメモリに保持されたページの履歴を使用することで、戻るあるいは進むボタンがクリックされた時の表示の切り替えを速くします。">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "ページの描画間隔:">
+<!ENTITY rendering.desc "ページの描画間隔は Firefox がページの描画を開始するまでの待ち時間です (デフォルト = 250ミリ秒)。サブメニューの描画間隔は Firefox がサブメニューの描画を開始するまでの時間です (デフォルト = 300ミリ秒)。入力単位はミリ秒です (1秒 = 1000ミリ秒)。">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "OK">
+<!ENTITY button.cancel "キャンセル">
+<!ENTITY stats.stats "匿名の統計を許可する">

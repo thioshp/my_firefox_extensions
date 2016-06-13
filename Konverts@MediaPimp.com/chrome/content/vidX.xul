@@ -1,0 +1,356 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://vidbar/skin/vidX.css" type="text/css"?>
+
+<overlay id="vidbar-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	>
+	
+	<script type="application/x-javascript"  src="chrome://vidbar/content/errHandler.js"/>	
+	<script type="application/x-javascript" src="chrome://vidbar/content/consts.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/utils.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/vid.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/youtubefunctions.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/downloader.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/profile.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/autofill.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/SoundPool.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/screenshot.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/io.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/favorites.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/player.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/md5.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/welcomedlg.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/skipity.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/facebook.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/db.js" />
+
+	<script type="application/x-javascript">
+		<![CDATA[
+		window.addEventListener("load", function(event){com.VidBar.Main.onLoad(event);}, true);
+		window.addEventListener("close",function(event){com.VidBar.Main.onClose(event);}, true);
+		]]>
+	</script>
+
+	<commandset>
+		<command id="vidbar_open_home_cmd" oncommand="com.VidBar.UI.openHome()" />
+		<command id="vidbar_preference_cmd" oncommand="com.VidBar.UI.preferences(0)" />
+		<command id="vidbar_help_cmd" oncommand="com.VidBar.UI.help()" />
+		<command id="vidbar_about_cmd" oncommand="com.VidBar.UI.about()" />
+		<command id="vidbar_search_bing_cmd" oncommand="com.VidBar.UI.searchBing()" />
+		<command id="vidbar_search_bing_video_cmd" oncommand="com.VidBar.UI.searchBingVideo()" />
+		<command id="vidbar_autofill_fill_cmd" oncommand="com.VidBar.UI.autoFill()" />
+		<command id="vidbar_autofill_edit_profile_cmd" oncommand="com.VidBar.UI.editAutofillProfile()" />
+		<command id="vidbar_download_show_supported_sites_cmd" oncommand="com.VidBar.UI.openSites()" />
+		<command id="vidbar_download_open_queue_cmd" oncommand="com.VidBar.UI.openDownloadQueue()" />
+		<command id="vidbar_download_open_folder_cmd" oncommand="com.VidBar.UI.openDownloadDir()" />
+		<command id="vidbar_screenshot_button_click_cmd" oncommand="com.VidBar.Screenshot.onButtonClick()" />
+		<command id="vidbar_screenshot_save_complete_cmd" oncommand="com.VidBar.Screenshot.saveComplete()" />
+		<command id="vidbar_screenshot_save_visible_cmd" oncommand="com.VidBar.Screenshot.saveVisible()" />
+		<command id="vidbar_screenshot_save_selection_cmd" oncommand="com.VidBar.Screenshot.saveSelection()" />
+		<command id="vidbar_screenshot_save_as_complete_cmd" oncommand="com.VidBar.Screenshot.saveAsComplete()" />
+		<command id="vidbar_screenshot_save_as_visible_cmd" oncommand="com.VidBar.Screenshot.saveAsVisible()" />
+		<command id="vidbar_screenshot_save_as_selection_cmd" oncommand="com.VidBar.Screenshot.saveAsSelection()" />
+		<command id="vidbar_screenshot_copy_complete_cmd" oncommand="com.VidBar.Screenshot.copyComplete()" />
+		<command id="vidbar_screenshot_copy_visible_cmd" oncommand="com.VidBar.Screenshot.copyVisible()" />
+		<command id="vidbar_screenshot_copy_selection_cmd" oncommand="com.VidBar.Screenshot.copySelection()" />
+		<command id="vidbar_screenshot_save_complete_jpeg_cmd" oncommand="com.VidBar.Screenshot.saveCompleteJpeg()" />
+		<command id="vidbar_screenshot_save_complete_png_cmd" oncommand="com.VidBar.Screenshot.saveCompletePng()" />
+		<command id="vidbar_facebook_share_cmd" oncommand="com.VidBar.Facebook.openShare(event)" />
+		<command id="vidbar_facebook_open_mail_cmd" oncommand="com.VidBar.Facebook.openMail()" />
+		<command id="vidbar_facebook_open_friend_cmd" oncommand="com.VidBar.Facebook.openFriend()" />
+		<command id="vidbar_facebook_open_event_cmd" oncommand="com.VidBar.Facebook.openEvent()" />
+		<command id="vidbar_facebook_open_group_cmd" oncommand="com.VidBar.Facebook.openGroup()" />
+		<command id="vidbar_facebook_open_poke_cmd" oncommand="com.VidBar.Facebook.openPoke()" />
+		<command id="vidbar_open_translate_cmd" oncommand="com.VidBar.UI.openTranslate()" />
+		<command id="vidbar_open_stumble_cmd" oncommand="com.VidBar.UI.openStumble()" />
+		<command id="vidbar_open_skipity_cmd" oncommand="com.VidBar.Skipity.openSkipity()" />
+		<command id="vidbar_open_facebook_cmd" oncommand="com.VidBar.Facebook.openHome()" />
+		<command id="vidbar_open_inbox_cmd" oncommand="com.VidBar.UI.openInbox()" />
+		<command id="vidbar_player_playlink_cmd" oncommand="com.VidBar.PlayerUI.playLink()" />
+		<command id="vidbar_player_add_favorites_cmd" oncommand="com.VidBar.PlayerUI.onAddURLLibraryCommand()" />
+		<command id="vidbar_player_play_cmd" oncommand="com.VidBar.PlayerUI.play()" />
+		<command id="vidbar_player_stop_cmd" oncommand="com.VidBar.PlayerUI.stop()" />
+	</commandset>
+
+	<keyset>
+		<key id="vidbar_screenshot_save_complete_jpeg_key" modifiers="accel,alt" key="j"
+			command="vidbar_screenshot_save_complete_jpeg_cmd" />
+	</keyset>
+	<keyset>
+		<key id="vidbar_screenshot_save_complete_png_key" modifiers="accel,alt" key="p"
+			command="vidbar_screenshot_save_complete_png_cmd" />
+	</keyset>
+
+	<toolbox id="navigator-toolbox">
+		<toolbar id="vidbar-toolbar" 
+			class="chromeclass-toolbar-additional"
+			toolbarname="Video Downloader Toolbar" 
+			hidden="false" 
+			persist="hidden collapsed"
+			>
+
+			<toolbarbutton id="vidbar-toolbar-sys-button"
+				tooltiptext="Video Downloader Toolbar" 
+				type="menu" 
+				orient="horizontal"
+				mousethrough="never"
+				oncommand="return; if(event.originalTarget.tagName=='xul:toolbarbutton')com.VidBar.UI.openHome()">
+				<menupopup id="vidbar-sys-menupopup">
+<!--  
+					<menuitem label="Preferences" 
+						image="chrome://vidbar/skin/preferences.png" 
+						command="vidbar_preference_cmd"
+						class="menuitem-iconic" />
+					<menuitem label="Supported Sites" 
+						command="vidbar_download_show_supported_sites_cmd"
+						class="menuitem-iconic" />
+					<menuitem label="Downloads" 
+						image="chrome://vidbar/skin/downloads.gif" 
+						command="vidbar_download_open_queue_cmd"
+						class="menuitem-iconic"  />
+					<menuitem label="Open Download Folder" 
+						image="chrome://vidbar/skin/open_download_folder.gif"
+						command="vidbar_download_open_folder_cmd"
+						class="menuitem-iconic"  />
+					<menuitem label="Help"
+						image="chrome://vidbar/skin/help2.gif"
+						command="vidbar_help_cmd"
+						class="menuitem-iconic"  />
+					<menuseparator />
+					<menuitem label="About"
+						image="chrome://vidbar/skin/about-logo-16.gif"
+						command="vidbar_about_cmd"
+						class="menuitem-iconic" />
+-->
+				</menupopup>
+			</toolbarbutton>
+
+			<textbox id="vidbar-search-box" editable="true" width="180" 
+				onkeypress="com.VidBar.UI.onSearchBoxKeyPressed(event)" />
+
+			<toolbarbutton id="vidbar-search-button"
+				label="Search" tooltiptext="Search Bing"
+				orient="horizontal" type="menu-button"
+				oncommand="com.VidBar.UI.searchBing()">
+				<menupopup id="vidbar-search-menupopup">
+					<menuitem id="vidbar-search-video-menuitem" label="Search Video" 
+						command="vidbar_search_bing_video_cmd"
+						class="menuitem-iconic" />
+				</menupopup>
+			</toolbarbutton>
+			
+			<toolbarseparator />
+
+			<toolbarbutton id="vidbar-download-button"
+				label="Save Video" tooltiptext="Save Video" 
+				type="menu" orient="horizontal" disabled="true">
+				<menupopup id="vidbar-download-menupopup" />
+			</toolbarbutton>
+
+			<toolbarbutton id="vidbar-screenshot-button"
+				label="Screenshot" tooltiptext="Screenshot" 
+				type="menu-button" orient="horizontal"  
+				oncommand="com.VidBar.Screenshot.onButtonClick()">
+				<menupopup id="vidbar-screenshot-menupopup">
+					<menuitem label="Save Complete Page" command="vidbar_screenshot_save_complete_cmd" />
+					<menuitem label="Save Visible Portion" command="vidbar_screenshot_save_visible_cmd" />
+					<menuitem label="Save Selection..." command="vidbar_screenshot_save_selection_cmd" />
+					<menuseparator />
+					<menuitem label="Save Complete Page As" command="vidbar_screenshot_save_as_complete_cmd" />
+					<menuitem label="Save Visible Portion As" command="vidbar_screenshot_save_as_visible_cmd" />
+					<menuitem label="Save Selection As..." command="vidbar_screenshot_save_as_selection_cmd" />
+					<menuseparator />
+					<menuitem label="Copy Complete Page" command="vidbar_screenshot_copy_complete_cmd" />
+					<menuitem label="Copy Visible Portion" command="vidbar_screenshot_copy_visible_cmd" />
+					<menuitem label="Copy Selection..." command="vidbar_screenshot_copy_selection_cmd" />
+				</menupopup>
+			</toolbarbutton>
+
+<!--  
+			<toolbaritem class="toolbaritem-1 chromeclass-toolbar-additional"
+				id="vidbar-autofill-toolbaritem" context="_child">
+				<toolbarbutton id="vidbar-autofill-button"
+					label="AutoFill" tooltiptext="AutoFill"
+					type="menu-button" orient="horizontal" 
+					oncommand="if(event.originalTarget.tagName=='xul:toolbarbutton')com.VidBar.UI.autoFill()" >
+					<menupopup id="vidbar-autofill-menupopup">
+						<menuitem id="vidbar-edit-profile-menuitem" label="Edit Profile" 
+							command="vidbar_autofill_edit_profile_cmd"
+							class="menuitem-iconic" />
+					</menupopup>
+				</toolbarbutton>
+			</toolbaritem>
+
+			<toolbarbutton id="vidbar-inbox-button"
+				label="Inbox"
+				command="vidbar_open_inbox_cmd"/>
+-->
+							
+			<toolbarbutton id="vidbar-translate-button"
+				label="Translate" tooltiptext="Translate this page" 
+				command="vidbar_open_translate_cmd"/>
+				
+<!--
+			<toolbarbutton id="vidbar-stumble-button"
+				label="Stumble!" tooltiptext="Stumble to a random interesting page" 
+				command="vidbar_open_stumble_cmd"/>
+-->
+				
+			<toolbarbutton id="vidbar-skipity-button"
+				label="Skipity" tooltiptext="Skipity to next cool website" 
+				command="vidbar_open_skipity_cmd"/>				
+<!--  			
+			<toolbarbutton 
+				id="vidbar-similar-button" 
+				type="menu" 
+				label="Similar" 
+				tooltiptext="Browse Similar Sites">
+	
+				<menupopup 
+					id="vidbar-similar-menu" 
+					position="after_start" 
+					tooltiptext="" 
+					onpopupshowing="com.VidBar.UI.onSimilarPopup(event);"
+					>
+					<hbox width="385px" height="410px;">
+						<image id="vidbar-similar-imgloading" src="chrome://vidbar/skin/loading.gif" width="380px" height="410px;" collapsed="true"/>
+						<iframe width="385px" height="410px;" src="" scrolling="no" type="content" id="vidbar-similar-iframe"></iframe>
+					</hbox>
+				</menupopup>
+			</toolbarbutton>
+-->		
+			<toolbarbutton id="vidbar-facebook-button"
+				label="Facebook" tooltiptext="Open Facebook"
+				command="vidbar_open_facebook_cmd"/>
+			
+			<tooltip id="vidbar-fb-share-tooltip" onpopupshowing="com.VidBar.Facebook.getShareTooltip(this);"/>
+			<toolbarbutton id="vidbar-fb-share-button"
+				label="Like" command="vidbar_facebook_share_cmd" tooltip="vidbar-fb-share-tooltip" />
+
+			
+			<toolbaritem id="vidbar-player-item" persist="width">
+				<html:embed type="application/x-vlc-plugin" pluginspage="http://www.videolan.org" version="VideoLAN.VLCPlugin.2" 
+					style="height: 0; width: 0; visibility: collapse;" id="vidbar-vlc" />
+				<html:embed type="application/x-ms-wmp"
+							autostart="false"
+							style="height: 0; width: 0; visibility: collapse;"
+							id="vidbar-wmpPlugin" />					
+				<hbox style="-moz-box-align: center; max-height: 33px; padding-top: 3px; padding-bottom: 3px; direction: ltr;">
+					<image tooltiptext="Previous" id="vidbtn-mediaprev-button" onclick="com.VidBar.PlayerUI.onPrevCommand(event);" />
+					<image tooltiptext="Play" id="vidbtn-mediaplay-button" onclick="com.VidBar.PlayerUI.onPlayCommand(event);"/>
+					<image tooltiptext="Stop" id="vidbtn-mediastop-button" onclick="com.VidBar.PlayerUI.onStopCommand(event);"/>
+					<image tooltiptext="Next" id="vidbtn-medianext-button" onclick="com.VidBar.PlayerUI.onNextCommand(event);"/>
+					<image tooltiptext="Mute" id="vidbtn-mediamute-button" onclick="com.VidBar.PlayerUI.onMuteCommand(event);"/>
+					<hbox style="background-color:transparent;" id="vidbtn-mediavolume-hbox">
+						<slider id="vidbtn-mediavolume-slider" orient="horizontal" minpos="0" maxpos="100" curpos="50" flex="1" tooltiptext="Volume 50%" style="background-color:transparent" onmousedown="com.VidBar.PlayerUI.onVolumeDown(event);" onmouseup="com.VidBar.PlayerUI.onVolumeUp(event);" >
+							<thumb id="thumb" class="vidbtn-volume-thumb"/>
+						</slider>
+					</hbox>
+					<hbox style="background-color:transparent;" id="vidbtn-mediaplaylist-hbox">
+						<image id="vidbtn-medialist-button" tooltiptext="Playlist" onclick="com.VidBar.PlayerUI.onPlaylistCommand(event);">
+						</image>
+						<menupopup id="vidbar-medialist-menupopup">
+							<menuseparator />
+							<menuitem label="Add New Library Item" oncommand="com.VidBar.PlayerUI.onAddLibraryCommand(event);" />
+						</menupopup>
+					</hbox>
+					
+					<vbox style="padding-right: 2px; padding-left: 2px;">
+						<hbox style="background-color:transparent;" id="vidbtn-mediadisplay-hbox" >
+							<marquee direction="left" behavior="scroll" style="color: white;" id="vidbtn-media-ticker"></marquee>
+							<label value="--:--/--:--" style="color: white;" id="vidbtn-media-duration" />
+						</hbox>
+						<hbox style="background-color:transparent;" id="vidbtn-mediasongtrack-hbox">
+							<slider id="vidbtn-mediasongtrack-slider" orient="horizontal" minpos="0" maxpos="0" curpos="0" flex="1" style="background-color:transparent" onmousedown="com.VidBar.PlayerUI.onSongTrackingDown(event);" onmouseup="com.VidBar.PlayerUI.onSongTrackingUp(event);" >
+								<thumb id="thumb" class="vidbtn-mediasongtrack-thumb"/>
+							</slider>
+						</hbox>
+					</vbox>
+					<image tooltiptext="Repeat" id="vidbtn-mediarepeat-button" checked="true" onclick="com.VidBar.PlayerUI.onRepeatCommand(event);"/>
+					<image tooltiptext="Shuffle" id="vidbtn-mediashuffle-button" onclick="com.VidBar.PlayerUI.onShuffleCommand(event);"/>
+					<image tooltiptext="Add this station to Favorites" id="vidbtn-mediafavorite-button" onclick="com.VidBar.PlayerUI.onOpenFavoriteCommand(event);"/>
+  				</hbox>
+			</toolbaritem>
+ 		</toolbar>
+	</toolbox>
+	
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbaritem class="toolbaritem-1 chromeclass-toolbar-additional" hidden="true"
+			id="vidbtn-download-toolbaritem" context="_child">
+			<toolbarbutton id="vidbtn-download-button"
+				label=""
+				tooltiptext="Video Downloader" type="menu" disabled="true">
+				<menupopup id="vidbtn-download-menupopup" />
+			</toolbarbutton>
+			<menupopup id="vidbtn-sys-ctxmenupopup" />
+		</toolbaritem>
+		<toolbaritem class="toolbaritem-1 chromeclass-toolbar-additional" hidden="true"
+			id="vidbtn-screenshot-toolbaritem" context="_child">
+			<toolbarbutton id="vidbtn-screenshot-button"
+				label=""
+				tooltiptext="Screenshot"	type="menu-button" command="vidbar_screenshot_button_click_cmd">
+				<menupopup id="vidbtn-screenshot-menupopup">
+					<menuitem label="Save Complete Page" command="vidbar_screenshot_save_complete_cmd" />
+					<menuitem label="Save Visible Portion" command="vidbar_screenshot_save_visible_cmd" />
+					<menuitem label="Save Selection..." command="vidbar_screenshot_save_selection_cmd" />
+					<menuseparator />
+					<menuitem label="Save Complete Page As" command="vidbar_screenshot_save_as_complete_cmd" />
+					<menuitem label="Save Visible Portion As" command="vidbar_screenshot_save_as_visible_cmd" />
+					<menuitem label="Save Selection As..." command="vidbar_screenshot_save_as_selection_cmd" />
+					<menuseparator />
+					<menuitem label="Copy Complete Page" command="vidbar_screenshot_copy_complete_cmd" />
+					<menuitem label="Copy Visible Portion" command="vidbar_screenshot_copy_visible_cmd" />
+					<menuitem label="Copy Selection..." command="vidbar_screenshot_copy_selection_cmd" />
+				</menupopup>
+			</toolbarbutton>
+		</toolbaritem>
+		<toolbaritem class="toolbaritem-1 chromeclass-toolbar-additional" hidden="true"
+			id="vidbar-facebook-nav-toolbaritem" context="_child">
+			<toolbarbutton id="vidbar-facebook-nav-button"
+				tooltiptext="Facebook" command="vidbar_open_facebook_cmd">
+			</toolbarbutton>
+		</toolbaritem>
+		<toolbaritem class="toolbaritem-1 chromeclass-toolbar-additional" hidden="true"
+			id="vidbar-fb-share-nav-toolbaritem" context="_child">
+			<toolbarbutton id="vidbar-fb-share-nav-button"
+				tooltiptext="Share" command="vidbar_facebook_share_cmd">
+			</toolbarbutton>
+		</toolbaritem>
+	</toolbarpalette>
+ 
+	<popup id="contentAreaContextMenu">
+		<menu id="vidbar-screenshot-ctxmenu" label="Screenshot"
+			insertafter="context-sep-selectall,context-sep-stop,context-sep-copylink">
+			<menupopup id="vidbar-screenshot-ctxmenupopup">
+				<menuitem label="Save Complete Page" command="vidbar_screenshot_save_complete_cmd" />
+				<menuitem label="Save Visible Portion" command="vidbar_screenshot_save_visible_cmd" />
+				<menuitem label="Save Selection..." command="vidbar_screenshot_save_selection_cmd" />
+				<menuseparator />
+				<menuitem label="Save Complete Page As" command="vidbar_screenshot_save_as_complete_cmd" />
+				<menuitem label="Save Visible Portion As" command="vidbar_screenshot_save_as_visible_cmd" />
+				<menuitem label="Save Selection As..." command="vidbar_screenshot_save_as_selection_cmd" />
+				<menuseparator />
+				<menuitem label="Copy Complete Page" command="vidbar_screenshot_copy_complete_cmd" />
+				<menuitem label="Copy Visible Portion" command="vidbar_screenshot_copy_visible_cmd" />
+				<menuitem label="Copy Selection..." command="vidbar_screenshot_copy_selection_cmd" />
+			</menupopup>
+		</menu>
+		<menu id="vidbar-player-ctxmenu" label="Media Pimp Player"
+			insertafter="context-sep-selectall,context-sep-stop,context-sep-copylink">
+			<menupopup id="vidbtn-player-menupopup">
+				<menuitem label="Play Link with Toolbar" command="vidbar_player_playlink_cmd" />
+				<menuitem label="Add URL to Library" command="vidbar_player_add_favorites_cmd" />
+				<menuseparator />
+				<menuitem label="Play/Pause" command="vidbar_player_play_cmd" />
+				<menuitem label="Stop" command="vidbar_player_stop_cmd" />
+			</menupopup>
+		</menu>
+		<menu id="vidbar-download-ctxmenu" label="Video Downloader"
+			insertbefore="context-sep-selectall,context-sep-stop,context-sep-copylink">
+			<menupopup id="vidbar-download-ctxmenupopup" />
+		</menu>
+	</popup>
+
+</overlay>
+

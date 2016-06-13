@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog title="Exit dialog" 
+buttons="accept, cancel"
+    buttonorient="rtl"	
+	onload="doOnload();"
+	ondialogaccept="return doOK();"
+    ondialogcancel="return doCancel();"	
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://vidbar/content/db.js" />
+	<script type="application/x-javascript"  src="chrome://vidbar/content/errHandler.js"/>
+	<description id="Title-quest" value="Test"  />
+	<checkbox id="list" label="Clear list" checked="false"/>
+
+<script>
+function doOnload(){
+  document.getElementById('Title-quest').value=this.arguments[0];
+}
+
+function doOK(){  
+  this.arguments[1].cancel = false;
+  this.arguments[1].clear = document.getElementById('list').checked;
+  return true;
+}
+
+function doCancel(){
+  this.arguments[1].cancel = true;
+  return true;
+}
+
+</script>
+
+</dialog>

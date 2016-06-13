@@ -1,0 +1,13 @@
+<!ENTITY window.title "Tartalom verzióütközés">
+<!ENTITY button.pick_local "Helyi verzió megtartása">
+<!ENTITY button.pick_server "Szerver verzió megtartása">
+<!ENTITY button.close "Szinkronizálás megszakítása">
+
+<!ENTITY local_version "Helyi verzió">
+<!ENTITY server_version "Szerver verzió">
+
+<!ENTITY description "Az FVD Speed Dial nem tudja megmondani, hogy a jelenlegi tartalom típus, mely verzióját kellene megtartani.">
+
+<!ENTITY please_select "Kérjük, válassza ki a megtartani kívánt verziót">
+
+<!ENTITY use_choice "Használja ezt a választást az aktuális szinkronizálás összes ütközésénél">

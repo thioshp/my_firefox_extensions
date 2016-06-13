@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Опции">
+<!ENTITY option.insert.images.label "Вставить картинки предпросмотра в результаты поиска Google и Yahoo">
+<!ENTITY option.show.GP.label "Показать знак &quot;SP&quot; в строку статуса Firefox (Быстрое включение/отключение)">
+<!ENTITY gp.options.popup "Опции SearchPreview">
+<!ENTITY option.maxPerPage.GP.label "Максимальное число картинок предпросмотра на страницу:">
+<!ENTITY option.insert.ranks.label "Вставить индекс популярности сайта в результаты поиска:">
+<!ENTITY gp.options.request.image.update "Запросить обновление этой картинки SearchPreview">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

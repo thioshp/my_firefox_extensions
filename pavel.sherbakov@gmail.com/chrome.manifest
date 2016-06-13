@@ -1,0 +1,27 @@
+overlay	chrome://browser/content/browser.xul	chrome://fvd.speeddial/content/fvd_speeddial.xul
+
+
+
+content	fvd.speeddial	chrome/content/
+skin	fvd.speeddial	classic/1.0	chrome/skin/
+
+resource fvd.speeddial.modules modules/
+
+style	chrome://global/content/customizeToolbar.xul	chrome://fvd.speeddial/skin/fvd.toolbar.css
+
+locale	fvd.speeddial	en-US	chrome/locale/en-US/
+locale  fvd.speeddial ru  chrome/locale/ru/
+locale  fvd.speeddial uk  chrome/locale/uk/
+locale  fvd.speeddial de-DE  chrome/locale/de-DE/
+locale  fvd.speeddial es-ES  chrome/locale/es-ES/
+locale  fvd.speeddial fr-FR  chrome/locale/fr-FR/
+locale  fvd.speeddial hi  chrome/locale/hi/
+locale  fvd.speeddial hy  chrome/locale/hy/
+locale  fvd.speeddial hu  chrome/locale/hu/
+locale  fvd.speeddial zh-CN  chrome/locale/zh-CN/
+
+component {d908872d-f46e-4208-a40d-46a008ae44b1} components/googleautocomplete.js
+contract @mozilla.org/autocomplete/search;1?name=fvd_speed_dial_googleautocomplete {d908872d-f46e-4208-a40d-46a008ae44b1}
+
+component {d07e50e1-939e-46f6-8ee6-901e3801240a} components/about_fvdsd_dials.js
+contract @mozilla.org/network/protocol/about;1?what=fvdsddials {d07e50e1-939e-46f6-8ee6-901e3801240a}

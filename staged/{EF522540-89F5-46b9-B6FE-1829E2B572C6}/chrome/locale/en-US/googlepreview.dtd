@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Options">
+<!ENTITY option.insert.images.label "Insert preview images into Google, Yahoo and Bing search">
+<!ENTITY option.show.GP.label "Show &apos;SP&apos; sign in Firefox status bar (fast en/disabler)">
+<!ENTITY gp.options.popup "SearchPreview Options...">
+<!ENTITY option.maxPerPage.GP.label "Maximum number of preview images per page:">
+<!ENTITY option.insert.ranks.label "Insert site popularity ranks into search results: ">
+<!ENTITY gp.options.request.image.update "Request update of this SearchPreview image">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

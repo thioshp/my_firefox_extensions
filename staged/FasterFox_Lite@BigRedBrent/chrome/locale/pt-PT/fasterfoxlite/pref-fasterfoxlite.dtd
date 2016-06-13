@@ -1,0 +1,68 @@
+<!ENTITY options.title "Opcoes Fasterfox Lite">
+<!ENTITY main.tab "Reinicio">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Cache">
+<!ENTITY connection.tab "Ligacao">
+<!ENTITY pipelining.tab "Pipelining">
+<!ENTITY rendering.tab "Renderizar">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Temporizador de paginas Fasterfox">
+<!ENTITY timer.label "Ligar Temporizador de paginas">
+<!ENTITY timer.desc "Tenha a certeza que apaga o chache cada vez que retesta a pagina.">
+<!ENTITY main.captionLabel "Seleccione as opcoes originais ou altere em opcoes avancadas">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Padrão">
+<!ENTITY defaultPreset.desc "Restaura todas as opcoes para os valores inicias do Firefox">
+<!ENTITY courteousPreset.label "Educado">
+<!ENTITY courteousPreset.desc "Ajuste de apresentaçao, nao aumenta a carga nos servidores.">
+<!ENTITY optimizedPreset.label "Optimizado">
+<!ENTITY optimizedPreset.desc "Optimizacoes da rede para aumentar a performance com as especificacoes RFC">
+<!ENTITY turboPreset.label "Carregado com Turbo">
+<!ENTITY turboPreset.desc "Maxima performace, excede as especificacoes RFC (aumenta a carga nos servidores web)">
+<!ENTITY customPreset.label "Padrão">
+<!ENTITY customPreset.desc "Mostra as opcoes avançadas para configurar as suas opcoes de velocidade.">
+<!ENTITY cache.captionLabel "Preferencias de Cache do Navegador">
+<!ENTITY diskCache.label "Capacidade de cache no disco">
+<!ENTITY memoryCache.label "Capacidade de cache na memoria">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Ao aumentar o seu cache diminui o tempo ao abrir os enderecos pois nao necessita descarregar as informacoes novamente.">
+<!ENTITY dnscache.captionLabel "Preferencias de cache do DNS">
+<!ENTITY dnscacheExp.label "Cache DNS expira em:">
+<!ENTITY dnscacheEntries.label "Entradas de Cache DNS:">
+<!ENTITY dnscache.desc "Aumentando o cache DNS do seu navegador, elimina as consultas desnecessarias de DNS que baixam a performance. Expiração do Cache é feita em segundos">
+<!ENTITY connection.captionLabel "Preferencias de ligacao HTTP">
+<!ENTITY connectionMaxConn.label "Maximo de ligacoes:">
+<!ENTITY connectionMaxConnServ.label "Maximo de ligacoes por servidor:">
+<!ENTITY connectionMaxPerConnServ.label "Maximo de ligacoes persistentes por servidor:">
+<!ENTITY connectionMaxPerConnProxy.label "Maximo de ligacoes persistentes por Proxy:">
+<!ENTITY connection.desc "Aumentando o numero de ligacoes que o seu browser efectua a cada servidor, aumenta o numero de items que podem ser descarregados simultaneamente. Isto permite aumentar a performance para paginas com muitas imagens ou outras informacoes.">
+<!ENTITY pipelining.captionLabel "Preferencias de HTTP Pipelining">
+<!ENTITY pipeliningEnable.label "Activar Pipelining">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Activar o Pipelining atraves de Proxy">
+<!ENTITY pipeliningMax.label "Numero maximo de Requesicoes de Pipelining">
+<!ENTITY pipelining.desc "O Pipelining permite que multiplas requesicoes sejam enviadas para o servidor sem esperar por respostas às requesicoes anteriores. Isto pode aumentar drasticamente a velocidade de descarregamento.">
+<!ENTITY rendering.captionLabel "Preferencias de Apresentacao">
+<!ENTITY fastback.label "Activar FastBack">
+<!ENTITY fastback.pagesInMem "Paginas em memória:">
+<!ENTITY fastback.desc "O FastBack mantem um dado numero de paginas do historico em memoria, de tal forma que seja imediatamente abertas aquando um click no botao avançar ou retroceder.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Atraso Inicial de Exibicao">
+<!ENTITY rendering.desc "Atraso Inicial de Exibicao é o tempo que o Firefox espera antes de comecar a apresentar uma pagina (padrao=250ms). Atraso do Submenu é o tempo que o Firefox espera antes de mostrar os Submenus (padrao=300ms). Insira o tempo em milisegundos (1segundo=1000milisegundos)">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "OK">
+<!ENTITY button.cancel "Cancelar">
+<!ENTITY    stats.stats "Permitir o envio das estatísticas anónimas">

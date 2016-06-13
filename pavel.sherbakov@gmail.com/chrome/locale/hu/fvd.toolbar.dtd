@@ -1,0 +1,12 @@
+<!ENTITY txt.context_popup.add_to_sd				"Hozzáadás a gyorshívóhoz">
+<!ENTITY txt_main_button.speed_dial "Gyorshívó">
+<!ENTITY txt_main_button.speed_dial_status "Gyorshívó(állapotsor)">
+
+<!ENTITY txt.main_popup.global_options "Globális opciók">
+<!ENTITY txt.main_popup.sd_options "Gyorshívó opciók">
+<!ENTITY txt.main_popup.most_visited_options "Leglátogatottabb lap opciók">
+<!ENTITY txt.main_popup.recently_closed_options "Legutóbb bezárt lap opciók">
+<!ENTITY txt.main_popup.change_background "Háttér módosítása">
+<!ENTITY txt.main_popup.change_text_color "Szöveg színének módosítása">
+<!ENTITY txt.main_popup.fvd_suite "Fvd Suite Downloader and Converter">
+<!ENTITY txt.urlbar_button.title "Oldal hozzáadása a gyorshívóhoz">

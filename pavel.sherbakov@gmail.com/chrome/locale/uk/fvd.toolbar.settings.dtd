@@ -1,0 +1,321 @@
+<!ENTITY txt.dialog.title		"Налаштування">
+
+<!ENTITY txt.dialog.button_ok.title	"Гаразд">
+<!ENTITY txt.dialog.button_cancel.title	"Скасувати">
+<!ENTITY txt.prefpane.general.title	"Налаштування">
+<!ENTITY txt.prefpane.about.title	"Про програму">
+
+<!ENTITY txt.group.toolbar_elements.title			"Показувати елементи панелі">
+<!ENTITY txt.group.toolbar_elements.display_search.title	"Панель пошуку">
+<!ENTITY txt.group.toolbar_elements.display_search_video.title	"Кнопка пошуку відео">
+<!ENTITY txt.group.toolbar_elements.display_search_adult.title	"Кнопка пошуку для дорослих (18+)">
+<!ENTITY txt.group.toolbar_elements.display_tools.title		"Кнопка корисних інструментів">
+<!ENTITY txt.group.toolbar_elements.display_recording.title	"Кнопка запису">
+<!ENTITY txt.group.toolbar_elements.download.title	"Завантажити">
+
+<!ENTITY txt.group.global_options.display_main_button "Показувати головну кнопку">
+<!ENTITY txt.group.global_options.display_status_button "Показувати кнопку на панелі розширень">
+<!ENTITY txt.group.global_options.display_urlbar_button "Показувати кнопку на панелі адрес">
+
+<!ENTITY txt.group.notes.title "Нотатки">
+<!ENTITY txt.group.toolbar_elements.dont_display_features_hint.title "Не показувати нотатки">
+
+<!ENTITY txt.group.toolbar_elements.display_search_adult_about.title "Ви можете вимкнути показ змісту для дорослих у налаштуваннях FVD Suite">
+
+<!ENTITY txt.group.newpages.title	"Відкривати нові сторінки в">
+<!ENTITY txt.group.newpages.new_tab.title	"нова вкладка">
+<!ENTITY txt.group.newpages.current_tab.title	"поточній вкладці">
+
+<!ENTITY txt.group.hooks.title	"Виправляти:">
+<!ENTITY txt.group.hooks.dns_errors.title	"помилка пошуку DNS">
+<!ENTITY txt.group.hooks.pages_errors.title	"помилка сторінки">
+<!ENTITY txt.group.hooks.search_queries.title	"пошукові запити">
+<!ENTITY txt.group.hooks.url_queries.title	"пошук з адресного рядка">
+<!ENTITY txt.group.hooks.about_blank.title	"Дозволити FVD Speed Dial у новій вкладці">
+<!ENTITY txt.group.hooks.thumbs_icons_and_titles.title	"Показувати значки та назви над закладками">
+
+<!ENTITY txt.group.tab_preview.title	"Попередній перегляд вкладки">
+<!ENTITY txt.group.tab_preview.display.title	"Екран">
+
+<!ENTITY txt.prefpane.sd.title	"Швидкий Набір">
+
+<!ENTITY fvd_sd.group.show_url_in_dial.title "Набір за умовчанням">
+
+<!ENTITY fvd_sd.group.default.title	"Стандартний модуль">
+<!ENTITY fvd_sd.group.default.top_sites	"Швидкий набір">
+<!ENTITY fvd_sd.group.default.most_visited	"Найбільш відвідувані">
+<!ENTITY fvd_sd.group.default.recently_closed	"Нещодавно закриті">
+<!ENTITY fvd_sd.group.default.last_selected	"Останні вибрані">
+
+<!ENTITY fvd_sd.group.enable.title	"Увімкнути">
+
+<!ENTITY fvd_sd.group.recent.title	"Нещодавно закриті">
+<!ENTITY fvd_sd.group.recent.show_last	"Показати останні:">
+
+<!ENTITY fvd_sd.group.all_groups_max_dials.title "Максимальна кількість закладок у групі Популярні">
+<!ENTITY fvd_sd.group.groups.title "Групи">
+<!ENTITY fvd_sd.group.groups.default.title "За замовчуванням:">
+<!ENTITY fvd_sd.group.groups.manage.title "Управління">
+
+
+<!ENTITY fvd_sd.group.most_visited.title "Найбільш відвідувані">
+<!ENTITY fvd_sd.group.most_visited.show_last	"Показати останні:">
+
+
+<!ENTITY fvd_sd.group.most_visited_interval.title	"Період">
+<!ENTITY txt.group.most_visited_interval.week.title	"Минулий тиждень">
+<!ENTITY txt.group.most_visited_interval.month.title	"Минулий місяць">
+<!ENTITY txt.group.most_visited_interval.all_time.title	"За весь час">
+
+<!ENTITY fvd_sd.group.most_visited_group_by.title	"Групування">
+<!ENTITY txt.group.most_visited_interval.uri.title	"URL">
+<!ENTITY txt.group.most_visited_interval.domain.title	"Домен">
+
+<!ENTITY txt.group.most_visited.max_items "(не більше 75)">
+<!ENTITY txt.group.recent.max_items "(не більше 40)">
+
+
+<!ENTITY fvd_sd.group.blocked_domains.title	"Заблокованих доменів">
+<!ENTITY fvd_sd.group.blocked_domains.manage "Управління">
+
+<!ENTITY txt.group.sd.make_home_page	"Зробити Speed Dial стартовою сторінкою">
+<!ENTITY txt.group.sd.show_url_in_dial	"Показувати URL під закладками">
+
+<!ENTITY fvd_sd.group.dials_opening.title "Відкривати сторінку">
+
+<!ENTITY txt.group.dials_opening.current_tab.title "У поточній вкладці">
+<!ENTITY txt.group.dials_opening.new_tab.title "У новій вкладці">
+<!ENTITY txt.group.dials_opening.new_tab_passive.title "У фоновій вкладці">
+
+
+<!ENTITY txt.prefpane.about.version.title		"Версія:">
+<!ENTITY txt.prefpane.about.home_site_visit.title	"Відвідати ">
+
+<!ENTITY txt.group.sniffing_options.title "Налаштування захоплення відео">
+<!ENTITY txt.group.sniffing_options.display_swf.title "Дозволити .swf файли">
+
+<!ENTITY txt.group.toolbar_elements.download.close_after_download	"Закривати вікно після завершення завантаження">
+
+<!ENTITY fvd_sd.group.top_sites.title "Швидкий набір">
+<!ENTITY fvd_sd.group.global_options.title "Загальні налаштування">
+
+<!ENTITY txt.group.toolbar_elements.disable_plugins.title "Вимкнути плагіни (flash, silverlight тощо)">
+
+<!ENTITY fvd_sd.group.background.image.url "URL">
+<!ENTITY fvd_sd.group.background.image.local_file.browse "...">
+<!ENTITY fvd_sd.group.background.image.local_file "Локальний файл">
+<!ENTITY fvd_sd.group.background.image.type.no_image "Зображення немає">
+<!ENTITY fvd_sd.group.background.image.type.fill "Заповнити">
+<!ENTITY fvd_sd.group.background.image.type.fit "Припасувати">
+<!ENTITY fvd_sd.group.background.image.type.stretch "Розтягнути">
+<!ENTITY fvd_sd.group.background.image.type.tile "Замостити">
+<!ENTITY fvd_sd.group.background.image.type.center "По центру">
+<!ENTITY fvd_sd.group.background.refresh_preview "Оновити перегляд">
+<!ENTITY fvd_sd.group.background.caption.image "Зображення">
+<!ENTITY fvd_sd.group.background.image.type "Тип:">
+<!ENTITY fvd_sd.group.background.title "Тло">
+<!ENTITY fvd_sd.group.background.caption.color "Колір тла">
+<!ENTITY fvd_sd.group.background.color.enabled "Увімкнено">
+
+<!ENTITY fvd_sd.group.font_colors.title "Колір тексту">
+
+<!ENTITY fvd_sd.group.font_colors.title_for_dials "Заголовок (для закладок):">
+<!ENTITY fvd_sd.group.font_colors.url_for_dials "URL (для закладок):">
+<!ENTITY fvd_sd.group.font_colors.text_in_list_mode "Текст у режимі списку:">
+<!ENTITY fvd_sd.group.font_colors.show_title_url "Показувати заголовок / адресу (режим списку):">
+<!ENTITY fvd_sd.group.font_colors.list_links "Список посилань:">
+<!ENTITY fvd_sd.group.font_colors.other_texts "Інші тексти:">
+<!ENTITY fvd_sd.group.font_colors.restore_default "Відновити стандартні">
+<!ENTITY fvd_sd.group.font_colors.size "Розмір:">
+<!ENTITY fvd_sd.group.font_colors.color "Колір:">
+<!ENTITY fvd_sd.group.font_colors.bolder "Грубше">
+
+<!ENTITY fvd_sd.group.display_restore_previous_session "Відображати відновлення минулої сесії">
+
+<!ENTITY fvd_sd.group.import_data "Імпорт даних з іншого доповнення">
+<!ENTITY fvd_sd.group.import_data.start "Розпочати імпортування">
+
+<!ENTITY fvd_sd.import_export.title "Імпорт/експорт закладок і налаштування">
+<!ENTITY fvd_sd.import_export.export "Експорт">
+<!ENTITY fvd_sd.import_export.import "Імпорт">
+
+<!ENTITY txt.group.top_sites.display_plus_cells.title "Показати [+] кнопку швидкого набору">
+
+<!ENTITY fvd_sd.dials_opacity.title "Прозорість кнопок">
+<!ENTITY txt.group.sd.disable_custom_search "Вимкнути пошук">
+
+<!ENTITY txt.group.top_sites.hide_cell_background.title "Приховати закладки тла за замовчуванням">
+
+<!ENTITY txt.group.top_sites.enable_popular_group.title "Увімкнути групу 'Популярні'">
+
+<!ENTITY fvd_sd.group.most_visited.order_by "Сортування">
+<!ENTITY txt.group.most_visited_order_by.visits "За відвідуваностю">
+<!ENTITY txt.group.most_visited_order_by.date "За датою">
+
+<!ENTITY txt.group.sd.show_in_last_tab "Показувати в останній вкладці">
+
+<!ENTITY txt.group.global_options.show_clicks_and_quick_menu "Показувати переходи та швидке меню">
+
+<!ENTITY txt.global.tabs.general "Загальні">
+<!ENTITY txt.global.tabs.appearance "Оформлення">
+<!ENTITY txt.global.tabs.import_export "Резервне копіювання">
+
+
+<!ENTITY fvd_sd.custom_dial_size.title "Власний розмір закладки">
+<!ENTITY fvd_sd.custom_dial_size.width "Ширина:">
+<!ENTITY fvd_sd.custom_dial_size.max_min_width "(Мін. 150px; Макс. 364px)">
+
+<!ENTITY txt.group.top_sites.display_button_in_google_results.title "Показувати кнопку в результатах пошуку Google">
+
+<!ENTITY fvd_sd.theme.title "Тема">
+<!ENTITY themes.white.label "Світла">
+<!ENTITY themes.dark.label "Темна">
+
+<!ENTITY themes_help.dont_forget_to_change "Не забудь змінити">
+<!ENTITY themes_help.font_colors "колір шрифту">
+<!ENTITY themes_help.and_set_nice "і встановити хороший">
+<!ENTITY themes_help.background "тло">
+
+<!ENTITY suggestions_popup.submit_suggestion "Надіслати пропозицію">
+<!ENTITY suggestions_popup.report_bug "Повідомити про помилку">
+<!ENTITY txt.group.global_options.show_in_context_menu "Показувати в контекстному меню">
+<!ENTITY fvd_sd.group.hot_key.use_hot_key "Використання гарячих клавіш">
+<!ENTITY fvd_sd.group.hot_key.apply_changes "Щоб застосувати зміни - перезавантажте браузер">
+<!ENTITY fvd_sd.group.hot_key.already_used "Цей ключ вже використовується">
+<!ENTITY fvd_sd.make_donation "Допомогти проекту">
+<!ENTITY donate_message "Дякуємо за виявлений інтерес! Ваша пожертва допоможе нам продовжувати розробляти корисне програмне забезпечення, а також залишати його використання безкоштовним, поки це буде можливо. Чи може таке програмне забезпечення вважатися безкоштовним, якщо ми просимо вас про пожертву? Просимо зазначити — якщо ви не маєте змогу надати пожертву або не вважаєте, що це програмне забезпечення варте пожертви, ви можете продовжувати використовувати наше програмне забезпечення безкоштовно. 
+
+Розробка, покращення та розповсюдження нашого доповнення FVD Speed dial дійсно коштує дешево.
+
+Ми щиро сподіваємося, що задоволені користувачі або користувачі, яким подобається наші розробки, зможуть пожертвувати нам певну суму грошей (ті з них, які можуть дозволити собі це зробити), що надасть нам змогу продемонструвати переваги нашого програмного забезпечення максимальній кількості людей в усьому світі.
+
+Отримані пожертви НЕ будуть використовуватися для виплати заробітної плати або для оплати будь-яких витрат, які не є безпосередньо пов'язаними з підтримкою сервісу в мережі Інтернет. ">
+<!ENTITY donate_button.text "Пожертвувати">
+<!ENTITY txt.group.top_sites.disable_like_button.title "Прибрати кнопку сподобалося">
+<!ENTITY fvd_sd.group.sync.title "Синхронізація">
+<!ENTITY fvd_sd.sync.online " підключений">
+<!ENTITY fvd_sd.sync.logout "Вийти">
+<!ENTITY fvd_sd.sync.remove_account "Видалити обліковий запис">
+<!ENTITY fvd_sd.sync.login "Увійти">
+<!ENTITY fvd_sd.sync.register "Реєстрація">
+<!ENTITY fvd_sd.sync.restore_password "Відновити пароль">
+<!ENTITY fvd_sd.sync.already_have_account "Вже є обліковий запис">
+<!ENTITY fvd_sd.sync.email "Електронна скринька">
+<!ENTITY fvd_sd.sync.password "Пароль">
+<!ENTITY fvd_sd.sync.button.login "Увійти">
+<!ENTITY fvd_sd.sync.create_new_account "Створити новий обліковий запис">
+<!ENTITY fvd_sd.sync.subscribe "Подписатся на оновлення та новини">
+<!ENTITY fvd_sd.sync.button.create_account "Створити обліковий запис">
+<!ENTITY fvd_sd.sync.check_email "Перевірте свій E-mail, щоб підтвердити реєстрацію.">
+<!ENTITY fvd_sd.sync.confirm_code "Код підтвердження">
+<!ENTITY fvd_sd.sync.button.cancel_confirm "Скасувати">
+<!ENTITY fvd_sd.sync.button.confirm "Підтвердити">
+<!ENTITY fvd_sd.sync.button.resend_confirm "Надіслати E-mail з кодом">
+
+<!ENTITY fvd_sd.sync.button.restore_password "Відновити пароль">
+<!ENTITY fvd_sd.sync.enable_auto_sync "Увімкнути автосинхронізацію (кожні 3 години)">
+<!ENTITY fvd_sd.sync.button.merge "Об'єднати">
+<!ENTITY fvd_sd.sync.button.upload "Завантажити">
+<!ENTITY fvd_sd.sync.button.download "Завантажити">
+<!ENTITY fvd_sd.sync.merge "Об'єднання локальних і серверних даних">
+<!ENTITY fvd_sd.sync.upload "Стерти серверні дані">
+<!ENTITY fvd_sd.sync.download "Стерти локальні дані">
+<!ENTITY fvd_sd.sync.import_export_to_from "в/з локального файлу (.sd)">
+
+<!ENTITY fvd_sd.sync.enable_sync "Увімкнути синхронізацію">
+<!ENTITY fvd_sd.sync.tab.account "Обліковий запис">
+<!ENTITY fvd_sd.sync.tab.sync "Синхронізація">
+
+
+<!ENTITY fvd_sd.sync.settings "Налаштування">
+<!ENTITY fvd_sd.sync.manual_sync "Синхронізувати вручну">
+
+<!ENTITY fvd_sd.sync.close_sync_progress_window_after_sync "Закрити вікно перебігу синхронізації після синхронізації">
+
+
+<!ENTITY fvd_sd.sync.change_password "Change Password">
+<!ENTITY fvd_sd.sync.change_password.old_password "Старий пароль">
+<!ENTITY fvd_sd.sync.change_password.new_password "Новий пароль">
+<!ENTITY fvd_sd.sync.change_password.new_password_confirm "Підтвердіть новий пароль">
+<!ENTITY fvd_sd.sync.change_password "Змінити пароль">
+<!ENTITY fvd_sd.sync.cancel_change_password "Скасувати">
+<!ENTITY fvd_sd.sync.confirm_change_password "Підтвердити">
+<!ENTITY fvd_sd.sync.change_password_confirm_sent_desc "Ключ підтвердження був відправлений на вашу електронну скриньку">
+<!ENTITY fvd_sd.sync.change_password.confirm_key "Ключ підтвердження">
+
+
+
+
+<!ENTITY fvd_sd.sync.manage_groups "Керування групами">
+<!ENTITY fvd_sd.sync.button.manage_synced_groups "Керування синхронізованих груп">
+
+
+
+<!ENTITY fvd_sd.custom_dial_size_mostvisited.title "Розмір закладки для часто відвідуваних сайтах">
+
+<!ENTITY sync.button.start_sync "Розпочати синхронізацію">
+
+<!ENTITY txt.group.global_options.display_search_preview "Попередній перегляд пошуку">
+
+
+
+
+
+
+<!ENTITY group.poweroff.top_text_1 "Створіть свій особистий пароль, щоб розблокувати ваш закладки.">
+<!ENTITY group.poweroff.top_text_2 "Після натискання кнопки Power Off FVD Speed Dial стане недоступний( до введення пароля )">
+<!ENTITY group.poweroff.top_text_3 "Ця опція створена для того, щоб небажані люди не бачили ваші персональні дані!">
+
+<!ENTITY group.poweroff.tabs.main.title "Основні налаштування">
+<!ENTITY group.poweroff.tabs.change_pass.title "Змінити пароль">
+<!ENTITY group.poweroff.tabs.restore.title "Відновити пароль">
+
+<!ENTITY group.poweroff.tabs.main.passcode "Пароль">
+<!ENTITY group.poweroff.tabs.main.passcode_repeat "Повторіть пароль">
+<!ENTITY group.poweroff.tabs.main.recovery_email "Відновлення електронної пошти">
+<!ENTITY group.poweroff.tabs.main.create_passcode "Створити пароль">
+<!ENTITY group.poweroff.tabs.main.setuped "Пароль встановлено.">
+<!ENTITY group.poweroff.tabs.change_pass.old_passcode "Старий пароль">
+<!ENTITY group.poweroff.tabs.change_pass.new_passcode "Новий пароль *">
+<!ENTITY group.poweroff.tabs.change_pass.change_passcode "Змінити пароль">
+<!ENTITY group.poweroff.tabs.change_pass.remove_passcode_message "* Щоб видалити пароль, залиште поле пароль порожнім.">
+<!ENTITY group.poweroff.tabs.restore_password.do_restore_password "Надіслати пароль на E-Mail для відновлення">
+<!ENTITY group.poweroff.tabs.restore_password.please_wait "Будь ласка, зачекайте...">
+
+<!ENTITY fvd_sd.scrolling "Прокручування Закладок">
+<!ENTITY scrolling.vertical "Вертикальний">
+<!ENTITY scrolling.horizontal "Горизонтальний">
+
+<!ENTITY txt.group.popular.max_items "(не більше 50)">
+
+<!ENTITY importing.please_wait "Імпорт... Будь ласка, зачекайте.">
+
+<!ENTITY txt.dialog.button_get_premium_for_free.title "Отримати преміумний обліковий запис безкоштовно!">
+
+<!ENTITY fvd_sd.group.reset_dials_clicks.title "Скидання переходів в закладках">
+<!ENTITY fvd_sd.group.reset_dials_clicks.button.title "Скинути кліки">
+
+
+<!ENTITY sd.preview_settings "Налаштування попереднього перегляду">
+<!ENTITY sd.preview_set_auto_update "Встановити автоматичне оновлення">
+<!ENTITY sd.preview_turnoff_auto_update "Вимкнути автоматичне оновлення">
+
+<!ENTITY group.poweroff.none "нічого">
+<!ENTITY group.poweroff.3min "3хв">
+<!ENTITY group.poweroff.5min "5хв">
+<!ENTITY group.poweroff.10min "10хв">
+<!ENTITY group.poweroff.15min "15хв">
+<!ENTITY group.poweroff.30min "30хв">
+<!ENTITY group.poweroff.60min "60хв">
+<!ENTITY group.poweroff.idle_timeout_enable "Вмикати пароль під час простоювання:">
+
+<!ENTITY fvd_sd.group.background.image.local_file.not_exists_error "Файл не існує">
+
+<!ENTITY fvd_sd.group.background.image.type.parallax "Паралакс">
+
+<!ENTITY fvd_sd.group.background.image.parallax.strength "Сила ефекту паралакс">
+
+<!ENTITY suggest_use_sync.important "Важливо!">
+<!ENTITY suggest_use_sync.text "Зробіть рез. копію, щоб відновити закладки в будь-який момент.">
+<!ENTITY suggest_use_sync.button "Рез. копіюв. закладок">
+<!ENTITY txt.group.top_sites.enable_dials_search.title "Включить поиск в Speed Dial">

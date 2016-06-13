@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Opções">
+<!ENTITY option.insert.images.label "Inseri pré visualizações de imagens das pesquisas do Google e Yahoo">
+<!ENTITY option.show.GP.label "Mostrar &apos;SP&apos; na barra de status do Firefox">
+<!ENTITY gp.options.popup "Opções SearchPreview...">
+<!ENTITY option.maxPerPage.GP.label "Número máximo de pré visualizações de imagens por página:">
+<!ENTITY option.insert.ranks.label "Inserir ranks de popularidade de sites no resultado das pesquisas:">
+<!ENTITY gp.options.request.image.update "Requisitar atualização de imagens no SearchPreview">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

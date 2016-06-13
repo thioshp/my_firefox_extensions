@@ -1,0 +1,12 @@
+statusbarpanel#googlepreview-status {
+    list-style-image: url("chrome://googlepreview/content/gp.png");
+}
+
+statusbarpanel#googlepreview-status[status="1"] {
+    list-style-image: url("chrome://googlepreview/content/gp.png");
+}
+
+statusbarpanel#googlepreview-status[status="0"] {
+    list-style-image: url("chrome://googlepreview/content/gpoff.png");
+}
+

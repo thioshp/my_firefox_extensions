@@ -1,0 +1,68 @@
+<!ENTITY options.title "패스터폭스 Lite - 환경 설정">
+<!ENTITY main.tab "기본">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "캐시">
+<!ENTITY connection.tab "접속">
+<!ENTITY pipelining.tab "파이프라인">
+<!ENTITY rendering.tab "렌더링">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "문서 읽기 시간 (패스터폭스)">
+<!ENTITY timer.label "문서 읽기 시간 표시하기">
+<!ENTITY timer.desc "문서를 다시 검사할 때는 꼭 캐시를 지우세요.">
+<!ENTITY main.captionLabel "패스터폭스 환경 설정">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "기본값">
+<!ENTITY defaultPreset.desc "모든 설정값을 최적화가 이루어지지 않은 값으로 되돌립니다.">
+<!ENTITY courteousPreset.label "적당히">
+<!ENTITY courteousPreset.desc "웹 서버 접속 횟수는 그대로 두고 렌더링 성능만 향상시킵니다.">
+<!ENTITY optimizedPreset.label "최적화">
+<!ENTITY optimizedPreset.desc "RFC 규격 내에서 네트워크 성능을 향상시킵니다.">
+<!ENTITY turboPreset.label "막강한 최적화">
+<!ENTITY turboPreset.desc "RFC 규격을 무시하고 최고 성능을 끌어 냅니다. (웹 서버 접속 횟수 증가)">
+<!ENTITY customPreset.label "사용자 설정">
+<!ENTITY customPreset.desc "사용자가 직접 속도를 설정할 수 있습니다.">
+<!ENTITY cache.captionLabel "브라우저 캐시 설정">
+<!ENTITY diskCache.label "디스크 캐시 용량:">
+<!ENTITY memoryCache.label "메모리 캐시 용량:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "캐시를 늘리면 똑같은 정보를 다시 내려받는 일이 줄어듭니다.">
+<!ENTITY dnscache.captionLabel "DNS 캐시 설정">
+<!ENTITY dnscacheExp.label "DNS 캐시 만료:">
+<!ENTITY dnscacheEntries.label "DNS 캐시 용량:">
+<!ENTITY dnscache.desc "브라우저의 DNS 캐시를 늘이면 속도를 느리게 만드는 불필요한 DNS 질의가 줄어듭니다. DNS 캐시 만료 시간의 단위는 초입니다.">
+<!ENTITY connection.captionLabel "HTTP 접속 설정">
+<!ENTITY connectionMaxConn.label "최대 접속수:">
+<!ENTITY connectionMaxConnServ.label "한 서버에 대한 최대 접속수:">
+<!ENTITY connectionMaxPerConnServ.label "한 서버에 대한 최대 지속 접속(일정 시간 이상 접속)수:">
+<!ENTITY connectionMaxPerConnProxy.label "한 프록시에 대한 최대 지속 접속(일정 시간 이상 접속)수:">
+<!ENTITY connection.desc "브라우저가 각 서버에 접속할 수 있는 수를 늘리면 동시에 더 많은 파일을 내려 받을 수 있습니다. 이렇게 하면 그림이나 동영상 같은 파일이 많은 문서를 볼 때 유용합니다.">
+<!ENTITY pipelining.captionLabel "HTTP 파이프라인 설정">
+<!ENTITY pipeliningEnable.label "파이프라인 사용하기">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "프록시 파이프라인 사용하기">
+<!ENTITY pipeliningMax.label "최대 파이프라인 요청수:">
+<!ENTITY pipelining.desc "파이프라인을 사용하면 응답을 기다리지 않고 서버에 여러 번 접속 요청을 할 수 있게 됩니다. 이렇게 하면 속도가 크게 향상됩니다.">
+<!ENTITY rendering.captionLabel "렌더링 설정">
+<!ENTITY fastback.label "&apos;빨리뒤로&apos; 사용하기">
+<!ENTITY fastback.pagesInMem "메모리에 보관할 문서 수:">
+<!ENTITY fastback.desc "&apos;빨리뒤로&apos;는 뒤로가기나 앞으로가기 버튼을 눌렀을 때 문서를 빨리 보여줄 수 있도록 사용자가 방문한 문서를 메모리에 보관하는 기능입니다.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "화면에 표시할 때까지 걸리는 시간:">
+<!ENTITY rendering.desc "화면에 표시할 때까지 걸리는 시간은 파이어폭스가 문서를 화면에 표시하기 위해 기다리는 시간으로, 기본값은 250 밀리초입니다. 하위 메뉴를 표시할 때까지 걸리는 시간은 300 밀리초가 기본값입니다. 값은 밀리초로 입력하시기 바랍니다. (1초 = 1000밀리초)">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "확인">
+<!ENTITY button.cancel "취소">
+<!ENTITY    stats.stats "익명으로 통계를 허용">

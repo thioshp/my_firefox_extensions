@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - Tercihleri">
+<!ENTITY main.tab "Ana">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Önbellek">
+<!ENTITY connection.tab "Bağlantı">
+<!ENTITY pipelining.tab "Boru Hattı">
+<!ENTITY rendering.tab "Oluşturma">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Fasterfox Sayfa Yükleme Göstergesi">
+<!ENTITY timer.label "Sayfa yükleme zamanını göster">
+<!ENTITY timer.desc "Bir sayfayı tekrar test etmek istediğinizde önbelleğinizi silmeyi unutmayın.">
+<!ENTITY main.captionLabel "Fasterfox Tercihleri">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Varsayılan">
+<!ENTITY defaultPreset.desc "Bütün tercihleri Firefox iyileştirilmeden önceki değerlere getirir.">
+<!ENTITY courteousPreset.label "Kibarca">
+<!ENTITY courteousPreset.desc "Sadece sayfaların oluşturulmasını hızlandırır, web sunucusuna özel yük bindirmez.">
+<!ENTITY optimizedPreset.label "İyileştirilmiş">
+<!ENTITY optimizedPreset.desc "RFC tanımlamaları çerçevesinde ağ performansı artırılır.">
+<!ENTITY turboPreset.label "Turbo Yükleme">
+<!ENTITY turboPreset.desc "En fazla performans sağlar fakat RFC tanımlamalarına ters düşebilir ve Web sunucusuna özel yük bindirebilir.">
+<!ENTITY customPreset.label "Özel">
+<!ENTITY customPreset.desc "Kendi hızınızı kendiniz ayarlamanız için gerekli tercihleri gösterir.">
+<!ENTITY cache.captionLabel "Tarayıcı Önbellek Tercihleri">
+<!ENTITY diskCache.label "Disk önbellek kapasitesi:">
+<!ENTITY memoryCache.label "Hafıza önbellek kapasitesi:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Önbelleğin artırılması, özellik ile aynı dosyaların tekrar indirilmesinde zamandan tasarruf yapmanızı sağlar.">
+<!ENTITY dnscache.captionLabel "DNS Önbellek Tercihleri">
+<!ENTITY dnscacheExp.label "DNS önbellek zaman aşımı süresi:">
+<!ENTITY dnscacheEntries.label "DNS önbellek kayıtları:">
+<!ENTITY dnscache.desc "Tarayıcı DNS önbelleğinin artırılması DNS sorgulamarının hızını artırmaz (hatta sayfaların geç açılmasını sağlar). DNS önbellek bitiş süresi saniye cinsinden tanımlanabilir.">
+<!ENTITY connection.captionLabel "HTTP Bağlantı Tercihleri">
+<!ENTITY connectionMaxConn.label "En çok bağlantı sayısı:">
+<!ENTITY connectionMaxConnServ.label "Sunucu başına bağlantı sayısı:">
+<!ENTITY connectionMaxPerConnServ.label "Sunucu başına en çok bağlantı sayısı:">
+<!ENTITY connectionMaxPerConnProxy.label "Vekil sunucu başına en çok kalıcı bağlantı:">
+<!ENTITY connection.desc "Bağlantı sayılarının artırılması tarayıcınızın her sunucu başına yapabileceği bağlantıları tanımlar. Örneğin, bir sunucudan aynı anda birden fazla dosya indirebilirsiniz. İçeriğinde çok fazla resim barındıran sayfaları ziyaret ettiğinizde işinize yarayabilir.">
+<!ENTITY pipelining.captionLabel "HTTP Boru Hattı Tercihleri">
+<!ENTITY pipeliningEnable.label "Boru hattı istekleri etkinleitir">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Vekil sunucu boru hattı isteklerini etkinleştir">
+<!ENTITY pipeliningMax.label "En çok boru hattı istek sayısı:">
+<!ENTITY pipelining.desc "Boru hattı istekleri ile bir sunucuya birden fazla istek gönderebilirsiniz (cevap beklemeden). Bu çağrıların sayısı ne kadar çok olursa sayfa açılması o kadar çabuk olur fakat her sunucu  bunu desteklemez.">
+<!ENTITY rendering.captionLabel "Sayfa Oluşturma Tercihleri">
+<!ENTITY fastback.label "Geçmişten okumayı etkinleştir">
+<!ENTITY fastback.pagesInMem "Hafızadaki sayfalar:">
+<!ENTITY fastback.desc "Geçmişten okuma fonksiyonu verilen sayfaların sayısı kadar olan sayfaları hafızada/geçmişte tutar.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "İlk renk gecikme süresi:">
+<!ENTITY rendering.desc "İlk renk geçikmesi, Firefox bir sayfayı oluşturmaya başlamadan önce beklediği süredir (öntanımlı olarak 250ms ayarlıdır). Alt menü gecikme süresi ise Firefox&apos;un alt menüleri göstermeye başlamadan yaptığı bekleme süresidir (öntanımlı olarak 300ms ayarlıdır). Bu ayarları mili saniye cinsinden kendiniz tanımlayabilirsiniz (1 saniye = 1000 mili saniye).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "Tamam">
+<!ENTITY button.cancel "Vazgeç">
+<!ENTITY    stats.stats "Anonim istatistikleri İzin">

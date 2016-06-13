@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - ustawienia">
+<!ENTITY main.tab "Ogólne">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Pamięć podręczna">
+<!ENTITY connection.tab "Połączenia">
+<!ENTITY pipelining.tab "Pipelining">
+<!ENTITY rendering.tab "Rendering">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Licznik czasu wczytywania stron">
+<!ENTITY timer.label "Włącz licznik czasu">
+<!ENTITY timer.desc "Każdorazowe ponowne testowanie czasu pobierania strony powoduje wyczyszczenie pliku pamięci podręcznej.">
+<!ENTITY main.captionLabel "Wybierz ustawienia przyspieszające działanie Firefoksa">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Domyślne">
+<!ENTITY defaultPreset.desc "Przywraca domyślne, niezoptymalizowane ustawienia Firefoksa.">
+<!ENTITY courteousPreset.label "Delikatne">
+<!ENTITY courteousPreset.desc "Dostraja tylko renderowanie. Nie zwiększa szybkości wczytywania danych z serwera.">
+<!ENTITY optimizedPreset.label "Optymalne">
+<!ENTITY optimizedPreset.desc "Optymalizacja sieci w celu zwiększenia wydajności w ramach protokołu RFC.">
+<!ENTITY turboPreset.label "Turbo">
+<!ENTITY turboPreset.desc "Maksymalna wydajność, przekracza specyfikację RFC (zwiększa szybkość wczytywania danych).">
+<!ENTITY customPreset.label "Zaawansowane">
+<!ENTITY customPreset.desc "Wyświetla paletę zaawansowanych opcji umożliwiających indywidualne dostrojenie przeglądarki.">
+<!ENTITY cache.captionLabel "Ustawienia wielkości plików pamięci podręcznej">
+<!ENTITY diskCache.label "Plik pamięci podręcznej dysku:">
+<!ENTITY memoryCache.label "Plik pamięci podręcznej pamięci:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Zwiększenie pliku pamięci podręcznej zmniejsza czas wczytywania stron poprzez wyeliminowanie niepotrzebnego ponownego pobierania informacji.">
+<!ENTITY dnscache.captionLabel "Ustawienia pliku pamięci podręcznej serwera nazw">
+<!ENTITY dnscacheExp.label "Czas wygaśnięcia ważności pliku:">
+<!ENTITY dnscacheEntries.label "Plik pamięci podręcznej wpisów:">
+<!ENTITY dnscache.desc "Zwiększając plik pamięci podręcznej serwera nazw (DNS) eliminuje się niepotrzebne zapytania do serwera nazw, które spowalniają wydajność.  Czas wygaśnięcia ważności pliku pamięci podręcznej DNS jest wyrażony w sekundach.">
+<!ENTITY connection.captionLabel "Ustawienia połączenia HTTP">
+<!ENTITY connectionMaxConn.label "Maksymalna ilość połączeń:">
+<!ENTITY connectionMaxConnServ.label "Maksymalna ilość połączeń na serwer:">
+<!ENTITY connectionMaxPerConnServ.label "Maksymalna ilość ciągłych połączeń na serwer:">
+<!ENTITY connectionMaxPerConnProxy.label "Maksymalna ilość ciągłych połączeń przez proksy:">
+<!ENTITY connection.desc "Zwiększona ilość połączeń powoduje, że przeglądarka może pobrać większą ilość elementów z każdego serwera jednocześnie. Pomaga to witrynom z dużą ilością grafiki i treści w szybszym ich wczytaniu.">
+<!ENTITY pipelining.captionLabel "Ustawienia przetwarzania potokowego HTTP">
+<!ENTITY pipeliningEnable.label "Włącz przetwarzanie potokowe">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Włącz przetwarzanie potokowe proksy">
+<!ENTITY pipeliningMax.label "Maksymalna ilość żądań przetwarzania potokowego:">
+<!ENTITY pipelining.desc "Przetwarzanie potokowe pozwala na wysyłanie wielokrotnych żądań do serwera bez oczekiwania na odpowiedź na poprzednie żądanie.  Może to spowodować ogromne przyspieszenie działania przeglądarki.">
+<!ENTITY rendering.captionLabel "Ustawienia renderowania">
+<!ENTITY fastback.label "Włącz szybki powrót">
+<!ENTITY fastback.pagesInMem "Ilość stron w pamięci:">
+<!ENTITY fastback.desc "Szybki powrót pozwala na natychmistowe poruszanie się w obrębie zapamiętanych w historii stron przy pomocy przycisków &quot;Wstecz&quot; i &quot;Do przodu&quot;.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Opóźnienie rozpoczęcia renderowania">
+<!ENTITY rendering.desc "Opóźnienie rozpoczęcia renderowania jest czasem jaki Firefox odczekuje zanim rozpocznie renderowanie strony (domyślny czas=250ms). Podmenu opóźnienia jest czasem jaki Firefox odczekuje zanim wyświetli podmenu (domyślny czas=300ms). Wprowadź czas w milisekundach (1 sekunda = 1000 milisekund).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "OK">
+<!ENTITY button.cancel "Anuluj">
+<!ENTITY    stats.stats "Pozwól anonimowych statystyk">

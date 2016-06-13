@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Préférences">
+<!ENTITY option.insert.images.label "Insérer une miniature dans les résultats de recherche de Google et Yahoo">
+<!ENTITY option.show.GP.label "Afficher l&apos;icone &apos;SP&apos; dans la barre d&apos;état">
+<!ENTITY gp.options.popup "Préférences de SearchPreview...">
+<!ENTITY option.maxPerPage.GP.label "Nombre maximum de miniatures par page :">
+<!ENTITY option.insert.ranks.label "Insérer l&apos;indice de popularité du site dans les résultats de recherche">
+<!ENTITY gp.options.request.image.update "Mettre à jour cette miniature">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

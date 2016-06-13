@@ -1,0 +1,12 @@
+#searchBar .activeContent {
+  border-color: #656565;
+}
+
+#searchBar .activeContent .menuBottom > .button {
+  border-color: #656565;
+}
+
+#searchBar {
+  border-color: #656565;
+  background: #656565;
+}

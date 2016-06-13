@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Einstellungen">
+<!ENTITY option.insert.images.label "Vorschaubilder in die Google, Yahoo und Bing Suchergebnisse einfügen">
+<!ENTITY option.show.GP.label "&quot;SP&quot;-Symbol in der Statusleiste anzeigen (schnelles Ein-/Ausschalten)">
+<!ENTITY gp.options.popup "SearchPreview-Einstellungen...">
+<!ENTITY option.maxPerPage.GP.label "Maximale Anzahl der Vorschaubilder pro Seite:">
+<!ENTITY option.insert.ranks.label "Bekanntheitsgrade in den Suchergebnissen einfügen">
+<!ENTITY gp.options.request.image.update "Update dieses SearchPreview Bildes anfordern">
+<!ENTITY option.insert.ads.label "Anzeigen einblenden, um SearchPreview als Freeware zu erhalten">

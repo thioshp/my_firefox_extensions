@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Настройки">
+<!ENTITY option.insert.images.label "Внася прегледи за снимки във Google и Yahoo търсачките.">
+<!ENTITY option.show.GP.label "Показва &apos;SP&apos; sign in Firefox status bar (fast en/disabler)">
+<!ENTITY gp.options.popup "SearchPreview Настойки...">
+<!ENTITY option.maxPerPage.GP.label "Максимум номера на прегледани снимки на страница:">
+<!ENTITY option.insert.ranks.label "Внеси рангове на популярност на сайтът във търсените резултати:">
+<!ENTITY gp.options.request.image.update "Изискай Ъпдейт на тази SearchPreview Снимка">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

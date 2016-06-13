@@ -1,0 +1,12 @@
+<!ENTITY about.title "Fasterfox - Névjegy">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Külön köszönet:">
+<!ENTITY about.artwork "Grafikai munkák:">
+<!ENTITY about.homepage "Honlap:">
+<!ENTITY about.close "Bezárás">
+<!ENTITY pageload.clearCache "Gyorsítótár kiürítése">
+<!ENTITY pageload.hideTimer "Időmérő elrejtése">
+<!ENTITY pageload.options "Beállítások">
+<!ENTITY pageload.pageLoadTimer "Fasterfox Oldalbetöltés időmérő">
+<!ENTITY    stats.stats "Névtelen statisztikák">

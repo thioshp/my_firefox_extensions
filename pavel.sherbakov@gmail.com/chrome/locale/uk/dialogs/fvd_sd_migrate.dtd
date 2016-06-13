@@ -1,0 +1,12 @@
+<!ENTITY dialog.title "Імпортувати Закладки/Групи з інших розширень">
+<!ENTITY step_select_addon.caption "Виберіть розширення для імпорту">
+<!ENTITY step_select_groups.caption "Виберіть групи для імпорту">
+<!ENTITY step_select_urls.caption "Виберіть закладки для імпорту">
+<!ENTITY import_urls.caption "Імпортування закладків">
+
+<!ENTITY btn_select_all "Вибрати все">
+<!ENTITY btn_unselect_all "Зняти виділення">
+<!ENTITY btn_previous "Попередній">
+<!ENTITY btn_next "Наступний">
+<!ENTITY btn_close "Зроблено">
+<!ENTITY btn_abort "Закрити">

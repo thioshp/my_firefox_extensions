@@ -1,0 +1,8 @@
+<!ENTITY window.title "Szinkronizálási típus kiválasztása">
+<!ENTITY select_sync_type "Válassza ki a szinkronizálás típusát">
+<!ENTITY merge.desc "A kiszolgáló és a számítógép adatai összevonásra kerülnek. (Megjegyzés: A szerver elsőbbséget élvez)">
+<!ENTITY merge "Helyi és kiszolgáló adatok egyesítése">
+<!ENTITY upload.desc "Adatok másolása a számítógépről a kiszolgálóra">
+<!ENTITY upload "Szerver adatok felülírása">
+<!ENTITY download.desc "Adatok másolása a kiszolgálóról a számítógépre">
+<!ENTITY download "Helyi adatok felülírása">

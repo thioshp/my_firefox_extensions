@@ -1,0 +1,12 @@
+<!ENTITY about.title "패스터폭스에 대해서">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "도움을 준 이들:">
+<!ENTITY about.artwork "디자인">
+<!ENTITY about.homepage "누리집:">
+<!ENTITY about.close "닫기">
+<!ENTITY pageload.clearCache "캐시 지우기">
+<!ENTITY pageload.hideTimer "시간 숨기기">
+<!ENTITY pageload.options "환경 설정">
+<!ENTITY pageload.pageLoadTimer "문서 읽기 시간 (패스터폭스)">
+<!ENTITY    stats.stats "익명으로 통계를 허용">

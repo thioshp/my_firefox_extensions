@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - Inställningar">
+<!ENTITY main.tab "Förinställda val">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Cache">
+<!ENTITY connection.tab "Anslutning">
+<!ENTITY pipelining.tab "Pipelining">
+<!ENTITY rendering.tab "Återgivning">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Tidtagning av sidladddning">
+<!ENTITY timer.label "Använd tidtagning vid sidladddning">
+<!ENTITY timer.desc "Se till att rensa cachen före varje omtest av en sida.">
+<!ENTITY main.captionLabel "Ange en förinställning eller &apos;Egen inställning&apos; för avancerade inställningar">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Förvald">
+<!ENTITY defaultPreset.desc "Återställ alla inställningar till Firefox icke-optimerade standardinställningar.">
+<!ENTITY courteousPreset.label "Tillmötesgående">
+<!ENTITY courteousPreset.desc "Endast inställningar för återgivning - ökar inte belastningen på webbserverar.">
+<!ENTITY optimizedPreset.label "Optimerad">
+<!ENTITY optimizedPreset.desc "Nätverksoptimering för ökad prestanda inom RFC-specifikationerna.">
+<!ENTITY turboPreset.label "Turboladdad">
+<!ENTITY turboPreset.desc "Maximal prestanda - följer inte RFC-specifikationerna (ökar belastning på webbservrar).">
+<!ENTITY customPreset.label "Specialinställning">
+<!ENTITY customPreset.desc "Visa avancerade inställningar för egen inställning av hastighet.">
+<!ENTITY cache.captionLabel "Inställning för webbläsarcache">
+<!ENTITY diskCache.label "Kapacitet - diskcache:">
+<!ENTITY memoryCache.label "Kapacitet - minnescache:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Minska din cacheförlust genom eliminering av onödig förladdning av information.">
+<!ENTITY dnscache.captionLabel "Inställningar DNS-cache">
+<!ENTITY dnscacheExp.label "Utgång av DNS-cache:">
+<!ENTITY dnscacheEntries.label "Införande i DNS-cache:">
+<!ENTITY dnscache.desc "Ökning av DNS-cache eliminerar onödiga DNS-förfrågningar, vilka minskar prestanda. &apos;Utgång av DNS-cache&apos; i sekunder.">
+<!ENTITY connection.captionLabel "Inställning för HTTP-anslutning">
+<!ENTITY connectionMaxConn.label "Maximalt antal anslutningar:">
+<!ENTITY connectionMaxConnServ.label "Maximalt antal anslutningar per server:">
+<!ENTITY connectionMaxPerConnServ.label "Maximalt antal beständiga anslutningar per server:">
+<!ENTITY connectionMaxPerConnProxy.label "Maximal antal beständiga anslutningar per proxy:">
+<!ENTITY connection.desc "En ökning av antalet anslutningar webbläsaren kan göra till varje server ökar antalet samtidiga nerladdningar. Det är önskvärt vid laddning av sidor med mycket information eller många bilder.">
+<!ENTITY pipelining.captionLabel "Inställning för HTTP-pipelining">
+<!ENTITY pipeliningEnable.label "Använd pipelining">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Använd pipelining för proxy">
+<!ENTITY pipeliningMax.label "Maximalt antal pipelinade anrop:">
+<!ENTITY pipelining.desc "Pipelining tillåter sändning av samtidiga anrop till webbservern utan att först vänta på svar från föregående anrop. Detta kan öka hastigheten dramatiskt.">
+<!ENTITY rendering.captionLabel "Inställning av återgivning">
+<!ENTITY fastback.label "Använd FastBack">
+<!ENTITY fastback.pagesInMem "Antal sidor i minnet:">
+<!ENTITY fastback.desc "FastBack håller ett givet antal sidor från historiken i minnet så att de är tillgängliga direkt vid klick på knapparna Framåt och Bakåt.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Fördröjning av återgivning:">
+<!ENTITY rendering.desc "Fördröjning av återgivning är den tid som Firefox väntar innan sidan börjar byggas upp (standard=250ms). Fördröjning av undermenyer är den tid som Firefox väntar innan den visar undermenyer (standard=300ms). Ange tid i millisekunder (1 sekund=1000 millisekunder).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "OK">
+<!ENTITY button.cancel "Avbryt">
+<!ENTITY    stats.stats "Tillåt anonym statistik">

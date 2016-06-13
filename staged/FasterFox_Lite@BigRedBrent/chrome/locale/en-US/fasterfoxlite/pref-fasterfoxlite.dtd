@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - Options">
+<!ENTITY main.tab "Presets">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Cache">
+<!ENTITY connection.tab "Connections">
+<!ENTITY pipelining.tab "Pipelining">
+<!ENTITY rendering.tab "Rendering">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Page Load Timer">
+<!ENTITY timer.label "Enable Page Load Timer ( Requires Firefox Restart )">
+<!ENTITY timer.desc "Be sure to clear your cache before you retest a page.">
+<!ENTITY main.captionLabel "Select a preset or 'Custom' for advanced options">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Default">
+<!ENTITY defaultPreset.desc "Restore all settings to their non-optimized Firefox default values.">
+<!ENTITY courteousPreset.label "Courteous">
+<!ENTITY courteousPreset.desc "Rendering and cache tweaks only, does not increase web server load.">
+<!ENTITY optimizedPreset.label "Optimized">
+<!ENTITY optimizedPreset.desc "Network optimizations for increased performance within the RFC specs.">
+<!ENTITY turboPreset.label "Turbo Charged">
+<!ENTITY turboPreset.desc "Maximum performance, exceeds RFC specs (increases load to web servers).">
+<!ENTITY customPreset.label "Custom">
+<!ENTITY customPreset.desc "Display advanced options for customizing your own speed settings.">
+<!ENTITY cache.captionLabel "Browser Cache Preferences">
+<!ENTITY diskCache.label "Disk Cache Capacity (KB):">
+<!ENTITY memoryCache.label "Memory Cache Capacity (KB):">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Increasing your cache cuts loading time by eliminating unnecessary re-downloading of information. The default Memory Cache Capacity value of -1 will automatically decide the maximum memory to use based on the total amount of RAM.">
+<!ENTITY dnscache.captionLabel "DNS Cache Preferences">
+<!ENTITY dnscacheExp.label "DNS Cache Expiration (seconds):">
+<!ENTITY dnscacheEntries.label "DNS Cache Entries:">
+<!ENTITY dnscache.desc "Increasing your browser's DNS cache eliminates unnecessary DNS queries which slow down performance.">
+<!ENTITY connection.captionLabel "HTTP Connection Preferences">
+<!ENTITY connectionMaxConn.label "Max Connections (1-65535):">
+<!ENTITY connectionMaxConnServ.label "Max Connections Per Server (1-255):">
+<!ENTITY connectionMaxPerConnServ.label "Max Persistent Connections Per Server (1-255):">
+<!ENTITY connectionMaxPerConnProxy.label "Max Persistent Connections Per Proxy (1-255):">
+<!ENTITY connection.desc "Increasing the number of connections your browser makes to each server increases the number of items that can be downloaded simultaneously. This helps a great deal for pages with a number of images or other content.">
+<!ENTITY pipelining.captionLabel "HTTP Pipelining Preferences">
+<!ENTITY pipeliningEnable.label "Enable Pipelining">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Enable Proxy Pipelining">
+<!ENTITY pipeliningMax.label "Max Pipelining Requests (1-8):">
+<!ENTITY pipelining.desc "Pipelining allows multiple requests to be sent to the server without waiting for responses to the previous requests. This can provide dramatic speed increases.">
+<!ENTITY rendering.captionLabel "Rendering Preferences">
+<!ENTITY fastback.label "Enable FastBack">
+<!ENTITY fastback.pagesInMem "Pages in memory:">
+<!ENTITY fastback.desc "FastBack keeps pages in memory so that they are available immediately upon request.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Initial Paint Delay (milliseconds):">
+<!ENTITY rendering.desc "Amount of time to wait before beginning to render a page.">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "OK">
+<!ENTITY button.cancel "Cancel">
+<!ENTITY stats.stats "Allow anonymous statistics">

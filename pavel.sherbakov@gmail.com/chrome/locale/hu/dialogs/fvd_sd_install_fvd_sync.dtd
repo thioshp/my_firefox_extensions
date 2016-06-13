@@ -1,0 +1,20 @@
+<!ENTITY window.title "EverSync bővítmény telepítése">
+
+<!ENTITY head_message "A szinkronizálás használatához telepítenie kell a következőt - EverSync">
+<!ENTITY fvd_speed_dial "FVD Speed Dial">
+
+<!ENTITY sd_1 "Gyorshívók szinkronizálása.">
+<!ENTITY sd_2 "Csoportok szinkronizálása.">
+<!ENTITY sd_3 "Használja Firefox, Chrome böngészőn, különböző PC-k között">
+
+<!ENTITY fvd_sync "FVD Sync">
+<!ENTITY s_1 "Firefox/Chrome könyvjelzők szinkronizálása.">
+<!ENTITY s_2 "Mappák szinkronizálása.">
+
+<!ENTITY ever_helper "EverHelper ügyféltér">
+<!ENTITY eh_1 "Könyvjelzők és gyorshívók kezelése.">
+<!ENTITY eh_2 "Könyvjelzők másolása az FVD Speed Dial-ba, és a Speed Dial-ból a könyvjelzőkbe">
+<!ENTITY eh_3 "Lomtár / Kedvencek / Privát / Archívum / Részletes keresés és további funkciók.">
+
+<!ENTITY download "Telepítés a Mozilla.org-ról">
+

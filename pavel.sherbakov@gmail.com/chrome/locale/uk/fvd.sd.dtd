@@ -1,0 +1,126 @@
+<!ENTITY context.open	"Відкрити в поточному вікні">
+<!ENTITY context.open_new_tab	"Відкрити в новому вікні">
+<!ENTITY context.open_new_tab_background	"Відкрити в фоновому вікні">
+<!ENTITY context.edit	"Редагувати">
+<!ENTITY context.refresh	"Оновити">
+<!ENTITY context.remove	"Видалити">
+<!ENTITY context.copy_url	"Копіювати URL">
+<!ENTITY context.move_to	"Перемістити до">
+
+<!ENTITY context_list.open	"Відкрити в поточному вікні">
+<!ENTITY context_list.open_new_tab	"Відкрити в новому вікні">
+<!ENTITY context_list.open_new_tab_background	"Відкрити в фоновому вікні">
+<!ENTITY context_list.add	"Додати в Speed Dial">
+<!ENTITY context_list.remove	"Видалити">
+<!ENTITY context_list.block	"Заблокувати">
+<!ENTITY context_list.edit	"Редагувати">
+<!ENTITY context_list.refresh	"Оновити">
+
+
+<!ENTITY context_group.refresh_all	"Оновити всі посилання">
+<!ENTITY context_group.open_all_links	"Відкрити всі посилання">
+<!ENTITY context_group.default	"За замовчуванням">
+<!ENTITY context_group.last_selected	"Остання обрана">
+<!ENTITY context_group.manage_groups "Керування групами">
+<!ENTITY context_group.edit "Редагувати групу">
+<!ENTITY context_group.delete "Вилучити групу">
+<!ENTITY context_group.sync_this_group "Синхронізувати групу">
+
+
+
+
+<!ENTITY fs_context.add_dial	"Додати Сайт">
+<!ENTITY fs_context.refresh_all	"Оновити всі сайти">
+<!ENTITY fs_context.open_all	"Відкрити всі сайти">
+<!ENTITY fs_context.thumbs.big	"Великий">
+<!ENTITY fs_context.thumbs.medium	"Середній">
+<!ENTITY fs_context.thumbs.small	"Маленький">
+<!ENTITY fs_context.thumbs.custom	"Свій розмір">
+<!ENTITY fs_context.thumbs.custom_change_size	"Змінити розмір...">
+<!ENTITY fs_context.thumbs.list	"Список">
+<!ENTITY fs_context.view	"Перегляд">
+<!ENTITY fs_context.columns	"Стовпців">
+<!ENTITY fs_context.rows	"Рядків">
+<!ENTITY fs_context.scrolling_type "Тип прокручування">
+<!ENTITY fs_context.scrolling_type_vertical "Вертикальний">
+<!ENTITY fs_context.scrolling_type_horizontal "Горизонтальний">
+
+<!ENTITY thumb.delete_dial	"Видалити сайт">
+<!ENTITY thumb.edit_dial	"Редагувати сайт">
+
+<!ENTITY list_elem.add	"Додати в Speed Dial">
+<!ENTITY list_elem.remove	"Видалити">
+<!ENTITY list_elem.block	"Блокувати сайт">
+<!ENTITY list_elem.error_loading_page	"Помилка завантаження сторінки">
+
+<!ENTITY list_open_all.title	"Відкрити всі посилання">
+<!ENTITY list_remove_all.title	"Видалити вибрані посилання">
+<!ENTITY list_open_all.add_dial	"Додати Закладку">
+<!ENTITY list_no_items.title	"Порожньо :(">
+
+<!ENTITY thumb_types.title	"Мініатюри:">
+<!ENTITY thumb_types.type_small	"Маленький">
+<!ENTITY thumb_types.type_medium	"Середній">
+<!ENTITY thumb_types.type_big	"Великий">
+<!ENTITY thumb_types.type_list	"Список">
+
+
+
+<!ENTITY selector.refresh	"Оновити">
+<!ENTITY selector.options	"Налаштування">
+
+<!ENTITY dont_display_page.title	"Не показувати сторінку">
+
+<!ENTITY make_home_page.title	"Зробити Speed Dial стартовою сторінкою">
+
+<!ENTITY settings2.most_visited.week "За тиждень">
+<!ENTITY settings2.most_visited.last_month "За місяць">
+<!ENTITY settings2.most_visited.all_time "За весь час">
+
+<!ENTITY settings2.most_visited.group_by.uri "URL">
+<!ENTITY settings2.most_visited.group_by.domain "Домен">
+
+<!ENTITY settings2.top_sites_groups.all_groups "Популярні">
+<!ENTITY settings2.top_sites_groups.add_group "Додати групу">
+<!ENTITY settings2.top_sites_groups.manage_groups "Керування групами">
+
+<!ENTITY settings2.list_types.title "Назва">
+<!ENTITY settings2.list_types.uri "URL">
+
+
+<!ENTITY double_click_to_expand.title "Натисніть два рази, щоб розгорнути Speed Dial (або натисніть Ctrl + Enter)">
+
+<!ENTITY most_visited.restore_removed "Відновити видалені сайти">
+
+<!ENTITY list_type_selector.title "Показувати назву">
+<!ENTITY list_type_selector.url "Показувати URL">
+
+<!ENTITY all_group.tooltip "Найпопулярніші сайти">
+
+<!ENTITY change_background.title "Змінити тло">
+
+<!ENTITY restore_thumb.restore_previous "Відновити?">
+<!ENTITY restore_thumb.yes "Так">
+<!ENTITY restore_thumb.no "Ні">
+
+<!ENTITY restore_session.label "Відновити сесію">
+
+<!ENTITY fs_context.thumbs.custom_change_size	"Змінити розмір...">
+
+<!ENTITY fs_context.theme "Тема">
+
+
+
+
+
+<!ENTITY enable_power_off_message "Прочитайте як захистити вашу інформацію від небажаних користувачів ">
+<!ENTITY poweroff.enter_passcode "Розблокувати">
+<!ENTITY power_off_feature "Функція вимкнення">
+<!ENTITY search_on_google "Пошук">
+<!ENTITY expand_message.dont_display_again "Не показувати">
+<!ENTITY expand_message.light.double_click_to_show_speeddial "Подвійний притиск для відкриття Speed Dial">
+
+<!ENTITY searchbar_placeholder "Введіть пошук...">
+
+<!ENTITY sdsearch.input_placeholder "Искать в Speed Dial">
+<!ENTITY sdsearch.try_on_web "Try on Web? Or press Enter key.">

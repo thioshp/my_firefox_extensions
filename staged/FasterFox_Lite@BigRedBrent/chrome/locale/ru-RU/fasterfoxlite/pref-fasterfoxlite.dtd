@@ -1,0 +1,68 @@
+<!ENTITY options.title "Настройки Fasterfox Lite">
+<!ENTITY main.tab "Предустановки">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Кэш">
+<!ENTITY connection.tab "Соединение">
+<!ENTITY pipelining.tab "Конвейерная обработка">
+<!ENTITY rendering.tab "Визуализация">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Таймер времени загрузки страницы">
+<!ENTITY timer.label "Отображать таймер времени загрузки страницы">
+<!ENTITY timer.desc "Перед повторным тестированием страницы убедитесь что очистили кэш.">
+<!ENTITY main.captionLabel "Выберите набор предустановок">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "По умолчанию">
+<!ENTITY defaultPreset.desc "Восстановление всех настроек к значениям, установленным в Firefox по умолчанию.">
+<!ENTITY courteousPreset.label "Облегченный">
+<!ENTITY courteousPreset.desc "Оптимизация только настроек визуализации, не увеличивают нагрузку на сервер.">
+<!ENTITY optimizedPreset.label "Оптимальный">
+<!ENTITY optimizedPreset.desc "Оптимизация сетевых настроек для увеличения производительности работы в рамках требований RFC.">
+<!ENTITY turboPreset.label "Экстримальный">
+<!ENTITY turboPreset.desc "Максимальная производительность, превосходящая требования RFC (увеличивает нагрузку на сервер).">
+<!ENTITY customPreset.label "Индивидуальный">
+<!ENTITY customPreset.desc "Отображает расширенные настройки для возможности установки собственной конфигурации.">
+<!ENTITY cache.captionLabel "Настройки браузерного кэша">
+<!ENTITY diskCache.label "Объем дискового кэша:">
+<!ENTITY memoryCache.label "Объем кэша памяти:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Увеличение объема кэша сокращает время загрузки страницы, устраняя излишнюю повторную загрузку информации.">
+<!ENTITY dnscache.captionLabel "Настройки кэширования DNS">
+<!ENTITY dnscacheExp.label "Срок хранения записи DNS:">
+<!ENTITY dnscacheEntries.label "Всего записей DNS:">
+<!ENTITY dnscache.desc "Кэширование DNS позволяет устранить излишние повторные DNS запросы, которые снижают производительность. Срок хранения записи DNS указывается в секундах. (Компьютер может без труда запоминать числовые IP-адреса, чего нельзя сказать о человеке. Поэтому была придумана адресная система, использующая слова и буквы, которая получила название Служба доменных имен (Domain Name System, DNS). Для большинства пользователей имя DNS является более близким понятием, чем IP-адрес. Пример имени DNS - http://www.mozilla.ru)">
+<!ENTITY connection.captionLabel "Настройки HTTP-соединений">
+<!ENTITY connectionMaxConn.label "Максимум одновременных HTTP-соединений:">
+<!ENTITY connectionMaxConnServ.label "Максимум одновременных соединений с одним сервером:">
+<!ENTITY connectionMaxPerConnServ.label "Максимум постоянных одновременных соединений с одним сервером:">
+<!ENTITY connectionMaxPerConnProxy.label "Максимум одновременных соединений с сервером через прокси:">
+<!ENTITY connection.desc "Увеличение числа одновременных соединений для браузера позволяет увеличить количество элементов, загружаемых с сервера одновременно. Настройка данных параметров может дать значительный прирост в скорости загрузки страницы для компьютеров с широкополосным подключением к интернету. В частности прирост скорости будет особенно заметен для страниц с многочисленными изображениями или другим контентом (например Flash, Java). ">
+<!ENTITY pipelining.captionLabel "Настройки конвеерной обработки данных HTTP">
+<!ENTITY pipeliningEnable.label "Использовать конвейерную обработку данных при прямом соединении">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Использовать конвейерную обработку данных при соединении через прокси">
+<!ENTITY pipeliningMax.label "Максимальное количество конвеерных запросов:">
+<!ENTITY pipelining.desc "Конвейерная обработка данных позволяет разрешить многочисленные запросы, отправляемые на сервер, без задержки на ожидание ответных откликов предыдущих запросов. Настройка данных параметров может обеспечить значительный прирост в скорости.">
+<!ENTITY rendering.captionLabel "Настройки визуализации">
+<!ENTITY fastback.label "Использовать FastBack">
+<!ENTITY fastback.pagesInMem "Количество страниц в памяти:">
+<!ENTITY fastback.desc "Функция FastBack позволяет сохранить указанное число страниц из истории посещений в памяти и в дальнейшем получить немедленный доступ к данным страницам с помощью кнопок Назад или Вперед.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Задержка перед началом прорисовки страницы:">
+<!ENTITY rendering.desc "Установите задержку для Firefox, которую требуется делать каждый раз перед началом прорисовки страницы (по умолчанию 250, рекомендуемое значение 0) или подменю (по умолчанию 300, рекомендуемое значение 50). Время задержек необходимо указывать в миллисекундах (1 секунда = 1000 миллисекунд). ">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "ОК">
+<!ENTITY button.cancel "Отмена">
+<!ENTITY    stats.stats "Разрешить анонимную статистику">

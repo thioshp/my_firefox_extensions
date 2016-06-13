@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='utf-8'?>
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>Konverts@MediaPimp.com</em:id>
+    <em:type>2</em:type>
+    <em:name>♬ MediaPimp - Internet Radio, Save Videos, Screengrab &amp; More</em:name>
+    <em:version>10.3.1-signed.1-signed.1-signed</em:version>
+	<em:unpack>true</em:unpack>
+    <em:creator>Konverts</em:creator>
+    <em:contributor/>
+    <em:iconURL>chrome://vidbar/skin/logo.png</em:iconURL>
+    <em:aboutURL>chrome://vidbar/content/about.xul</em:aboutURL>
+    <em:optionsURL>chrome://vidbar/content/preferences.xul</em:optionsURL>
+    <em:homepageURL>www.mediapimp.com</em:homepageURL>
+    <em:description>☛ MediaPimp is your Swiss Army Knife for Online Media.
+♬ Listen to Any Internet Radio Station, Playlist, or MP3
+✓ Save Videos from any Tube Site
+✓ Similar Sites
+✓ Translate
+✓ Screenshot or Screengrab Selection
+</em:description>
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id> <!-- Firefox -->
+        <em:minVersion>3.0</em:minVersion>
+        <em:maxVersion>11.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

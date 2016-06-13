@@ -1,0 +1,68 @@
+<!ENTITY options.title "Nastavení Fasterfoxu Lite">
+<!ENTITY main.tab "Předvolby">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Cache">
+<!ENTITY connection.tab "Připojení">
+<!ENTITY pipelining.tab "Proudové zpracování">
+<!ENTITY rendering.tab "Vykreslování">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Stopky stahování stránek Fasterfoxu">
+<!ENTITY timer.label "Povolit stopky stahování stránek">
+<!ENTITY timer.desc "Přesvědčte se, že jste před každým opakovaným testem rychlosti stažení vymazali vyrovnávací paměť Firefoxu.">
+<!ENTITY main.captionLabel "Vyberte přednastavené či 'Vlastní' pro pokročilá nastavení">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Výchozí">
+<!ENTITY defaultPreset.desc "Obnovit výchozí - neoptimalizované hodnoty nastavení Firefoxu.">
+<!ENTITY courteousPreset.label "Ohleduplné">
+<!ENTITY courteousPreset.desc "Pouze vylepšení vykreslování. Nezatěžuje webový server.">
+<!ENTITY optimizedPreset.label "Optimalizované">
+<!ENTITY optimizedPreset.desc "Síťové otpimalizace pro vyšší výkon v rámci specifikací RFC.">
+<!ENTITY turboPreset.label "Turbo">
+<!ENTITY turboPreset.desc "Maximální výkon, překračuje specifikace RFC (vyšší zátěž webového serveru).">
+<!ENTITY customPreset.label "Vlastní">
+<!ENTITY customPreset.desc "Zobrazí pokročilé funkce pro vlastní nastavení rychlosti a chování.">
+<!ENTITY cache.captionLabel "Nastavení vyrovnávacích pamětí prohlížeče">
+<!ENTITY diskCache.label "Disková cache">
+<!ENTITY memoryCache.label "RAM cache">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Navýšení cache paměti zkrátí dobu vykreslení stránky zamezením opakovaného stahování.">
+<!ENTITY dnscache.captionLabel "Nastavení vyrovnávací paměti pro DNS">
+<!ENTITY dnscacheExp.label "Doba platnosti:">
+<!ENTITY dnscacheEntries.label "Počet záznamů v cache:">
+<!ENTITY dnscache.desc "Navýšení vyrovnávací paměti pro DNS zamezí zbytečným dotazování na DNS server, která zpomalují výkon.  Doba platnosti je v sekundách.">
+<!ENTITY connection.captionLabel "Nastavení HTTP připojení">
+<!ENTITY connectionMaxConn.label "Maximální počet připojení:">
+<!ENTITY connectionMaxConnServ.label "Max. počet připojení na server:">
+<!ENTITY connectionMaxPerConnServ.label "Max. počet stálých připojení na server:">
+<!ENTITY connectionMaxPerConnProxy.label "Max. počet stálých připojení na proxy:">
+<!ENTITY connection.desc "Zvýšením počtu připojení na server vzroste počet položek stránky stahovaných současně. Tím se výrazně urychlí vykreslování stránek s velkým počtem obrázků či jiného obsahu.">
+<!ENTITY pipelining.captionLabel "Nastavení proudového zpracování HTTP">
+<!ENTITY pipeliningEnable.label "Povolit proudové zpracování">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Povolit proudové zpracování proxy">
+<!ENTITY pipeliningMax.label "Maximální počet proudově zpracovávaných dotazů:">
+<!ENTITY pipelining.desc "Proudové zpracování umožňuje paralelní dotazování na server.  To může zajistit významný nárůst rychlosti.">
+<!ENTITY rendering.captionLabel "Nastavení vykreslování">
+<!ENTITY fastback.label "Povolit FastBack">
+<!ENTITY fastback.pagesInMem "Stránek v paměti">
+<!ENTITY fastback.desc "FastBack udržuje daný počet stránek historie v paměti. Ty jsou tak okamžitě dostupné na klepnutí tlačítek zpět či vpřed.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Počáteční prodleva vykreslování:">
+<!ENTITY rendering.desc "Počáteční prodleva vykreslování je čas, po který Firefox čeká, než začne vykreslovat stránku (výchozí = 250 ms). Prodleva podnabídek je čas, po který Firefox čeká, než začne zobrazovat podnabídky (výchozí = 300 ms). Čas vkládejte v milisekundách (1 sekunda = 1000 milisekund).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "Potvrdit">
+<!ENTITY button.cancel "Zrušit">
+<!ENTITY stats.stats "Povolit anonymní statistiky">

@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Voorkeuren">
+<!ENTITY option.insert.images.label "Voeg voorbeeldafbeeldingen toe aan Google&apos;s en Yahoo&apos;s zoekmachine.">
+<!ENTITY option.show.GP.label "Laat logo zien in Firefox statusbalk">
+<!ENTITY gp.options.popup "SearchPreview voorkeuren">
+<!ENTITY option.maxPerPage.GP.label "Maximum aantal vooorbeelden per pagina:">
+<!ENTITY option.insert.ranks.label "Voeg site populariteit ranks toe aan zoekresultaten:">
+<!ENTITY gp.options.request.image.update "Verzoek update van voorbeeld afbeelding">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

@@ -1,0 +1,12 @@
+<!ENTITY txt.context_popup.add_to_sd				"Додати сайт в Speed Dial">
+<!ENTITY txt_main_button.speed_dial "Speed Dial">
+<!ENTITY txt_main_button.speed_dial_status "Speed Dial(рядок стану)">
+
+<!ENTITY txt.main_popup.global_options "Загальні налаштування">
+<!ENTITY txt.main_popup.sd_options "Налаштування Speed Dial">
+<!ENTITY txt.main_popup.most_visited_options "Налаштування вкладки 'Найпопулярніші'">
+<!ENTITY txt.main_popup.recently_closed_options "Налаштування вкладки 'Недавно закриті'">
+<!ENTITY txt.main_popup.change_background "Змінити тло">
+<!ENTITY txt.main_popup.change_text_color "Змінити колір тексту">
+<!ENTITY txt.main_popup.fvd_suite "Fvd Suite Downloader and Converter">
+<!ENTITY txt.urlbar_button.title "Додати сторінку в Speed Dial">

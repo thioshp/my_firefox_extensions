@@ -1,0 +1,20 @@
+<!ENTITY window.title "Встановити розширення EverSync">
+
+<!ENTITY head_message "Щоб використовувати синхронізацію, треба встановити розширення EverSync">
+<!ENTITY fvd_speed_dial "FVD Speed Dial">
+
+<!ENTITY sd_1 "Синхронізувати Закладки.">
+<!ENTITY sd_2 "Синхронізувати Групи.">
+<!ENTITY sd_3 "Використовуйте Firefox або Chrome на різних ПК.">
+
+<!ENTITY fvd_sync "Синхронізація FVD">
+<!ENTITY s_1 "Синхронізувати закладки Firefox/Chrome.">
+<!ENTITY s_2 "Синхронізувати теки.">
+
+<!ENTITY ever_helper "Сторінка користувача EverHelper">
+<!ENTITY eh_1 "Керування закладками.">
+<!ENTITY eh_2 "Копіювати закладки у FVD Speed Dial та з Speed Dial до закладок.">
+<!ENTITY eh_3 "Кошик / Улюблене / Приватне / Архів / Розширений пошук та інші можливості.">
+
+<!ENTITY download "Встановити з Mozilla.org">
+

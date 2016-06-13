@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/">
+  <ShortName>Amazon by Skipity</ShortName>
+  <Description>Amazon Canada Search Suggestions by Mediapimp</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+   <Image width="16" height="16">data:image/x-icon;base64,R0lGODlhEAAQAPcAAAMFBQQFBRsdHRwdHTAxMTAyMkNFRURFRVRVVVRWVlVWVmVmZmZnZ3Z2dv6nAP+nAP+oAP+tE/+zKf+zKv+4Pf++UP++Uv/Jcv/KcoSGhpOUlKKioq+wsL29vf/Qgv/UkP/VkP/Vkf/an/7Yov/frf/grv/ku//kvP/lvMzMzNjY2NnZ2f/qy//v2Obm5vPu5//z5v/05f/15vLy8v/68v///wQFBRwdHb29vf///////////////////83NzQQFBQQFBQQFBQQFBQQFBQQFBQQFBVVWVv///////////////////////////////////////////////////////////////////////////////////////////////+bm5hwdHQMFBQMFBQQFBQQFBQQFBQMEBAQFBQQFBVVWVr29vfPz8////////83NzQMFBQQFBQQFBQQFBQQFBQMFBQQFBVVWVv///////////////////////////////////////////////////////////////////////////////////////////////////76+vgQFBQQFBQQFBQQFBQQFBQMFBQQFBQQFBQQFBQQFBQQFBQQFBVRWVkNERAQFBQQFBQQFBQMFBQQFBQQFBQQFBVRVVf///////////////////////////////////////////////////////////////////////////////////////////////////////8zMzBsdHQQFBQQFBQQFBQQFBQQFBQQFBQMFBQQFBQQFBQQFBQQFBQMFBQQFBQQFBQQFBQQFBQQFBQMFBQMFBVRVVf////////////////////////////////////////////////////////////////////////////////////////////////////////////Ly8nZ2dgQFBQQFBQQFBQQFBQMFBQQFBQQFBQQFBQQFBQQFBQMFBQMFBSH+JUNyZWF0ZWQgYnkgZkNvZGVyIEdyYXBoaWNzIFByb2Nlc3NvcgAAIfkEAAEAAAAsAAAAABAAEAAHCI4AawgcSLCgwRUNECDYYJBgCgABIgZo0FAggwAHVlwcULGGixQdOCCI2HFFAYkkK44s4EJDyoYRM9S4GGBGxZMYIQbQUFCGwBQCAgjQgMDAixEYMAic0KKiBQweHghEAQEDDIMySLSIMLAEBAgUPIQYa+FBCRQeCLKwAOGB2wcTTNSgQcNgCxFjUXTcOzAgADs=</Image>
+
+  <Url type="text/html" 
+    rel="results" 
+    template="http://www.amazon.ca/s/?tag=amazon_complete-ca-20&amp;link%5Fcode=qs&amp;index=aps&amp;field-keywords={searchTerms}"/>
+
+  <Url type="application/x-suggestions+json" 
+    rel="results" 
+    template="http://completion.amazon.com/search/complete?method=completion&amp;q={searchTerms}&amp;search-alias=aps&amp;client=amzn-search-suggestions/9fe582406fb5106f343a84083d78795713c12d68&amp;mkt=7"/>
+  
+    <Url type="application/x-suggestions+xml" 
+    template="http://asp.assoc-amazon.ca/suggestions?q={searchTerms}&amp;t=tag=amazon_complete-ca-20"/>
+  
+ <Url type="application/opensearchdescription+xml" rel="self" 
+    template="http://www.skipity.com/s-amazon-bymp-ca.xml"/>
+
+</OpenSearchDescription>
+

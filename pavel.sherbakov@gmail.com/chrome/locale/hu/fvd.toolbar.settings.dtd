@@ -1,0 +1,321 @@
+<!ENTITY txt.dialog.title		"Beállítások">
+
+<!ENTITY txt.dialog.button_ok.title	"OK">
+<!ENTITY txt.dialog.button_cancel.title	"Mégse">
+<!ENTITY txt.prefpane.general.title	"Beállítások">
+<!ENTITY txt.prefpane.about.title	"Névjegy">
+
+<!ENTITY txt.group.toolbar_elements.title			"Eszköztár elemek megjelenítése">
+<!ENTITY txt.group.toolbar_elements.display_search.title	"Keresősáv">
+<!ENTITY txt.group.toolbar_elements.display_search_video.title	"Videó keresés gomb">
+<!ENTITY txt.group.toolbar_elements.display_search_adult.title	"Felnőtt tartalom keresése (18+) gomb">
+<!ENTITY txt.group.toolbar_elements.display_tools.title		"Hasznos eszközök gomb">
+<!ENTITY txt.group.toolbar_elements.display_recording.title	"Felvétel gomb">
+<!ENTITY txt.group.toolbar_elements.download.title	"Letöltés">
+
+<!ENTITY txt.group.global_options.display_main_button "Fő gomb megjelenítése">
+<!ENTITY txt.group.global_options.display_status_button "Bővítménysáv gomb megjelenítése">
+<!ENTITY txt.group.global_options.display_urlbar_button "URL-sáv gomb megjelenítése">
+
+<!ENTITY txt.group.notes.title "Jegyzetek">
+<!ENTITY txt.group.toolbar_elements.dont_display_features_hint.title "Ne jelenítse meg a jegyzeteket">
+
+<!ENTITY txt.group.toolbar_elements.display_search_adult_about.title "A felnőtt tartalomhoz kapcsolódó funkciókat kikapcsolhatja az FVD Suite beálításaiban">
+
+<!ENTITY txt.group.newpages.title	"Új lap megnyitása">
+<!ENTITY txt.group.newpages.new_tab.title	"Új lapon">
+<!ENTITY txt.group.newpages.current_tab.title	"Aktuális lapon">
+
+<!ENTITY txt.group.hooks.title	"Események kezelése:">
+<!ENTITY txt.group.hooks.dns_errors.title	"DNS-címkeresési hiba">
+<!ENTITY txt.group.hooks.pages_errors.title	"laphiba">
+<!ENTITY txt.group.hooks.search_queries.title	"keresési lekérdezések">
+<!ENTITY txt.group.hooks.url_queries.title	"keresés a címsorból">
+<!ENTITY txt.group.hooks.about_blank.title	"Gyorshívó engedélyezése új lapon">
+<!ENTITY txt.group.hooks.thumbs_icons_and_titles.title	"Ikon es felirat a gyorshivo felett">
+
+<!ENTITY txt.group.tab_preview.title	"Lap előnézet">
+<!ENTITY txt.group.tab_preview.display.title	"Kijelző">
+
+<!ENTITY txt.prefpane.sd.title	"Gyorshívó">
+
+<!ENTITY fvd_sd.group.show_url_in_dial.title "Alapértelmezett gyorshívó">
+
+<!ENTITY fvd_sd.group.default.title	"Alapértelmezett modul">
+<!ENTITY fvd_sd.group.default.top_sites	"Gyorshívó">
+<!ENTITY fvd_sd.group.default.most_visited	"Leglátogatottabb">
+<!ENTITY fvd_sd.group.default.recently_closed	"Legutóbb bezárt">
+<!ENTITY fvd_sd.group.default.last_selected	"Utoljára kiválasztott">
+
+<!ENTITY fvd_sd.group.enable.title	"Engedélyezés">
+
+<!ENTITY fvd_sd.group.recent.title	"Legutóbb bezárt">
+<!ENTITY fvd_sd.group.recent.show_last	"Utolsó megjelenítése:">
+
+<!ENTITY fvd_sd.group.all_groups_max_dials.title "Gyorshívók max száma a népszerű csoportban">
+<!ENTITY fvd_sd.group.groups.title "Csoportok">
+<!ENTITY fvd_sd.group.groups.default.title "Alapértelmezett:">
+<!ENTITY fvd_sd.group.groups.manage.title "Kezelés">
+
+
+<!ENTITY fvd_sd.group.most_visited.title "Leglátogatottabb">
+<!ENTITY fvd_sd.group.most_visited.show_last	"Utolsó megjelenítése:">
+
+
+<!ENTITY fvd_sd.group.most_visited_interval.title	"Időszak">
+<!ENTITY txt.group.most_visited_interval.week.title	"Múlt héten">
+<!ENTITY txt.group.most_visited_interval.month.title	"Múlt hónapban">
+<!ENTITY txt.group.most_visited_interval.all_time.title	"Bármikor">
+
+<!ENTITY fvd_sd.group.most_visited_group_by.title	"Csoportosítás">
+<!ENTITY txt.group.most_visited_interval.uri.title	"URI">
+<!ENTITY txt.group.most_visited_interval.domain.title	"Tartomány">			
+			
+<!ENTITY txt.group.most_visited.max_items "(max 75)">	
+<!ENTITY txt.group.recent.max_items "(max 40)">	
+			
+
+<!ENTITY fvd_sd.group.blocked_domains.title	"Blokkolt tartományok">
+<!ENTITY fvd_sd.group.blocked_domains.manage "Kezelés">
+	
+<!ENTITY txt.group.sd.make_home_page	"A Speed Dial legyen a kezdőlapom">
+<!ENTITY txt.group.sd.show_url_in_dial	"Webcímek megjelenítése a gyorshívók alatt">	
+	
+<!ENTITY fvd_sd.group.dials_opening.title "Gyorshívók megnyitása">
+
+<!ENTITY txt.group.dials_opening.current_tab.title "Aktuális lapon">
+<!ENTITY txt.group.dials_opening.new_tab.title "Új lapon">
+<!ENTITY txt.group.dials_opening.new_tab_passive.title "Új lapon (háttérben)">
+
+
+<!ENTITY txt.prefpane.about.version.title		"Verzió:">
+<!ENTITY txt.prefpane.about.home_site_visit.title	"Látogatás">
+
+<!ENTITY txt.group.sniffing_options.title "Elemzési opciók">
+<!ENTITY txt.group.sniffing_options.display_swf.title ".swf fájlok engedélyezése">
+
+<!ENTITY txt.group.toolbar_elements.download.close_after_download	"Ablak bezárása a letöltés befejezésekor">
+
+<!ENTITY fvd_sd.group.top_sites.title "Gyorshívó">
+<!ENTITY fvd_sd.group.global_options.title "Globális opciók">
+
+<!ENTITY txt.group.toolbar_elements.disable_plugins.title "Beépülők letiltása (flash, silverlight,...)">
+
+<!ENTITY fvd_sd.group.background.image.url "URL-cím">
+<!ENTITY fvd_sd.group.background.image.local_file.browse "...">
+<!ENTITY fvd_sd.group.background.image.local_file "Helyi fájl">
+<!ENTITY fvd_sd.group.background.image.type.no_image "Nincs kép">
+<!ENTITY fvd_sd.group.background.image.type.fill "Kitöltés">
+<!ENTITY fvd_sd.group.background.image.type.fit "Igazítás">
+<!ENTITY fvd_sd.group.background.image.type.stretch "Nyújtás">
+<!ENTITY fvd_sd.group.background.image.type.tile "Mozaik">
+<!ENTITY fvd_sd.group.background.image.type.center "Középre">
+<!ENTITY fvd_sd.group.background.refresh_preview "Előnézet frissítése">
+<!ENTITY fvd_sd.group.background.caption.image "Kép">
+<!ENTITY fvd_sd.group.background.image.type "Típus:">
+<!ENTITY fvd_sd.group.background.title "Háttér">
+<!ENTITY fvd_sd.group.background.caption.color "Háttér színe">
+<!ENTITY fvd_sd.group.background.color.enabled "Engedélyezve">
+
+<!ENTITY fvd_sd.group.font_colors.title "Szöveg színe">
+
+<!ENTITY fvd_sd.group.font_colors.title_for_dials "Cím (Gyorshívókhoz):">
+<!ENTITY fvd_sd.group.font_colors.url_for_dials "URL (Gyorshívókhoz):">
+<!ENTITY fvd_sd.group.font_colors.text_in_list_mode "Szöveg a lista módban:">
+<!ENTITY fvd_sd.group.font_colors.show_title_url "Cím / Url megjelenítése (Lista mód):">
+<!ENTITY fvd_sd.group.font_colors.list_links "Hivatkozások listája:">
+<!ENTITY fvd_sd.group.font_colors.other_texts "Egyéb szövegek:">
+<!ENTITY fvd_sd.group.font_colors.restore_default "Alapértelmezett visszaállítása">
+<!ENTITY fvd_sd.group.font_colors.size "Méret:">
+<!ENTITY fvd_sd.group.font_colors.color "Szín:">
+<!ENTITY fvd_sd.group.font_colors.bolder "Szegély">
+
+<!ENTITY fvd_sd.group.display_restore_previous_session "Előző munkamenet helyreállítás megjelenítése">
+
+<!ENTITY fvd_sd.group.import_data "Adatok importálása más bővítményekből">
+<!ENTITY fvd_sd.group.import_data.start "Importálás megkezdése">
+
+<!ENTITY fvd_sd.import_export.title "Gyorshívók és beállítások importálása/exportálása">
+<!ENTITY fvd_sd.import_export.export "Exportálás">
+<!ENTITY fvd_sd.import_export.import "Importálás">
+
+<!ENTITY txt.group.top_sites.display_plus_cells.title "[+] gyorshívó gomb megjelenítése">
+
+<!ENTITY fvd_sd.dials_opacity.title "Gyorshívók átlátszósága">
+<!ENTITY txt.group.sd.disable_custom_search "Keresés letiltása">
+
+<!ENTITY txt.group.top_sites.hide_cell_background.title "Alapértelmezett gyorshívó háttér elrejtése">
+
+<!ENTITY txt.group.top_sites.enable_popular_group.title "Népszerű csoport engedélyezése">
+
+<!ENTITY fvd_sd.group.most_visited.order_by "Rendezés">
+<!ENTITY txt.group.most_visited_order_by.visits "Látogatottság szerint">
+<!ENTITY txt.group.most_visited_order_by.date "Dátum szerint">
+
+<!ENTITY txt.group.sd.show_in_last_tab "Megjelenítés az utolsó fülön">
+
+<!ENTITY txt.group.global_options.show_clicks_and_quick_menu "Kattintások és gyorsmenü megjelenítése">
+
+<!ENTITY txt.global.tabs.general "Általános">
+<!ENTITY txt.global.tabs.appearance "Megjelenés">
+<!ENTITY txt.global.tabs.import_export "Mentés">
+
+
+<!ENTITY fvd_sd.custom_dial_size.title "Egyéni gyorshívó méret">
+<!ENTITY fvd_sd.custom_dial_size.width "Szélesség:">
+<!ENTITY fvd_sd.custom_dial_size.max_min_width "(Min 150kp; Max 364kp)">
+
+<!ENTITY txt.group.top_sites.display_button_in_google_results.title "Gomb megjelenítése a Google találataiban">
+
+<!ENTITY fvd_sd.theme.title "Téma">
+<!ENTITY themes.white.label "Fehér">
+<!ENTITY themes.dark.label "Sötét">
+
+<!ENTITY themes_help.dont_forget_to_change "Ne felejtse módosítani">
+<!ENTITY themes_help.font_colors "betű színeket">
+<!ENTITY themes_help.and_set_nice "és állítson be szép">
+<!ENTITY themes_help.background "háttér">
+
+<!ENTITY suggestions_popup.submit_suggestion "Javaslatok küldése">
+<!ENTITY suggestions_popup.report_bug "Hibajelentés küldése">
+<!ENTITY txt.group.global_options.show_in_context_menu "Megjelenítés a helyi menüben">
+<!ENTITY fvd_sd.group.hot_key.use_hot_key "Gyorsgomb használata">
+<!ENTITY fvd_sd.group.hot_key.apply_changes "A módosítások alkalmazásához indítsa újra a böngészőt">
+<!ENTITY fvd_sd.group.hot_key.already_used "Ez a kulcs már használatban van">
+<!ENTITY fvd_sd.make_donation "Adományozzon">
+<!ENTITY donate_message "Thank you for your interest in donating! Your donation will help ensure that we can continue to make great software, and keep as much of it free as possible. How’s it free if we’re asking you to donate? That’s the great part—if you can’t afford it or you’re not sure it’s worth it, you’re welcome to keep using our software free of charge. 
+
+Building, improving and extending our FVD Speed dial Addon do cost a lot of money.
+
+We truly hope that satisfied users or users who like our initiative are willing to donate some money (of they can afford it) enabling us to reach as many people as possible in the entire world.
+
+Received donations will NOT be used to pay salaries or any indirect costs that is not directly related to keeping the service on the Internet.">
+<!ENTITY donate_button.text "Adományok">
+<!ENTITY txt.group.top_sites.disable_like_button.title "Tetszik gomb letiltása">
+<!ENTITY fvd_sd.group.sync.title "Szinkronizálás">
+<!ENTITY fvd_sd.sync.online " online">
+<!ENTITY fvd_sd.sync.logout "Kijelentkezés">
+<!ENTITY fvd_sd.sync.remove_account "Fiók eltávolítása">
+<!ENTITY fvd_sd.sync.login "Bejelentkezés">
+<!ENTITY fvd_sd.sync.register "Regisztrálás">
+<!ENTITY fvd_sd.sync.restore_password "Jelszó visszaállítása">
+<!ENTITY fvd_sd.sync.already_have_account "Már van fiókja">
+<!ENTITY fvd_sd.sync.email "E-mail">
+<!ENTITY fvd_sd.sync.password "Jelszó">
+<!ENTITY fvd_sd.sync.button.login "Bejelentkezés">
+<!ENTITY fvd_sd.sync.create_new_account "Új fiók létrehozása">
+<!ENTITY fvd_sd.sync.subscribe "Feliratkozás a frissítésekre és hírekre">
+<!ENTITY fvd_sd.sync.button.create_account "Fiók létrehozása">
+<!ENTITY fvd_sd.sync.check_email "Ellenőrizze e-mailjét a regisztráció megerősítéséhez.">
+<!ENTITY fvd_sd.sync.confirm_code "Kód megerősítése">
+<!ENTITY fvd_sd.sync.button.cancel_confirm "Mégse">
+<!ENTITY fvd_sd.sync.button.confirm "Megerősítés">
+<!ENTITY fvd_sd.sync.button.resend_confirm "Megerősítési e-mail újraküldése">
+
+<!ENTITY fvd_sd.sync.button.restore_password "Jelszó visszaállítása">
+<!ENTITY fvd_sd.sync.enable_auto_sync "Automatikus szinkronizálás engedélyezése (3 óránként)">
+<!ENTITY fvd_sd.sync.button.merge "Egyesítés">
+<!ENTITY fvd_sd.sync.button.upload "Feltöltés">
+<!ENTITY fvd_sd.sync.button.download "Letöltés">
+<!ENTITY fvd_sd.sync.merge "Helyi és kiszolgáló adatok egyesítése">
+<!ENTITY fvd_sd.sync.upload "Szerver adatok felülírása">
+<!ENTITY fvd_sd.sync.download "Helyi adatok felülírása">
+<!ENTITY fvd_sd.sync.import_export_to_from "helyi fájlból/helyi fájlba (.sd)">
+
+<!ENTITY fvd_sd.sync.enable_sync "Szinkronizáció engedélyezése ">
+<!ENTITY fvd_sd.sync.tab.account "Fiók">
+<!ENTITY fvd_sd.sync.tab.sync "Szinkronizálás">
+
+
+<!ENTITY fvd_sd.sync.settings "Beállítások">
+<!ENTITY fvd_sd.sync.manual_sync "Kézi szinkronizálás">
+
+<!ENTITY fvd_sd.sync.close_sync_progress_window_after_sync "Szinkronizációs folyamatjelző bezárása a szinkronizálás után">
+
+
+<!ENTITY fvd_sd.sync.change_password "Jelszó módosítása">
+<!ENTITY fvd_sd.sync.change_password.old_password "Régi jelszó">
+<!ENTITY fvd_sd.sync.change_password.new_password "Új jelszó">
+<!ENTITY fvd_sd.sync.change_password.new_password_confirm "Új jelszó megerősítése">
+<!ENTITY fvd_sd.sync.change_password "Jelszó módosítása">
+<!ENTITY fvd_sd.sync.cancel_change_password "Mégse">
+<!ENTITY fvd_sd.sync.confirm_change_password "Megerősítés">
+<!ENTITY fvd_sd.sync.change_password_confirm_sent_desc "A megerősítési kulcs el lett küldve az e-mail címére">
+<!ENTITY fvd_sd.sync.change_password.confirm_key "Megerősítési kulcs">
+
+
+
+
+<!ENTITY fvd_sd.sync.manage_groups "Csoportok kezelése">
+<!ENTITY fvd_sd.sync.button.manage_synced_groups "Szinkronizált csoportok kezelése">
+
+
+
+<!ENTITY fvd_sd.custom_dial_size_mostvisited.title "Leglátogatottabb egyéni gyorshívó mérete">
+
+<!ENTITY sync.button.start_sync "Szinkronizálás indítása">
+
+<!ENTITY txt.group.global_options.display_search_preview "Keresési gyorsnézet megjelenítése">
+
+
+
+
+
+
+<!ENTITY group.poweroff.top_text_1 "Személyes jelszó létrehozása a saját gyorshívók feloldásához.">
+<!ENTITY group.poweroff.top_text_2 "A Kikapcsolás gomb megnyomása után a gyorshívók el lesznek rejtve, amelyek feloldásának egyetlen módja a jelszó megadása.">
+<!ENTITY group.poweroff.top_text_3 "Ez egy nagyszerű funkció, ha nem szeretné, hogy bárki más lássa a gyorshívókat az Ön távollétében!">
+
+<!ENTITY group.poweroff.tabs.main.title "Fő">
+<!ENTITY group.poweroff.tabs.change_pass.title "Jelszó módosítása">
+<!ENTITY group.poweroff.tabs.restore.title "Jelszó visszaállítása">
+
+<!ENTITY group.poweroff.tabs.main.passcode "Jelszó">
+<!ENTITY group.poweroff.tabs.main.passcode_repeat "Jelszó megismétlése">
+<!ENTITY group.poweroff.tabs.main.recovery_email "Helyreállítási e-mail">
+<!ENTITY group.poweroff.tabs.main.create_passcode "Jelszó létrehozása">
+<!ENTITY group.poweroff.tabs.main.setuped "Kikapcsolás beállítva.">
+<!ENTITY group.poweroff.tabs.change_pass.old_passcode "Régi jelszó">
+<!ENTITY group.poweroff.tabs.change_pass.new_passcode "Új jelszó *">
+<!ENTITY group.poweroff.tabs.change_pass.change_passcode "Jelszó módosítása">
+<!ENTITY group.poweroff.tabs.change_pass.remove_passcode_message "* A jelszó eltávolításához, hagyja üresen az Új jelszó mezőt.">
+<!ENTITY group.poweroff.tabs.restore_password.do_restore_password "Jelszó küldése a helyreállítási e-mailre">
+<!ENTITY group.poweroff.tabs.restore_password.please_wait "Kis türelmet...">
+
+<!ENTITY fvd_sd.scrolling "Gyorshívók görgetési típusa">
+<!ENTITY scrolling.vertical "Függőleges">
+<!ENTITY scrolling.horizontal "Vízszintes">
+
+<!ENTITY txt.group.popular.max_items "(max 50)">
+
+<!ENTITY importing.please_wait "Importálás... Kis türelmet.">
+
+<!ENTITY txt.dialog.button_get_premium_for_free.title "Prémium fiók ingyenesen!">
+
+<!ENTITY fvd_sd.group.reset_dials_clicks.title "Gyorshívó kattintások visszaállítása">
+<!ENTITY fvd_sd.group.reset_dials_clicks.button.title "Kattintások visszaállítása">
+
+
+<!ENTITY sd.preview_settings "Speed Dial előnézeti beállítások">
+<!ENTITY sd.preview_set_auto_update "Auto-frissítés beállítása">
+<!ENTITY sd.preview_turnoff_auto_update "Auto frissítés kikapcsolása">
+
+<!ENTITY group.poweroff.none "Nincs">
+<!ENTITY group.poweroff.3min "3 perc">
+<!ENTITY group.poweroff.5min "5 perc">
+<!ENTITY group.poweroff.10min "10 perc">
+<!ENTITY group.poweroff.15min "15 perc">
+<!ENTITY group.poweroff.30min "30 perc">
+<!ENTITY group.poweroff.60min "60 perc">
+<!ENTITY group.poweroff.idle_timeout_enable "Kikapcsolás engedélyezése a következő üresjárati időtúllépést követően:">
+
+<!ENTITY fvd_sd.group.background.image.local_file.not_exists_error "File not exists">
+
+<!ENTITY fvd_sd.group.background.image.type.parallax "Parallax">
+
+<!ENTITY fvd_sd.group.background.image.parallax.strength "Parallax effect strength">
+
+<!ENTITY suggest_use_sync.important "Important!">
+<!ENTITY suggest_use_sync.text "Don't forget to Backup your dials and custom images to restore them any time.">
+<!ENTITY suggest_use_sync.button "Backup Dials">
+<!ENTITY txt.group.top_sites.enable_dials_search.title "Enable search in Speed Dial">

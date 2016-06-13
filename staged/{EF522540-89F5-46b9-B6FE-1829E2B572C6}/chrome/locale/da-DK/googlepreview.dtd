@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Indstillinger">
+<!ENTITY option.insert.images.label "Indsæt forhåndsvisningsbilleder i Google og Yahoo søgning">
+<!ENTITY option.show.GP.label "Vis &apos;SP&apos;-tegn i Firefox&apos; statuslinje (hurtig til/fra)">
+<!ENTITY gp.options.popup "SearchPreview indstillinger...">
+<!ENTITY option.maxPerPage.GP.label "Maksimalt antal forhåndsvisningsbilleder per side:">
+<!ENTITY option.insert.ranks.label "Indst side popularitetsrang i søgeresultater:">
+<!ENTITY gp.options.request.image.update "Forespørg om opdatering af dette SearchPreview billede">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

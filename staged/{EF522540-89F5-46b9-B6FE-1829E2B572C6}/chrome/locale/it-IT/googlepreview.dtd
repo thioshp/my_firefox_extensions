@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Opzioni">
+<!ENTITY option.insert.images.label "Inserisci immagini di anteprima nei risultati delle ricerche su Google e Yahoo">
+<!ENTITY option.show.GP.label "Visualizza l&apos;icona &apos;SP&apos; per l&apos;attivazione/disattivazione rapida nella barra di stato">
+<!ENTITY gp.options.popup "Opzioni di SearchPreview...">
+<!ENTITY option.maxPerPage.GP.label "Numero massimo di immagini di anteprima per pagina:">
+<!ENTITY option.insert.ranks.label "Visualizza il PageRank nei risultati delle ricerche:">
+<!ENTITY gp.options.request.image.update "Richiedi aggiornamento per questa immagine di anteprima">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

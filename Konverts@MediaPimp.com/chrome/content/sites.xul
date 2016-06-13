@@ -1,0 +1,47 @@
+<?xml version="1.0"?> 
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?> 
+<?xml-stylesheet href="chrome://vidbar/skin/vid.css" type="text/css"?>
+
+<window id="vidbar-sites" title="Supported Sites" flex="1"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml" screenX="0" screenY="0"
+	persist="width height screenX screenY sizemode">
+
+  	<script type="application/x-javascript"  src="chrome://vidbar/content/errHandler.js"/>	
+	<script type="application/x-javascript" src="chrome://vidbar/content/consts.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/utils.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/db.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/sites.js" />
+	<script type="application/x-javascript">
+    <![CDATA[
+        var vidSites = new com.VidBar.VidSites();
+        window.addEventListener("load", function(event) { vidSites.onLoad(event); }, false);
+        window.addEventListener("unload", function(event) { vidSites.onUnload(event); }, false);
+        ]]>
+	</script>
+
+	<vbox id="vidbar-sites-vbox" flex="1">
+
+		<tree id="vidbar-media-sites" enableColumnDrag="false" flex="1">
+			<treecols>
+				<treecol id="name" primary="true" label="Site Name" flex="1"
+					persist="width ordinal hidden sortActive sortDirection" />
+			</treecols>
+			<treechildren id="siteChildren" />
+		</tree>
+		<hbox>
+			<label value="Name: " for="new-site-name" style="margin:5px;" />
+			<textbox id="new-site-name" size="12" value="" />
+			<label value="URL: " for="new-site-url" style="margin:5px;" />
+			<textbox id="new-site-url" size="36" value="" />
+		</hbox>
+		<hbox>
+			<button label="Add" oncommand="vidSites.add()" />
+			<button label="Delete" oncommand="vidSites.remove()" />
+			<button label="Restore Default" oncommand="vidSites.restore()" />
+			<button label="Close" oncommand="window.close()" />
+		</hbox>
+
+	</vbox>
+
+</window>

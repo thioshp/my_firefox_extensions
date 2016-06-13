@@ -1,0 +1,12 @@
+<!ENTITY about.title "Fasterfox - Hakkında">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Özel Tesekkürler:">
+<!ENTITY about.artwork "Tasarım">
+<!ENTITY about.homepage "Web Sayfası:">
+<!ENTITY about.close "Kapat">
+<!ENTITY pageload.clearCache "Önbellegi temizle">
+<!ENTITY pageload.hideTimer "Göstergeci gizle">
+<!ENTITY pageload.options "Seçenekler">
+<!ENTITY pageload.pageLoadTimer "Fasterfox Sayfa Yükleme Göstergeci">
+<!ENTITY    stats.stats "Anonim istatistikleri İzin">

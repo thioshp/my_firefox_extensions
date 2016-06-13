@@ -1,0 +1,12 @@
+<!ENTITY about.title "Fasterfox について">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "協力者:">
+<!ENTITY about.artwork "画像">
+<!ENTITY about.homepage "ホームページ:">
+<!ENTITY about.close "閉じる">
+<!ENTITY pageload.clearCache "キャッシュの消去">
+<!ENTITY pageload.hideTimer "タイマーを隠す">
+<!ENTITY pageload.options "オプション">
+<!ENTITY pageload.pageLoadTimer "Fasterfox ページの読み込み時間">
+<!ENTITY    stats.stats "匿名の統計を許可する">

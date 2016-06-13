@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Možnosti">
+<!ENTITY option.insert.images.label "Přidat náhled stránek k výsledkům vyhledávání na Google a Yahoo!">
+<!ENTITY option.show.GP.label "Zobrazit symbol &apos;SP&apos; ve stavovém řádku Firefoxu (rychlé za/vypnutí)">
+<!ENTITY gp.options.popup "Možnosti rozšíření SearchPreview...">
+<!ENTITY option.maxPerPage.GP.label "Maximální počet náhledů zobrazených na stránce:">
+<!ENTITY option.insert.ranks.label "Přidat do výsledků vyhledávání hodnocení popularity webů:">
+<!ENTITY gp.options.request.image.update "Vyžádat aktualizaci tohoto obrázku SearchPreview">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

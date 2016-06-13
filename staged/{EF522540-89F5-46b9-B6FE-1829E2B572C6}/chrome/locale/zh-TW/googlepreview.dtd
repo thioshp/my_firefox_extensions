@@ -1,0 +1,8 @@
+<!ENTITY option.caption "選項">
+<!ENTITY option.insert.images.label "使用 Google 或 Yahoo 搜尋時，顯示預覽圖">
+<!ENTITY option.show.GP.label "在狀態列顯示「SP」按鈕（快速 啟動／關閉 這項功能）">
+<!ENTITY gp.options.popup "SearchPreview 選項...">
+<!ENTITY option.maxPerPage.GP.label "每頁的預覽圖數量之最大值：">
+<!ENTITY option.insert.ranks.label "插入網站人氣值在搜尋結果">
+<!ENTITY gp.options.request.image.update "向 SearchPreview 反應更新此網站的預覽圖">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

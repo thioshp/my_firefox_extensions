@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Seçenekler">
+<!ENTITY option.insert.images.label "Google ve Yahoo aramalarındaa önizleme resmi göster">
+<!ENTITY option.show.GP.label "Firefox araç çubuğunda &apos;SP&apos; simgesini göster (eklentiyi çabuk açmaya/kapamaya yarar)">
+<!ENTITY gp.options.popup "SearchPreview Seçenekleri...">
+<!ENTITY option.maxPerPage.GP.label "Bir sayfada görüntülenecek maksimum önizleme sayısı:">
+<!ENTITY option.insert.ranks.label "Arama sonuçlarında site popülerlik bilgisini göster:">
+<!ENTITY gp.options.request.image.update "Bu SearchPreview görüntüsü için güncelleme iste">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

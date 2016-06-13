@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog title="Edit Key" buttons="accept, cancel"
+    buttonorient="rtl"	
+	onload="doOnload();"
+	ondialogaccept="return doOK();"
+    ondialogcancel="return doCancel();"	
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<script type="application/x-javascript"  src="chrome://vidbar/content/errHandler.js"/>
+<script>
+
+function doOnload(){
+  document.getElementById('key-box').value=this.arguments[0].key;
+}
+
+function doOK(){  
+  this.arguments[0].cancel = false;
+  this.arguments[0].key = document.getElementById('key-box').value;
+  return true;
+}
+
+function doCancel(){
+  this.arguments[0].cancel = true;
+  return true;
+}
+
+</script>
+
+<hbox align="center">
+<label value="Ctrl+Alt+" /><textbox id="key-box" maxlength="1" maxwidth="24"/>
+</hbox>
+</dialog>

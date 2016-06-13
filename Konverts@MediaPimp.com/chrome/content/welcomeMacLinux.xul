@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://vidbar/skin/welcome/welcomeDialog.css" type="text/css"?>
+
+<window
+	id="vidbar-welcome"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+	xmlns:html="http://www.w3.org/1999/xhtml"
+	onload="com.VidBar.WelcomeDlg.onLoadDialog()"
+	hidechrome="true">
+
+  	<script type="application/x-javascript"  src="chrome://vidbar/content/errHandler.js"/>
+	<script type="application/x-javascript"  src="chrome://vidbar/content/io.js"/>
+  	<script type="application/x-javascript"  src="chrome://vidbar/content/consts.js"/>
+  	<script type="application/x-javascript"  src="chrome://vidbar/content/utils.js"/>
+  	<script type="application/x-javascript"  src="chrome://vidbar/content/welcomedlg.js"/>
+
+  <vbox class="mainVBox windowMacLinux">
+
+    <!-- Body -->
+    <hbox>
+      <vbox flex="1" class="bodyMiddleBoxMacLinux">
+        <spacer height="10px" />
+
+        <vbox class="boxPersonalComponents" id="boxSearchAndHomepage">
+          <description id="dscSettingsTitle" class="dscTitle">
+            123 needs your support.
+          </description>
+          <spacer height="9px" />
+          <description id="dscSettingsDescription">
+            Please help 123 stay free and continue improve your browsing experience by using our default search and home page.
+          </description>
+        </vbox>
+
+        <spacer height="5px" />
+
+        <hbox>
+          <spacer width="30px" />
+          <button label="No, thanks" oncommand="com.VidBar.WelcomeDlg.onclickCancel()" />
+          <button label="Sure!" oncommand="com.VidBar.WelcomeDlg.onclickOk()" />
+          <box flex="3" />
+          <spacer width="20px" />
+        </hbox>
+
+        <spacer height="10px" />
+
+        <hbox class="boxPrivacy">
+          <description class="dscBottom">
+            <html:span id="txtBottom">For more information about the community toolbar, please view our</html:span>
+            <html:br/>
+            <html:a id="aEula" href="javascript:com.VidBar.WelcomeDlg.onclickEULA();" class="ebLink">End User License Agreement</html:a>
+            <html:span id="txtAnd">and</html:span>
+            <html:a id="aPrivacy" href="javascript:com.VidBar.WelcomeDlg.onclickPrivacyPolicy();" class="ebLink">Privacy Policy</html:a>
+          </description>
+        </hbox>
+      </vbox>
+    </hbox>
+    <!-- Body end-->
+  </vbox>
+</window>

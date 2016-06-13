@@ -1,0 +1,12 @@
+<!ENTITY about.title "О расширении Fasterfox">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Благодарности:">
+<!ENTITY about.artwork "Artwork">
+<!ENTITY about.homepage "Оф. сайт:">
+<!ENTITY about.close "Закрыть">
+<!ENTITY pageload.clearCache "Очистить кэш">
+<!ENTITY pageload.hideTimer "Скрыть таймер">
+<!ENTITY pageload.options "Настройки">
+<!ENTITY pageload.pageLoadTimer "Таймер загрузки страниц">
+<!ENTITY    stats.stats "Разрешить анонимную статистику">

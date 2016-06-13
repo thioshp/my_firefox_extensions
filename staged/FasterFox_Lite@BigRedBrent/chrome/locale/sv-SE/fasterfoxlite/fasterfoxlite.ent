@@ -1,0 +1,12 @@
+<!ENTITY about.title "Om Fasterfox">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Särskilda tack till:">
+<!ENTITY about.artwork "Konstnärligt arbete">
+<!ENTITY about.homepage "Hemsida:">
+<!ENTITY about.close "Stäng">
+<!ENTITY pageload.clearCache "Rensa cache">
+<!ENTITY pageload.hideTimer "Göm timer">
+<!ENTITY pageload.options "Inställnigar">
+<!ENTITY pageload.pageLoadTimer "Fasterfox tidtagning för sidladddning">
+<!ENTITY    stats.stats "Tillåt anonym statistik">

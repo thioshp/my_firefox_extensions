@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<dialog 
+		id="vidbar-addfavorites"
+        xmlns:html="http://www.w3.org/1999/xhtml"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		buttons="accept,cancel"
+		onload="com.VidBar.DlgFavorites.OnLoadDialog(event);" 
+		ondialogaccept="com.VidBar.DlgFavorites.OnDialogAccept(event);"
+		style="padding-left:15px;padding-right:15px">
+		
+	<script type="application/x-javascript"  src="chrome://vidbar/content/errHandler.js"/>	
+	<script type="application/x-javascript" src="chrome://vidbar/content/consts.js" />  	
+	<script type="application/x-javascript"  src="chrome://vidbar/content/utils.js"/>		
+  	<script type="application/x-javascript"  src="chrome://vidbar/content/io.js"/>	
+	<script type="application/x-javascript"  src="chrome://vidbar/content/addfavorites.js" />
+	<vbox>
+		<vbox>
+			<menupopup id="media-folders-menu">
+				<menuitem label="Add new folder" oncommand="com.VidBar.DlgFavorites.addFavoritesGroup()" />
+				<menuitem label="Remove" oncommand="com.VidBar.DlgFavorites.removeFavoritesGroup()" />
+				<menuitem label="Edit" oncommand="com.VidBar.DlgFavorites.editFavoritesGroup()" />
+			</menupopup>						
+			<tree flex="1" id="media-folders" height="150" seltype="single" context="media-folders-menu" >
+				<treecols>
+					<treecol label="Directory" flex="1" primary="true"/> 
+				</treecols>
+				<treechildren id="media-folders-body" />
+			</tree>					
+		</vbox>
+		<label value="Add item to library." />
+		<spacer height="7" />
+		<hbox>
+			<vbox>
+				<label value="Stream URL/Local File:" style="margin-top: 6px; margin-bottom: 5px;" />
+				<label value="Description:" style="margin-top: 6px; margin-bottom: 5px;" />
+			</vbox>	
+			<vbox>
+				<hbox>
+					<textbox id="txtURL" size="50"/>
+					<button label="..." oncommand="com.VidBar.DlgFavorites.OnBrowseCommand(event)"/>
+				</hbox>
+				<textbox id="txtDescription" size="50"/>
+			</vbox>
+		</hbox>
+		<spacer height="7" />
+	</vbox>
+	
+</dialog>

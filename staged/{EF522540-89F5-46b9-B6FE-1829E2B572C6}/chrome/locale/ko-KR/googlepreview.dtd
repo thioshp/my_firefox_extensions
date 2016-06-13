@@ -1,0 +1,8 @@
+<!ENTITY option.caption "환경 설정">
+<!ENTITY option.insert.images.label "Google과 Yahoo 검색 결과에 미리 보기 이미지를 추가함">
+<!ENTITY option.show.GP.label "Firefox 상태표시줄에 &apos;SP&apos; 버튼 추가 (빠른 활성화와 비활성화)">
+<!ENTITY gp.options.popup "SearchPreview 환경 설정...">
+<!ENTITY option.maxPerPage.GP.label "페이지당 최대 미리 보기 이미지 수:">
+<!ENTITY option.insert.ranks.label "검색 결과에 사이트 인기 순위를 추가함:">
+<!ENTITY gp.options.request.image.update "해당 SearchPreview 이미지에 대한 업데이트를 요청">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

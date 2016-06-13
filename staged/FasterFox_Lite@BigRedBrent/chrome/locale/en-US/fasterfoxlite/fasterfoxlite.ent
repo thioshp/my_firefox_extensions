@@ -1,0 +1,12 @@
+<!ENTITY about.title "Fasterfox Lite - About">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Special Thanks To:">
+<!ENTITY about.artwork "Artwork">
+<!ENTITY about.homepage "Home Page:">
+<!ENTITY about.close "Close">
+<!ENTITY pageload.clearCache "Clear Cache">
+<!ENTITY pageload.hideTimer "Hide Timer">
+<!ENTITY pageload.options "Options">
+<!ENTITY pageload.pageLoadTimer "Fasterfox Lite Page Load Timer">
+<!ENTITY stats.stats "Allow anonymous statistics">

@@ -1,0 +1,12 @@
+<!ENTITY window.title "Szinkronizálás folyamatban...">
+<!ENTITY button.try_again "Próbálja újra">
+<!ENTITY button.close "Bezárás">
+<!ENTITY sync_success "Sikeres szinkronizáció!">
+<!ENTITY sync_failed "Sikertelen szinkronizáció!">
+<!ENTITY aborting_sync "Szinkronizálás megszakítása...">
+
+<!ENTITY syncing_status "Szinkronizálás állapota">
+<!ENTITY groups "Csoportok">
+<!ENTITY dials "Gyorshívók">
+<!ENTITY apply_changes "Módosítások alkalmazása">
+<!ENTITY close_when_finished "Bezárás befejezéskor">

@@ -1,0 +1,126 @@
+<!ENTITY context.open	"Megnyitás a lapon">
+<!ENTITY context.open_new_tab	"Megnyitás új lapon">
+<!ENTITY context.open_new_tab_background	"Megnyitás egy háttérlapon">
+<!ENTITY context.edit	"Szerkesztés">
+<!ENTITY context.refresh	"Frissítés">
+<!ENTITY context.remove	"Gyorshívó törlése">
+<!ENTITY context.copy_url	"URL másolása">
+<!ENTITY context.move_to	"Áthelyezés...">
+
+<!ENTITY context_list.open	"Megnyitás a lapon">
+<!ENTITY context_list.open_new_tab	"Megnyitás új lapon">
+<!ENTITY context_list.open_new_tab_background	"Megnyitás egy háttérlapon">
+<!ENTITY context_list.add	"Hozzáadás a gyorshívóhoz">
+<!ENTITY context_list.remove	"Törlés">
+<!ENTITY context_list.block	"Blokkolás">
+<!ENTITY context_list.edit	"Szerkesztés">
+<!ENTITY context_list.refresh	"Frissítés">
+
+
+<!ENTITY context_group.refresh_all	"Összes frissítése">
+<!ENTITY context_group.open_all_links	"Összes link megnyitása">
+<!ENTITY context_group.default	"Alapértelmezett">
+<!ENTITY context_group.last_selected	"Utoljára kiválasztott">
+<!ENTITY context_group.manage_groups "Csoportok kezelése">
+<!ENTITY context_group.edit "Csoport szerkesztése">
+<!ENTITY context_group.delete "Csoport törlése">
+<!ENTITY context_group.sync_this_group "Csoport szinkronizálása">
+
+
+
+
+<!ENTITY fs_context.add_dial	"Gyorshívó hozzáadása">
+<!ENTITY fs_context.refresh_all	"Összes frissítése">
+<!ENTITY fs_context.open_all	"Összes link megnyitása">
+<!ENTITY fs_context.thumbs.big	"Nagy">
+<!ENTITY fs_context.thumbs.medium	"Közepes">
+<!ENTITY fs_context.thumbs.small	"Kicsi">
+<!ENTITY fs_context.thumbs.custom	"Egyéni">
+<!ENTITY fs_context.thumbs.custom_change_size	"Méret módosítása...">
+<!ENTITY fs_context.thumbs.list	"Lista">
+<!ENTITY fs_context.view	"Nézet">
+<!ENTITY fs_context.columns	"Oszlopok">
+<!ENTITY fs_context.rows	"Sorok">
+<!ENTITY fs_context.scrolling_type "Görgetés típusa">
+<!ENTITY fs_context.scrolling_type_vertical "Függőleges">
+<!ENTITY fs_context.scrolling_type_horizontal "Vízszintes">
+
+<!ENTITY thumb.delete_dial	"Gyorshívó törlése">
+<!ENTITY thumb.edit_dial	"Gyorshívó szerkesztése">
+
+<!ENTITY list_elem.add	"Rögzítés a gyorshívóban">
+<!ENTITY list_elem.remove	"Eltávolítás">
+<!ENTITY list_elem.block	"URL vagy tartomány blokkolása">
+<!ENTITY list_elem.error_loading_page	"Hiba történt az oldal betöltésekor">
+
+<!ENTITY list_open_all.title	"Összes link megnyitása">
+<!ENTITY list_remove_all.title	"Jelenlegi hivatkozások törlése">
+<!ENTITY list_open_all.add_dial	"Gyorshívó hozzáadása">
+<!ENTITY list_no_items.title	"Nincs megjeleníthető elem">
+
+<!ENTITY thumb_types.title	"Miniatűrök:">
+<!ENTITY thumb_types.type_small	"Kicsi">
+<!ENTITY thumb_types.type_medium	"Közepes">
+<!ENTITY thumb_types.type_big	"Nagy">
+<!ENTITY thumb_types.type_list	"Lista">
+
+
+
+<!ENTITY selector.refresh	"Frissítés">
+<!ENTITY selector.options	"Opciók">
+
+<!ENTITY dont_display_page.title	"Ne jelenjen meg ez a lap">
+
+<!ENTITY make_home_page.title	"A Speed Dial legyen a kezdőlapom">
+
+<!ENTITY settings2.most_visited.week "Múlt héten">
+<!ENTITY settings2.most_visited.last_month "Múlt hónapban">
+<!ENTITY settings2.most_visited.all_time "Bármikor">
+
+<!ENTITY settings2.most_visited.group_by.uri "URI">
+<!ENTITY settings2.most_visited.group_by.domain "Tartomány">
+
+<!ENTITY settings2.top_sites_groups.all_groups "Népszerű">
+<!ENTITY settings2.top_sites_groups.add_group "Csoport hozzáadása">
+<!ENTITY settings2.top_sites_groups.manage_groups "Csoportok kezelése">
+
+<!ENTITY settings2.list_types.title "Cím">
+<!ENTITY settings2.list_types.uri "URI">
+
+
+<!ENTITY double_click_to_expand.title "Kattintson duplán a kibontáshoz">
+
+<!ENTITY most_visited.restore_removed "Eltávolított visszaállítása">
+
+<!ENTITY list_type_selector.title "Cím megjelenítése">
+<!ENTITY list_type_selector.url "URL-cím megjelenítése">
+
+<!ENTITY all_group.tooltip "Ez a csoport csak a legnépszerűbb gyorshívókat jeleníti meg.">
+
+<!ENTITY change_background.title "Háttér módosítása">
+
+<!ENTITY restore_thumb.restore_previous "Előző visszaállítása:">
+<!ENTITY restore_thumb.yes "Igen">
+<!ENTITY restore_thumb.no "Nem">
+
+<!ENTITY restore_session.label "Munkamenet visszaállítása">
+
+<!ENTITY fs_context.thumbs.custom_change_size	"Méret módosítása...">
+
+<!ENTITY fs_context.theme "Téma">
+
+
+
+
+
+<!ENTITY enable_power_off_message "Ismerje meg, hogyan védheti meg a gyorshívókat a kiváncsi szemek elől">
+<!ENTITY poweroff.enter_passcode "Gyorshívó feloldása">
+<!ENTITY power_off_feature "Kikapcsolás funkció">
+<!ENTITY search_on_google "Keresés">
+<!ENTITY expand_message.dont_display_again "Ne jelenjen meg többé">
+
+<!ENTITY expand_message.light.double_click_to_show_speeddial "Double click to show Speed Dial">
+<!ENTITY searchbar_placeholder "Enter your search...">
+
+<!ENTITY sdsearch.input_placeholder "Search in Speed Dial">
+<!ENTITY sdsearch.try_on_web "Try on Web? Or press Enter key.">

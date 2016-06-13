@@ -1,0 +1,12 @@
+<!ENTITY about.title "O rozšírení Fasterfox">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Špeciálne poďakovanie:">
+<!ENTITY about.artwork "Grafika:">
+<!ENTITY about.homepage "Domovská stránka:">
+<!ENTITY about.close "Zavrieť">
+<!ENTITY pageload.clearCache "Vymazať cache">
+<!ENTITY pageload.hideTimer "Skryť časovač">
+<!ENTITY pageload.options "Možnosti">
+<!ENTITY pageload.pageLoadTimer "Časovač načítavania stránky">
+<!ENTITY    stats.stats "Povoliť anonymné štatistiky">

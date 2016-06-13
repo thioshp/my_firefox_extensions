@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Beállítások">
+<!ENTITY option.insert.images.label "Előnézeti képek beillesztése a Google és a Yahoo keresési eredményébe">
+<!ENTITY option.show.GP.label "Kapcsoló elhelyezése az állapotsoron">
+<!ENTITY gp.options.popup "SearchPreview beállítások...">
+<!ENTITY option.maxPerPage.GP.label "Az előnézeti képek maximális száma oldalanként:">
+<!ENTITY option.insert.ranks.label "Népszerűségi helyezések beillesztése a keresési eredménybe">
+<!ENTITY gp.options.request.image.update "Előnézeti kép frissítésének kérése a SearchPreview-tól">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

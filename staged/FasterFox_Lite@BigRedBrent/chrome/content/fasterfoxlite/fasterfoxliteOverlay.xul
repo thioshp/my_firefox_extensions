@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<!-- Styles //-->
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/skin/pref/pref.css" type="text/css"?>
+
+<!-- Locale info //-->
+<!DOCTYPE overlay [
+<!ENTITY % fasterfoxliteDTD SYSTEM "chrome://fasterfoxlite/locale/fasterfoxlite.ent">
+%fasterfoxliteDTD;
+]>
+
+<overlay id="fasterfoxliteOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+	<!-- This imports our javascript. //-->
+    <script type="application/x-javascript" src="chrome://fasterfoxlite/content/wips.js"/>
+    <script type="application/x-javascript" src="chrome://fasterfoxlite/content/wipstats.js"/>
+    <script type="application/x-javascript" src="chrome://fasterfoxlite/content/pref-fasterfoxlite.js"/>
+    <script type="application/x-javascript" src="chrome://fasterfoxlite/content/fasterfoxliteOverlay.js"/>
+    <script type="application/x-javascript" src="chrome://fasterfoxlite/content/listener-fasterfoxlite.js"/>
+
+    <script type="application/x-javascript">
+	<![CDATA[
+	 window.addEventListener("load", FasterFox_Lite_BigRedBrent.init, false);
+	 window.addEventListener("unload", FasterFox_Lite_BigRedBrent.uninit, false);
+	]]>
+    </script>
+
+   	<!-- Add Fasterfox Page Load Timer to the Status Bar //-->
+    <popupset id="mainPopupSet">
+        <tooltip id="fasterfoxlite-popup" insertafter="backMenu">
+            <vbox flex="1">
+                <label id="fasterfoxlite-popup-label" value="&pageload.pageLoadTimer;"/>
+            </vbox>
+        </tooltip>
+        <popup id="fasterfoxlite-context-menu">
+    		<!-- TODO: Add Current Page to Whitelist -->
+            <menuitem label="&pageload.options;" oncommand="FasterFox_Lite_BigRedBrent.openOptions();" />
+            <menuitem label="&pageload.hideTimer;" oncommand="FasterFox_Lite_BigRedBrent.showTimer(false);" />
+            <menuitem label="&pageload.clearCache;" oncommand="FasterFox_Lite_BigRedBrent.clearCache();" />
+            <menuitem label="&about.title;" oncommand="FasterFox_Lite_BigRedBrent.openAbout();" />
+        </popup>
+    </popupset>
+    <statusbar id="status-bar">
+        <statusbarpanel id="fasterfoxlite-statusbar" insertafter="page-report-button" tooltip="fasterfoxlite-popup" context="fasterfoxlite-context-menu">
+            <hbox>
+                <image src="chrome://fasterfoxlite/skin/icons.png" />
+                <label id="fasterfoxlite-label" value="Fasterfox Lite" />
+            </hbox>
+        </statusbarpanel>
+    </statusbar>
+
+</overlay>
+

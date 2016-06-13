@@ -1,0 +1,607 @@
+Manifest-Version: 1.0
+
+Name: install.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xewNCfKU2vp0U6hgz5i3Vg==
+SHA1-Digest: Q1gaK4PxuBHbTVwQ1QJsTsUwNKM=
+
+Name: chrome.manifest
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ieV3sxzIafZJI0b0Q6dg/w==
+SHA1-Digest: Vr4B9PIG2lAqP/5G/AmIDCqi9oM=
+
+Name: Mozilla Public License.txt
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: m/guOSA5ICTuB3G+5Jkiag==
+SHA1-Digest: 4PbES4INXcCVRVXoo0TVKr0vSls=
+
+Name: README
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aGHJGZY/s+Id/b+4EcTYjg==
+SHA1-Digest: 6J+wowI359HFHfMTbt0R5ap0AVA=
+
+Name: TODO
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +FkREemFZywS9h5h+Ex6yA==
+SHA1-Digest: yGvUpv7Km+Z9wFeUCjCg4282klM=
+
+Name: chrome/.DS_Store
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qEa8WyzJcE0+EvCmwiVVIA==
+SHA1-Digest: Fn33QTe1JZ+4/DfPJkJiT8sQh0Y=
+
+Name: chrome/content/.DS_Store
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ny/SBvfRVJWrQicnlaNbUw==
+SHA1-Digest: djp42dLZn9rVDFX0mTQvrOsZkHs=
+
+Name: chrome/content/fasterfoxlite/about.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XwwG8Dq+o02jq5+pKbZHkQ==
+SHA1-Digest: f7oi9ecey0s2yezwc+zk0xIfEB4=
+
+Name: chrome/content/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: SaKN57vLVTcDdiAYNjmcRw==
+SHA1-Digest: FXInx7YoZr11ZudwqpBrlTAi6UM=
+
+Name: chrome/content/fasterfoxlite/fasterfoxliteOverlay.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: NxnK7Y65lg3ATSGv2KkaOA==
+SHA1-Digest: G8/XR/trgDLvVbnHzIrzyIf35Vw=
+
+Name: chrome/content/fasterfoxlite/fasterfoxliteOverlay.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4q43KmIOARcEiXtVnxcOnQ==
+SHA1-Digest: bzmZKfU83HYiAWMCs/Cg0NM/42w=
+
+Name: chrome/content/fasterfoxlite/listener-fasterfoxlite.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jDVI+BT9nCFl/4jS063gFg==
+SHA1-Digest: nrd0Z+C4MR36nFdbaFDp1asoccA=
+
+Name: chrome/content/fasterfoxlite/options.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5hoCqOK46rtiMfoKnqxAlA==
+SHA1-Digest: 8EFBT5NGjfldjQyKCKCfP44rgy4=
+
+Name: chrome/content/fasterfoxlite/pref-fasterfoxlite.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: XXu+XC+B7kvt06nqUhJZiw==
+SHA1-Digest: YBVzw2JFVWIe6N0E9iZmeGx/Q60=
+
+Name: chrome/content/fasterfoxlite/pref-fasterfoxlite.xul
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7VNEaMHteE7AiZm/v0VjcA==
+SHA1-Digest: Q+jtRI82rHkQgy43UxZmk5dFFJI=
+
+Name: chrome/content/fasterfoxlite/wips.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ojzKJMcSigI3ThTg6qKamA==
+SHA1-Digest: 665psB2t5S6HleS2Mjs7p7duMZg=
+
+Name: chrome/content/fasterfoxlite/wipstats.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TCQ5v1soUQN/QXmRtM4ABw==
+SHA1-Digest: 7OWYDT2TIszb7Jn+yZERCNGFMd8=
+
+Name: chrome/locale/cs-CZ/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9MEzo/E76tnIyEf0fswicg==
+SHA1-Digest: Tr42MQ1gafQ0MCHC5FYu4itp51c=
+
+Name: chrome/locale/cs-CZ/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bwlbMaPDxzjZQIz/Ps9pKQ==
+SHA1-Digest: Vf9H5jrYEZ6McYEJLUePp+JmjEc=
+
+Name: chrome/locale/cs-CZ/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ELVPE727FBMvHj59Hkd58w==
+SHA1-Digest: 3AkPLpYqXrBbJ4NxWcgnn7Mh17w=
+
+Name: chrome/locale/cs-CZ/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: +e/J1BNJHN3kAA2N4KRDgw==
+SHA1-Digest: la8Z1txSjHn0xMM+VAmCnNizOjM=
+
+Name: chrome/locale/de-DE/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: P/kpLiI7axyI3gnOtJh/5Q==
+SHA1-Digest: RLm2WbKCf7+9XQjdLbllFnCtp2g=
+
+Name: chrome/locale/de-DE/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hC3gTgaG20hUORh8EKjASw==
+SHA1-Digest: 4I94Xlg+6Z8cBVx5Tn5wnIjfzxU=
+
+Name: chrome/locale/de-DE/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mzn9m47MSoyvYcUZb0r70g==
+SHA1-Digest: CKoVdIkd/0d6vDDCwdtj9o2kY3Q=
+
+Name: chrome/locale/de-DE/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AyFODKwUEeRPN4PaoIXmVg==
+SHA1-Digest: 6JWV2XVgVZAVbzf+AM129yG9EPQ=
+
+Name: chrome/locale/en-US/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 82qzOsngSVqA7EuBATXEWQ==
+SHA1-Digest: WqzDKUNKWV9I8O92hvPPdlHlMtU=
+
+Name: chrome/locale/en-US/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: TeiyxvynDeGOPkeCJuXwSw==
+SHA1-Digest: slBvLTrWEeYzy/6vgsF06HmM9Ec=
+
+Name: chrome/locale/en-US/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rdVueazTcodbz+c6kvm9pg==
+SHA1-Digest: dCdUxUzgzp9m0LnbKm3ncQOPRb0=
+
+Name: chrome/locale/en-US/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: OENMwISy22ITsKXIT5j40w==
+SHA1-Digest: 4Cb2IEm0/3rNuWXNEP94Ibn6D6A=
+
+Name: chrome/locale/es-AR/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4uGxc/NSLwnwKL5VuPgg9g==
+SHA1-Digest: mO9b+2eKU4sQ4U1BDR9igEy+yps=
+
+Name: chrome/locale/es-AR/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: IKa7nPi/byceoR1NJc01CA==
+SHA1-Digest: RrZbNZQvq6MkbzijMb1UwA+qmdQ=
+
+Name: chrome/locale/es-AR/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WTvPpLrD8zPo5wusgUvbTw==
+SHA1-Digest: ycWqAhXKKBScD+yAVV1gkCYaIyk=
+
+Name: chrome/locale/es-AR/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: T/aepJ5rk2cVPT0k2mWyOw==
+SHA1-Digest: nrWesNJbXZidNYxg44fYw9Pf+xo=
+
+Name: chrome/locale/es-ES/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 877q1Y7u9PntKVr+ZA/iCg==
+SHA1-Digest: +KqNxGlfQ/DP23zXZlQHieBnLwQ=
+
+Name: chrome/locale/es-ES/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: u0PM++ehJo4AS0J07xznIw==
+SHA1-Digest: obH0O3BjUU0HXPOzxzjoqOCp1XY=
+
+Name: chrome/locale/es-ES/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GES6w7oXSSLL0uXMKQsiOw==
+SHA1-Digest: KDGVJVSTamOWF8VU9iVyzA79EX8=
+
+Name: chrome/locale/es-ES/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 3FNKoelo5kSJ8CadgTzj+g==
+SHA1-Digest: w9sOh8a8t3uZHxR+QlDeP043VOw=
+
+Name: chrome/locale/fi-FI/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jnQert9q+RhUariVOT0nNQ==
+SHA1-Digest: b8Q+/Wd5F/BLLWBn+H2+ibyO+gU=
+
+Name: chrome/locale/fi-FI/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: CuFdOG7dfrSqwqieUzgb7g==
+SHA1-Digest: d22T4hY9iCrR/6vVN+w+fDZSCxY=
+
+Name: chrome/locale/fi-FI/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qfhOQ+VHx48c/FcYvSCV2A==
+SHA1-Digest: 1YFtvAEOwuvglj1fScI4Xe+erko=
+
+Name: chrome/locale/fi-FI/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 1J5PtinqB6HeLLguB0RsFQ==
+SHA1-Digest: ZLdNPGVlP91fvz277HAMkFd4LeE=
+
+Name: chrome/locale/fr-FR/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Nd9ndb6cwd/oKZguSqXN6A==
+SHA1-Digest: SQDtCDipYaCxb9lzNLjlRtsJwHg=
+
+Name: chrome/locale/fr-FR/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wJ1nv/mDVOwO/4fFbEl0NQ==
+SHA1-Digest: l1MSH+D3MJDwwXFKLKA2vYj2IJo=
+
+Name: chrome/locale/fr-FR/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0xzYj9XlglDroh27aCHL/w==
+SHA1-Digest: tKmXROtW4f72uunvevZqU1kUSkI=
+
+Name: chrome/locale/fr-FR/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 32HmQ77E9aBZA0mvh12+9A==
+SHA1-Digest: IITlpp1rDe9om2nyzM3I6T9naf0=
+
+Name: chrome/locale/fy-NL/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: atgUKQdxM0PG9tBXSw2xgw==
+SHA1-Digest: bg400/VyWGk9KFkfTx3TuIEd5iM=
+
+Name: chrome/locale/fy-NL/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MQNJTP00/kBySz8SSuu/aQ==
+SHA1-Digest: nfwHZcCKW8ThKWRG/lf+h/JM3io=
+
+Name: chrome/locale/fy-NL/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4D7a1FYNe52bAAXAb7+kXg==
+SHA1-Digest: HuaOt7MhYBQa1Zg9wJedA6H8iIM=
+
+Name: chrome/locale/he-IL/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 0hXmcJRjJVXS+fX8n9N46Q==
+SHA1-Digest: F89MKFkACy57l5zjkldWF0EBdvc=
+
+Name: chrome/locale/he-IL/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ++hpWPTIsVxWJ3posDBv1A==
+SHA1-Digest: o37HISQP5BqlD98AD08rD/IJIqw=
+
+Name: chrome/locale/he-IL/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: YesuwwC0UPFEE6sDpz6AzQ==
+SHA1-Digest: m7z56QGRNFTbxLHNv2HDMXPkU7A=
+
+Name: chrome/locale/he-IL/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: olUMNefQXV/QgZGvI4M8zQ==
+SHA1-Digest: Obbm6pBArnlzRIGeAuqH29VSGrg=
+
+Name: chrome/locale/hu-HU/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KUPHF+TkdnCp8o3a+nZKKw==
+SHA1-Digest: SYD1koaUYi+AFRK6K/+L9Ifp5JQ=
+
+Name: chrome/locale/hu-HU/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: jPyW5uahnWETV/mmyN02Rw==
+SHA1-Digest: 4wuN9E86tHYc+9ZZK1hsRvOgobE=
+
+Name: chrome/locale/hu-HU/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /CTqFNYu3yQVtIAxCkr7RQ==
+SHA1-Digest: 5dzORxQU5aEfiq8GLMCBJfaFCFE=
+
+Name: chrome/locale/it-IT/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Kgn2UpfIjvtz4RVAQuCiHA==
+SHA1-Digest: Fz07kJqPrQQJUYFutWSnaeE5taw=
+
+Name: chrome/locale/it-IT/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: WKp61HgiAiTnC6WvlM9a4A==
+SHA1-Digest: pL/djRjWqozmaX+Xd1dbD4rRXlo=
+
+Name: chrome/locale/it-IT/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 83SRCdgLJJS44X1DvqflsA==
+SHA1-Digest: 0cRQkSeTJzvCsL0d8OqDU1WCUlw=
+
+Name: chrome/locale/it-IT/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GfY+mR2f8mkbTeGrCqeFlA==
+SHA1-Digest: iDNQoJwEkK8ELePU1rmuOmRTFeA=
+
+Name: chrome/locale/ja-JP/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: h+DsxkuZTMQ5S5rk5dR3zQ==
+SHA1-Digest: ppVThkRXKs7W+tndf6H0hjBsAnk=
+
+Name: chrome/locale/ja-JP/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: voKQeRVvpyMZucZ3Jwoz1A==
+SHA1-Digest: CwkKdZxNrOEhJAaPWA/R+eh8k7Q=
+
+Name: chrome/locale/ja-JP/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PSx/+pgXB3iKfKx5dOHJ5Q==
+SHA1-Digest: UAbEmeqeW0wzdtAGTfxGrWQ6JaY=
+
+Name: chrome/locale/ja-JP/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: a6ogtGJyHzC4RDnw1bYjIg==
+SHA1-Digest: LtDXfoiYw9wavyaRpRDZvcdh9bs=
+
+Name: chrome/locale/ko-KR/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: n1KNELEMqqm3nVkJpeAFbw==
+SHA1-Digest: Vzax6+NVXi2iPsn3ZNTwBRH79Mo=
+
+Name: chrome/locale/ko-KR/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: i9nZtF5Hm2V9nOILmcxeGQ==
+SHA1-Digest: uEYY0hvgsqX+l6+hej3tcZfZ/hs=
+
+Name: chrome/locale/ko-KR/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: mFUnm3nT7Hl8oXYt5HUl2A==
+SHA1-Digest: r89W4ulpLwhBNICdjoQF7sL8Osg=
+
+Name: chrome/locale/ko-KR/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: i5URlc1IQDumBbZKYaC97w==
+SHA1-Digest: 2GVjwHKzx1wkEdyG6/orUqo9xz0=
+
+Name: chrome/locale/lt-LT/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: /45gY3sOaqJutW6WhnV4nQ==
+SHA1-Digest: j7Ot0AlZbgJ4lLL8H0fmNoFL1DM=
+
+Name: chrome/locale/lt-LT/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: uBfsDcNCMJX+ZUXRU7mrgA==
+SHA1-Digest: fGht7attlvs5ADRD1dzjqVna4AA=
+
+Name: chrome/locale/lt-LT/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: um9i6lSYq8Eqpo4eGaa/Ag==
+SHA1-Digest: HeQQUNBGh7RxWLsyZ9eTgx/3tlk=
+
+Name: chrome/locale/nl-NL/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: GcSpz3YaYJ0L0wOpLoSobg==
+SHA1-Digest: R5i7UW265Om9hZ6aXiCrVc71YLg=
+
+Name: chrome/locale/nl-NL/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: rhilGpCcolm3rHfOu9Il+Q==
+SHA1-Digest: BXXndiyGj0cActO3qig6hf6wIfc=
+
+Name: chrome/locale/nl-NL/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: g8uyaDUMa9V4xjOr83ud4A==
+SHA1-Digest: j7H8PDRX3RX0Ry5vettwHvHZIKc=
+
+Name: chrome/locale/nl-NL/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eGDdJc+g0oZyGtqvzgdbnQ==
+SHA1-Digest: QeD5T9t3etLnozXvlNFBTtddxJI=
+
+Name: chrome/locale/pl-PL/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Ydo3yI+glDY5Sbr5DNhb3A==
+SHA1-Digest: V7biEC2tI16TgK5qN2ww8xfC5kg=
+
+Name: chrome/locale/pl-PL/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: qs8z2eHnjJoYChlLKOIEvA==
+SHA1-Digest: zPp3U9IQwLNvsVICyIq6afyAgRw=
+
+Name: chrome/locale/pl-PL/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: MLcvBN4FJ+a5sQ5zXmlN9w==
+SHA1-Digest: WO9NS0SyUelvOveO1oHTWZntz2w=
+
+Name: chrome/locale/pl-PL/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Eht/YoDNSU9Fhv3szTEKMQ==
+SHA1-Digest: LuxR8xT2y/qIETOdXopBR6FtA68=
+
+Name: chrome/locale/pt-BR/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7w9C703h7GHG/NUmzGRl2Q==
+SHA1-Digest: l0g5sTblyLsGm9igEjs7BmhHeXM=
+
+Name: chrome/locale/pt-BR/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bT5NZ2UJajd6p+s8LBI3BQ==
+SHA1-Digest: 14G4rdBzYoBa6aMRCxS4ASjJmS8=
+
+Name: chrome/locale/pt-BR/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 41lB8KngxU2C9eDMnScFIw==
+SHA1-Digest: XSZ0rbr23z6t36bkN8hskygDbtI=
+
+Name: chrome/locale/pt-BR/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: s5EHd2CYssoz5rjb7cEW+A==
+SHA1-Digest: eoIYDxtkJI+Dw4vCialQZQj5ztw=
+
+Name: chrome/locale/pt-PT/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Fvl6/0ouXI7gucoGK/RsPg==
+SHA1-Digest: ua3tMZ0ruJpnTtw4x22EwE7+FRc=
+
+Name: chrome/locale/pt-PT/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 17LFq2doOmqBUf6OeXB0Wg==
+SHA1-Digest: bRbLVc5vp092K7RIFj5AseuF/4w=
+
+Name: chrome/locale/pt-PT/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: carmvQVqxwYMwfsn6k57rw==
+SHA1-Digest: C7/aTtXfM30VhDQ6haJjVCAmsdQ=
+
+Name: chrome/locale/ru-RU/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: BcPGYhxsvpijX6VXRjdMWw==
+SHA1-Digest: 8UbVwZ5SGh1fRZPg3R/LhLTCkFU=
+
+Name: chrome/locale/ru-RU/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eCrym3pM6EfEHaX1gmcn8w==
+SHA1-Digest: Qun7BZTjTIBl+5aJrS+5F1agwP4=
+
+Name: chrome/locale/ru-RU/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kkmbmarBiYOPiqRRj0rOow==
+SHA1-Digest: +yW9zTvLObCoZjXALsC2VmyCxXQ=
+
+Name: chrome/locale/ru-RU/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: fRgGs/4PesO0MrXAnBr4fA==
+SHA1-Digest: PdodS0yz7hP+Ox+KtZVldJlz3n4=
+
+Name: chrome/locale/sk-SK/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: kR19VJXc/YmiFJjkKxMYJQ==
+SHA1-Digest: rRud8YOtv4tvifckID268TLkHIA=
+
+Name: chrome/locale/sk-SK/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: EG5jFKzadPxDW8p4fmudCA==
+SHA1-Digest: y7l1BwlhO9u+hmBRY+60kXlnQXI=
+
+Name: chrome/locale/sk-SK/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: hpO5OIDd2kBAz8gXZOomQQ==
+SHA1-Digest: LaHIL7Udw53buyAEHzEGMjHBsRw=
+
+Name: chrome/locale/sk-SK/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: HdYv3YDlyHaWXsLjWtYWiA==
+SHA1-Digest: JfgMfAjK29YBcUaiaVU33XpVKCg=
+
+Name: chrome/locale/sl-SI/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JpNhb6wGHlKkpOTe1ZsgmA==
+SHA1-Digest: dKE2Oh8Y11tl2H3s5uJOFmNfykY=
+
+Name: chrome/locale/sl-SI/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: eYoliRbovPw133j2Nx8lBw==
+SHA1-Digest: zKBY5fVglwWVF7X2neh1trCnyiU=
+
+Name: chrome/locale/sl-SI/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: sRiCmpWE0JH9oHzqfGVGqA==
+SHA1-Digest: qJaK+wiO+JWNzap3cdjq2CKzGyQ=
+
+Name: chrome/locale/sl-SI/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: xW3NChGeONxf7WPF85PYAg==
+SHA1-Digest: lgm5SsOXKstK/anrbzbraLDVw98=
+
+Name: chrome/locale/sv-SE/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: Scq+bR9/aNA7dkJjfeeYoQ==
+SHA1-Digest: WW4E0rH+vd8p4mB8OKCKIuZ2e5k=
+
+Name: chrome/locale/sv-SE/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: aZu4ighfSe/HypK14F2Jbg==
+SHA1-Digest: QErm7ebD/qlpw8UeHmnkSbMF2p0=
+
+Name: chrome/locale/sv-SE/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: bEorDScPe/ZXd4ocuqf7pQ==
+SHA1-Digest: 8xdnp2L4q/T4znRrtJhqh3lU94g=
+
+Name: chrome/locale/tr-TR/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QiqfWGdc3ISAFHZP+lyL+Q==
+SHA1-Digest: +MMPWkrd4JWHQbTN4Mvpgo4t4wA=
+
+Name: chrome/locale/tr-TR/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: szjVqePpkpjHoYqHSaqEgA==
+SHA1-Digest: vccLM+6hWSik2wCjAaiLpHuv31k=
+
+Name: chrome/locale/tr-TR/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: oHuP4Ih/s4eb6tMrUMPtiA==
+SHA1-Digest: BgIIVzHZEdJ+OWQRFiJSQLdubl4=
+
+Name: chrome/locale/tr-TR/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: J34/CM8cZmCl+5uj/BNKqA==
+SHA1-Digest: 04V0TGzMAVT19X25R0KFu/Wvq70=
+
+Name: chrome/locale/uk-UA/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: E7eUJ1jX3Aa+8GnKG/EPbg==
+SHA1-Digest: mB1+2ciRxxQL6YXMvgVOEHRmz8w=
+
+Name: chrome/locale/uk-UA/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: QXEa3yM3sLz+vgFgicLX0Q==
+SHA1-Digest: PDrKgY8LWCPWYdtURWm6nxrc+fo=
+
+Name: chrome/locale/uk-UA/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: p8GwUigyG5ecMVWwNR6tXQ==
+SHA1-Digest: YlXmnPPo+zaTnZkgtTuVtgbpqFs=
+
+Name: chrome/locale/zh-CN/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: AL3xcVVOT9O3o0cVYhem5g==
+SHA1-Digest: mF3nfbQc8a12INf7vqnARjh5L40=
+
+Name: chrome/locale/zh-CN/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: wkqRLddDsEOyOiL/aMoExA==
+SHA1-Digest: YLIoR8cNcZX47+kmhqiP97ViwE8=
+
+Name: chrome/locale/zh-CN/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 4yK4gCmwXvRue/XlqCbUHQ==
+SHA1-Digest: MRBiZqax91hOiIaGbRsQ5xctyVY=
+
+Name: chrome/locale/zh-CN/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: PFQqLZwVbIjh+tQxu6fX+A==
+SHA1-Digest: NNDNkgZWQxizayIadnSrjFl4KcE=
+
+Name: chrome/locale/zh-TW/fasterfoxlite/fasterfoxlite.ent
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: B6uqpfHP2KibkZUkeq1LBA==
+SHA1-Digest: amw3GR5TFfDjXx5rj9AhVcGdYFw=
+
+Name: chrome/locale/zh-TW/fasterfoxlite/fasterfoxlite.properties
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: ucEXBMiArLKvPYOD9tXDHw==
+SHA1-Digest: 1eCCXi37nv/noqJcQmbsvlWo4KE=
+
+Name: chrome/locale/zh-TW/fasterfoxlite/pref-fasterfoxlite.dtd
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 5mWvXYmW9DGrH6w6qyrx/A==
+SHA1-Digest: qIfLcwwTZsRNVQL83xM2QGCicvI=
+
+Name: chrome/skin/classic/fasterfoxlite/contents.rdf
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: dn5XU3EDY6mFGhC/mhucjg==
+SHA1-Digest: oSZm8iqJlZbHGysO/qRPAC5cnOA=
+
+Name: chrome/skin/classic/fasterfoxlite/fasterfoxlite.css
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: KRs+x27R9QKwl/A7Lh3NEQ==
+SHA1-Digest: 6omxFegB+k4a61g7iXn/G8g97kc=
+
+Name: chrome/skin/classic/fasterfoxlite/icon.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: DEtRAutxTeAW+uuUEU/Tgg==
+SHA1-Digest: FQp5s4j+M7pOXoKC1qtwvMRz2W4=
+
+Name: chrome/skin/classic/fasterfoxlite/iconb.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 7jqQeHlXbM58mFtu2qAVBQ==
+SHA1-Digest: b/onYGETEWyu4/jg78kgCnipj/A=
+
+Name: chrome/skin/classic/fasterfoxlite/icons.png
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: JAHw3mEkYs9jGTqtq4+KFw==
+SHA1-Digest: WljDKswF8W7z6RxHWbB2z+SOZZ4=
+
+Name: chrome/skin/classic/fasterfoxlite/x-click-but04.gif
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: 9Qi4Qy7QvuRyYW/jGYiO/g==
+SHA1-Digest: 9PHnqJvB++PN12dSrwquUFwbYKg=
+
+Name: defaults/preferences/fasterfoxlite.js
+Digest-Algorithms: MD5 SHA1
+MD5-Digest: cN7W7UFO2YYrPDrm9btB9w==
+SHA1-Digest: nIXMepVNG2cA0tb7OQwqigc4AqA=
+

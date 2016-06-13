@@ -1,0 +1,8 @@
+<!ENTITY option.caption "オプション">
+<!ENTITY option.insert.images.label "Google と Yahoo! の検索へプレビュー画像を挿入する">
+<!ENTITY option.show.GP.label "Firefox のステータスバーに「SP」記号を表示する (高速な有効・無効化)">
+<!ENTITY gp.options.popup "SearchPreview オプション...">
+<!ENTITY option.maxPerPage.GP.label "ページ毎のプレビュー画像最大数:">
+<!ENTITY option.insert.ranks.label "検索結果の中にサイト人気ランクを挿入:">
+<!ENTITY gp.options.request.image.update "この SearchPreview 画像の更新を要求">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

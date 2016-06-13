@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://mozapps/skin/pref/pref.css" type="text/css"?>
+<?xml-stylesheet href="chrome://browser/skin/pref/pref.css" type="text/css"?>
+<?xml-stylesheet href="chrome://global/skin/global.css"?>
+<?xml-stylesheet href="chrome://mozapps/content/preferences/preferences.css"?>
+<?xml-stylesheet href="chrome://browser/skin/preferences/preferences.css"?>
+
+<!-- Locale info //-->
+<!DOCTYPE dialog SYSTEM "chrome://fasterfoxlite/locale/pref-fasterfoxlite.dtd">
+
+<!-- Fasterfox Preferences Options //-->
+
+<window
+  title="&options.title;"
+  windowtype="FasterfoxLite:Options"
+  orient="vertical"
+  id="pref-fasterfoxlite"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+  xmlns:html="http://www.w3.org/1999/xhtml"
+  onload="FasterFox_Lite_BigRedBrent.windowOnLoad();window.sizeToContent();"
+  headertitle="Fasterfox Lite">
+
+    <script type="application/x-javascript" src="chrome://fasterfoxlite/content/pref-fasterfoxlite.js"/>
+    <script type="application/x-javascript" src="chrome://fasterfoxlite/content/fasterfoxliteOverlay.js"/>
+
+    <hbox align="start" orient="horizontal" style="background:#fff;border-bottom:2px groove ThreeDFace">
+        <grid>
+            <columns>
+                <column style="padding:2px 15px;background:#c0d2ee"/>
+                <column style="padding:6px" flex="1"/>
+            </columns>
+            <rows>
+                <row align="center">
+                    <image src="chrome://fasterfoxlite/skin/icon.png" style="width:32px"/>
+                    <hbox style="width:400px">
+                        <text value="Fasterfox Lite" style="font-weight:bold;font-size:x-large"/>
+                        <spacer flex="1"/>
+                        <vbox>
+                            <spacer flex="1"/>
+                            <image src="chrome://fasterfoxlite/skin/x-click-but04.gif" style="cursor:pointer;" class="text-link" onclick="FasterFox_Lite_BigRedBrent.urlarray.openURL('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;item_name=Fasterfox+Lite&amp;hosted_button_id=BPJNAPWUDH742');"/>
+                            <spacer flex="1"/>
+                        </vbox>
+                    </hbox>
+                </row>
+            </rows>
+        </grid>
+    </hbox>
+
+    <tabbox class="settingsBox">
+
+        <tabs id="fasterfoxlite_tabs">
+            <tab label="&main.tab;" id="fasterfoxlite_Main_tab" />
+            <tab label="&options.tab;" id="fasterfoxlite_Options_tab" />
+            <tab label="&cache.tab;" id="fasterfoxlite_Cache_tab" />
+            <tab label="&connection.tab;" id="fasterfoxlite_Connection_tab" />
+            <tab label="&pipelining.tab;" id="fasterfoxlite_Pipelining_tab" />
+            <tab label="&rendering.tab;" id="fasterfoxlite_Rendering_tab" />
+        </tabs>
+
+        <tabpanels>
+
+
+<!-- MAIN PREFS -->
+            <tabpanel id="Main">
+                <vbox flex="1">
+                    <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                        <caption label="&main.captionLabel;"/>
+                        <radiogroup id="FasterFox_Lite_BigRedBrent.presets" prefstring="extensions.fasterfoxlite.preset" preftype="int"
+  	oncommand="if(document.getElementById('FasterFox_Lite_BigRedBrent.presets').selectedIndex==4) {FasterFox_Lite_BigRedBrent.displayTabs(true);} else {FasterFox_Lite_BigRedBrent.displayTabs(false);}">
+                            <radio id="fasterfoxlite_default" label="&defaultPreset.label;" style="font-weight:bold"
+    oncommand="FasterFox_Lite_BigRedBrent.setPreset(0);FasterFox_Lite_BigRedBrent.displayTabs(false);" value="0"/>
+                            <description class="indent">&defaultPreset.desc;</description>
+                            <separator class="thin"/>
+
+                            <radio id="fasterfoxlite_goodNetCitizen" label="&courteousPreset.label;" style="font-weight:bold"
+    oncommand="FasterFox_Lite_BigRedBrent.setPreset(1);FasterFox_Lite_BigRedBrent.displayTabs(false);" value="1"/>
+                            <description class="indent">&courteousPreset.desc;</description>
+                            <separator class="thin"/>
+
+                            <radio id="fasterfoxlite_optimized" label="&optimizedPreset.label;" style="font-weight:bold"
+    oncommand="FasterFox_Lite_BigRedBrent.setPreset(2);FasterFox_Lite_BigRedBrent.displayTabs(false);" value="2"/>
+                            <description class="indent">&optimizedPreset.desc;</description>
+                            <separator class="thin"/>
+
+                            <radio id="fasterfoxlite_turboCharged" label="&turboPreset.label;" style="font-weight:bold"
+    oncommand="FasterFox_Lite_BigRedBrent.setPreset(3);FasterFox_Lite_BigRedBrent.displayTabs(false);" value="3"/>
+                            <description class="indent">&turboPreset.desc;</description>
+                            <separator class="thin"/>
+
+                            <radio id="fasterfoxlite_custom" label="&customPreset.label;" style="font-weight:bold"
+    oncommand="FasterFox_Lite_BigRedBrent.displayTabs(true);" value="4"/>
+                            <description class="indent">&customPreset.desc;</description>
+                            <separator class="thin"/>
+                        </radiogroup>
+                    </groupbox>
+                    <spacer flex="100000"/>
+                    <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                        <caption label="&timer.captionLabel;"/>
+                        <vbox>
+                            <checkbox id="fasterfoxlite_pageLoadTimer" label="&timer.label;"
+    prefstring="extensions.fasterfoxlite.pageLoadTimer" preftype="bool"
+    oncommand="if(document.getElementById('fasterfoxlite_pageLoadTimer').checked) {FasterFox_Lite_BigRedBrent.showTimer(true);} else {FasterFox_Lite_BigRedBrent.showTimer(false);}" />
+                        </vbox>
+                        <description>&timer.desc;</description>
+                    </groupbox>
+                </vbox>
+            </tabpanel>
+
+
+<!-- OPTIONAL PREFS -->
+            <tabpanel id="Options">
+                <vbox flex="1">
+                    <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                        <caption label="&options.captionLabel;"/>
+                        <separator class="thin"/>
+                        <vbox>
+                            <checkbox id="fasterfoxlite_LinkPrefetching" label="&linkprefetching.label;"
+    prefstring="network.prefetch-next" preftype="bool" />
+                        </vbox>
+                        <separator class="thin"/>
+                        <description>&linkprefetching.desc;</description>
+                        <separator class="thin"/>
+                        <separator class="thin"/>
+                        <vbox>
+                            <checkbox id="fasterfoxlite_disableIPv6" label="&disableIPv6.label;"
+    prefstring="network.dns.disableIPv6" preftype="bool" />
+                        </vbox>
+                        <separator class="thin"/>
+                        <description>&disableIPv6.desc;</description>
+                        <separator class="thin"/>
+                        <separator class="thin"/>
+                        <vbox>
+                            <checkbox id="wips_statistics" label="&stats.stats;"
+    prefstring="extensions.wips.stats_permission.fasterfox" preftype="bool" />
+                        </vbox>
+                        <separator class="thin"/>
+                        <description>Enable anonymous statistics of usage. This will help us improve our service and Fasterfox extension.</description>
+                        <separator class="thin"/>
+                        <separator class="thin"/>
+                    </groupbox>
+                </vbox>
+            </tabpanel>
+
+
+<!-- CACHE PREFS -->
+            <tabpanel id="Cache">
+                <vbox flex="1">
+                    <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                        <caption label="&cache.captionLabel;"/>
+                        <grid>
+                            <columns>
+                                <column/>
+                                <column/>
+                                <column/>
+                            </columns>
+                            <rows>
+                                <row align="center">
+                                    <checkbox id="fasterfoxlite_cacheMemory" label="&memoryCacheEnable.label;"
+        prefstring="browser.cache.memory.enable" preftype="bool"
+        oncommand="if(document.getElementById('fasterfoxlite_cacheMemory').checked){
+			if(document.getElementById('fasterfoxlite_cacheMemoryCapacity').value==0){
+				document.getElementById('fasterfoxlite_cacheMemoryCapacity').value=-1;
+			}
+			FasterFox_Lite_BigRedBrent.disableElement(false, 'fasterfoxlite_cacheMemoryCapacity');
+		}else{
+			FasterFox_Lite_BigRedBrent.disableElement(true, 'fasterfoxlite_cacheMemoryCapacity');
+		}"/>
+                                    <label control="fasterfoxlite_cacheMemoryCapacity" value="&memoryCache.label;"/>
+                                    <textbox id="fasterfoxlite_cacheMemoryCapacity" size="7" type="number" min="-1" max="2147483647"
+			prefstring="browser.cache.memory.capacity" preftype="int"/>
+                                    <commandset id="fasterfoxlite_cacheMemoryCapacity_commandset" commandupdater="true" events="*"
+          oncommandupdate="if(document.getElementById('fasterfoxlite_cacheMemoryCapacity').disabled == ''){
+		    if(document.getElementById('fasterfoxlite_cacheMemoryCapacity').value==0){
+		      document.getElementById('fasterfoxlite_cacheMemory').checked=false;
+		    }else{
+		       document.getElementById('fasterfoxlite_cacheMemory').checked=true;
+			}
+		  }"/>
+                                </row>
+                                <row align="center">
+                                    <checkbox id="fasterfoxlite_cacheDisk" label="&diskCacheEnable.label;"
+        prefstring="browser.cache.disk.enable" preftype="bool"
+        oncommand="if(document.getElementById('fasterfoxlite_cacheDisk').checked){
+			if(document.getElementById('fasterfoxlite_cacheDiskCapacity').value==0){
+				document.getElementById('fasterfoxlite_cacheDiskCapacity').value=76800;
+			}
+			FasterFox_Lite_BigRedBrent.disableElement(false, 'fasterfoxlite_cacheDiskCapacity');
+		}else{
+			FasterFox_Lite_BigRedBrent.disableElement(true, 'fasterfoxlite_cacheDiskCapacity');
+		}"/>
+                                    <label control="fasterfoxlite_cacheDiskCapacity" value="&diskCache.label;"/>
+                                    <textbox id="fasterfoxlite_cacheDiskCapacity" size="7" type="number" min="0" max="2147483647"
+			prefstring="browser.cache.disk.capacity" preftype="int"/>
+                                    <commandset id="fasterfoxlite_cacheDiskCapacity_commandset" commandupdater="true" events="*"
+          oncommandupdate="if(document.getElementById('fasterfoxlite_cacheDiskCapacity').disabled == ''){
+		    if(document.getElementById('fasterfoxlite_cacheDiskCapacity').value==0){
+		      document.getElementById('fasterfoxlite_cacheDisk').checked=false;
+		    }else{
+		       document.getElementById('fasterfoxlite_cacheDisk').checked=true;
+			}
+		  }"/>
+                                </row>
+                            </rows>
+                        </grid>
+                        <description>&cache.desc;</description>
+                    </groupbox>
+                    <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                        <caption label="&dnscache.captionLabel;"/>
+                        <grid>
+                            <columns>
+                                <column>
+                                    <grid>
+                                        <columns>
+                                            <column/>
+                                            <column/>
+                                        </columns>
+                                        <rows>
+                                            <row align="center">
+                                                <label control="fasterfoxlite_dnsCacheEntries" value="&dnscacheEntries.label;"/>
+                                                <textbox id="fasterfoxlite_dnsCacheEntries" size="7" type="number" min="0" max="2147483647"
+								prefstring="network.dnsCacheEntries" preftype="int"/>
+                                            </row>
+                                            <row align="center">
+                                                <label control="fasterfoxlite_dnsCacheExpiration" value="&dnscacheExp.label;"/>
+                                                <textbox id="fasterfoxlite_dnsCacheExpiration" size="7" type="number" min="0" max="2147483647"
+								prefstring="network.dnsCacheExpiration" preftype="int"/>
+                                            </row>
+                                        </rows>
+                                    </grid>
+                                    <separator class="thin"/>
+                                </column>
+                                <column align="center" style="max-width:200px">
+                                    <description>&dnscache.desc;</description>
+                                </column>
+                            </columns>
+                        </grid>
+                    </groupbox>
+                    <spacer flex="100000"/>
+                    <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                        <caption>
+                            <checkbox id="fasterfoxlite_fastBackCheckbox" label="&fastback.label;"
+  	oncommand="if(document.getElementById('fasterfoxlite_fastBackCheckbox').checked){FasterFox_Lite_BigRedBrent.disableElement(false, 'fasterfoxlite_fastBack');document.getElementById('fasterfoxlite_fastBack').value=-1;}else{FasterFox_Lite_BigRedBrent.disableElement(true, 'fasterfoxlite_fastBack');document.getElementById('fasterfoxlite_fastBack').value=0;}"/>
+                        </caption>
+                        <description>&fastback.desc;</description>
+                        <grid>
+                            <columns>
+                                <column/>
+                                <column/>
+                                <column style="max-width:280px"/>
+                            </columns>
+                            <rows>
+                                <row align="center">
+                                    <label control="fasterfoxlite_fastBack" value="&fastback.pagesInMem;"/>
+                                    <textbox id="fasterfoxlite_fastBack" size="4" type="number" min="-1" max="2147483647"
+					prefstring="browser.sessionhistory.max_total_viewers" preftype="int"/>
+                                    <commandset id="fasterfoxlite_fastBack_commandset" commandupdater="true" events="*"
+					oncommandupdate="if(document.getElementById('fasterfoxlite_fastBack').value==0){
+						document.getElementById('fasterfoxlite_fastBackCheckbox').checked=false
+					}else{
+						document.getElementById('fasterfoxlite_fastBackCheckbox').checked=true
+					}"/>
+                                    <description>&fastback.default;</description>
+                                </row>
+                            </rows>
+                        </grid>
+                        <separator class="thin"/>
+                    </groupbox>
+                </vbox>
+            </tabpanel>
+
+
+<!-- HTTP CONNECTION PREFS -->
+            <tabpanel id="Connection">
+                <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                    <caption label="&connection.captionLabel;"/>
+                    <grid>
+                        <columns>
+                            <column/>
+                            <column/>
+                        </columns>
+                        <rows>
+                            <row align="center">
+                                <label control="fasterfoxlite_maxConnections" value="&connectionMaxConn.label;"/>
+                                <textbox id="fasterfoxlite_maxConnections" size="2" type="number" min="1" max="65535"
+        prefstring="network.http.max-connections" preftype="int"/>
+                            </row>
+                            <row align="center">
+                                <label control="fasterfoxlite_maxConnectionsPerServer" value="&connectionMaxConnServ.label;"/>
+                                <textbox id="fasterfoxlite_maxConnectionsPerServer" size="2" type="number" min="1" max="255"
+        prefstring="network.http.max-connections-per-server" preftype="int"/>
+                            </row>
+                            <row align="center">
+                                <label control="fasterfoxlite_maxPersistentConnectionsPerServer" value="&connectionMaxPerConnServ.label;"/>
+                                <textbox id="fasterfoxlite_maxPersistentConnectionsPerServer" size="2" type="number" min="1" max="255"
+        prefstring="network.http.max-persistent-connections-per-server" preftype="int"/>
+                            </row>
+                            <row align="center">
+                                <label control="fasterfoxlite_maxPersistentConnectionsPerProxy" value="&connectionMaxPerConnProxy.label;"/>
+                                <textbox id="fasterfoxlite_maxPersistentConnectionsPerProxy" size="2" type="number" min="1" max="255"
+        prefstring="network.http.max-persistent-connections-per-proxy" preftype="int"/>
+                            </row>
+                        </rows>
+                    </grid>
+                    <separator class="thin"/>
+                    <description>&connection.desc;</description>
+                </groupbox>
+            </tabpanel>
+
+
+<!-- HTTP PIPELINING PREFS -->
+            <tabpanel id="Pipelining">
+                <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                    <caption label="&pipelining.captionLabel;"/>
+                    <vbox>
+                        <checkbox id="fasterfoxlite_pipelining" label="&pipeliningEnable.label;" prefstring="network.http.pipelining" preftype="bool"
+  	  oncommand="if(document.getElementById('fasterfoxlite_pipelining').checked){FasterFox_Lite_BigRedBrent.disableElement(true, 'fasterfoxlite_pipeliningSSL');document.getElementById('fasterfoxlite_pipeliningSSL').checked=true;}else{FasterFox_Lite_BigRedBrent.disableElement(false, 'fasterfoxlite_pipeliningSSL');}"/>
+                        <checkbox id="fasterfoxlite_pipeliningSSL" label="&pipeliningSSL.label;"
+    prefstring="network.http.pipelining.ssl" preftype="bool"/>
+                        <checkbox id="fasterfoxlite_proxyPipelining" label="&pipeliningEnableProxy.label;"
+    prefstring="network.http.proxy.pipelining" preftype="bool"/>
+                        <grid>
+                            <columns>
+                                <column/>
+                                <column/>
+                            </columns>
+                            <rows>
+                                <row align="center">
+                                    <label control="fasterfoxlite_maxPipeliningRequests" value="&pipeliningMax.label;"/>
+                                    <textbox id="fasterfoxlite_maxPipeliningRequests" size="2" type="number" min="1" max="16"
+          prefstring="network.http.pipelining.maxrequests" preftype="int"/>
+                                </row>
+                            </rows>
+                        </grid>
+                    </vbox>
+                    <separator class="thin"/>
+                    <description>&pipelining.desc;</description>
+                </groupbox>
+            </tabpanel>
+
+
+<!-- RENDERING PREFS -->
+            <tabpanel id="Rendering">
+                <vbox flex="1">
+                    <groupbox align="left" orient="vertical" flex="1" style="max-width:450px">
+                        <caption label="&rendering.captionLabel;"/>
+                        <grid>
+                            <columns>
+                                <column/>
+                                <column/>
+                                <column align="center" style="max-width:200px"/>
+                            </columns>
+                            <rows>
+                                <row align="center">
+                                    <label control="fasterfoxlite_initialPaintDelay" value="&renderingInitPait.label;"/>
+                                    <textbox id="fasterfoxlite_initialPaintDelay" size="4" type="number" min="0" max="2147483647" prefstring="nglayout.initialpaint.delay" preftype="int"/>
+                                    <description>&rendering.desc;</description>
+                                </row>
+                                <separator class="thin"/>
+                                <row align="center">
+                                    <label control="fasterfoxlite_backoffcount" value="&backoffcount.label;"/>
+                                    <textbox id="fasterfoxlite_backoffcount" size="4" type="number" min="-1" max="2147483647" prefstring="content.notify.backoffcount" preftype="int"/>
+                                    <description>&backoffcount.desc;</description>
+                                </row>
+                                <separator class="thin"/>
+                            </rows>
+                        </grid>
+                        <grid>
+                            <columns>
+                                <column/>
+                                <column/>
+                            </columns>
+                            <rows>
+                                <row align="center">
+                                    <checkbox id="fasterfoxlite_ontimer" label="&ontimer.label;" prefstring="content.notify.ontimer" preftype="bool"
+					oncommand="
+						if(document.getElementById('fasterfoxlite_ontimer').checked){
+							if(document.getElementById('fasterfoxlite_interval').value==0){
+								document.getElementById('fasterfoxlite_interval').value=120000;
+								if(document.getElementById('fasterfoxlite_tokenizing').value==0){
+									document.getElementById('fasterfoxlite_tokenizing').value=360000;
+								}
+							}
+						}
+						FasterFox_Lite_BigRedBrent.disableElement(!document.getElementById('fasterfoxlite_ontimer').checked, 'fasterfoxlite_backoffcount');
+						FasterFox_Lite_BigRedBrent.disableElement(!document.getElementById('fasterfoxlite_ontimer').checked, 'fasterfoxlite_interval');
+						FasterFox_Lite_BigRedBrent.disableElement(!document.getElementById('fasterfoxlite_interrupt').checked || !document.getElementById('fasterfoxlite_ontimer').checked, 'fasterfoxlite_tokenizing');
+						FasterFox_Lite_BigRedBrent.disableElement(!document.getElementById('fasterfoxlite_interrupt').checked || !document.getElementById('fasterfoxlite_ontimer').checked, 'fasterfoxlite_threshold');
+					"/>
+                                </row>
+                                <row align="center">
+                                    <label control="fasterfoxlite_interval" value="&interval.label;"/>
+                                    <textbox id="fasterfoxlite_interval" size="9" type="number" min="0" max="2147483647" prefstring="content.notify.interval" preftype="int"/>
+                                    <commandset id="fasterfoxlite_interval_commandset" commandupdater="true" events="*"
+					oncommandupdate="
+						if(document.getElementById('fasterfoxlite_interval').value != FasterFox_Lite_BigRedBrent.LastSetInterval){
+							document.getElementById('fasterfoxlite_tokenizing').value=document.getElementById('fasterfoxlite_interval').value*3;
+							FasterFox_Lite_BigRedBrent.LastSetInterval = document.getElementById('fasterfoxlite_interval').value;
+						}
+					"/>
+                                </row>
+                                <description>&interval.desc;</description>
+                                <separator class="thin"/>
+                                <separator class="thin"/>
+                                <row align="center">
+                                    <checkbox id="fasterfoxlite_interrupt" label="&interrupt.label;" prefstring="content.interrupt.parsing" preftype="bool"
+					oncommand="
+						FasterFox_Lite_BigRedBrent.disableElement((!document.getElementById('fasterfoxlite_interrupt').checked || !document.getElementById('fasterfoxlite_ontimer').checked), 'fasterfoxlite_tokenizing');
+						FasterFox_Lite_BigRedBrent.disableElement(!document.getElementById('fasterfoxlite_interrupt').checked || !document.getElementById('fasterfoxlite_ontimer').checked, 'fasterfoxlite_threshold');
+					"/>
+                                </row>
+                                <row align="center">
+                                    <label control="fasterfoxlite_tokenizing" value="&tokenizing.label;"/>
+                                    <textbox id="fasterfoxlite_tokenizing" size="9" type="number" min="0" max="2147483647" prefstring="content.max.tokenizing.time" preftype="int"/>
+                                </row>
+                                <description>&tokenizing.desc;</description>
+                                <separator class="thin"/>
+                                <separator class="thin"/>
+                                <row align="center">
+                                    <label control="fasterfoxlite_threshold" value="&threshold.label;"/>
+                                    <textbox id="fasterfoxlite_threshold" size="9" type="number" min="0" max="2147483647" prefstring="content.switch.threshold" preftype="int"/>
+                                </row>
+                                <description>&threshold.desc;</description>
+                            </rows>
+                        </grid>
+                    </groupbox>
+                </vbox>
+            </tabpanel>
+
+        </tabpanels>
+
+    </tabbox>
+
+    <vbox>
+        <hbox flex="1" align="right" style="padding:10px">
+            <button dlgType="accept" label="&button.ok;" id="fasterfoxlite_btnok" oncommand="FasterFox_Lite_BigRedBrent.onOK();window.close();" default="true"/>
+            <button dlgType="cancel" label="&button.cancel;" id="fasterfoxlite_btncancel" oncommand="window.close();"/>
+        </hbox>
+        <description> </description>
+    </vbox>
+
+</window>

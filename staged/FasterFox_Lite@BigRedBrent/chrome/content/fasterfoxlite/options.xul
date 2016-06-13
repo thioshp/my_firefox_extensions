@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<window class="dialog" windowtype="FasterfoxLite:Options"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    <text value="..."/>
+    <script type="application/x-javascript" src="chrome://browser/content/utilityOverlay.js"/>
+
+    <script type="application/x-javascript">
+	<![CDATA[
+    if(!FasterFox_Lite_BigRedBrent) var FasterFox_Lite_BigRedBrent={};
+	FasterFox_Lite_BigRedBrent.PreferencesService = Components.classes["@mozilla.org/preferences-service;1"]
+										.getService(Components.interfaces.nsIPrefBranch);
+
+	FasterFox_Lite_BigRedBrent.gWindowManagerListener = {
+   		onOpenWindow: function(aXULWindow) {},
+		onCloseWindow: function(aXULWindow) {
+			var fasterfoxliteWindow = FasterFox_Lite_BigRedBrent.gWindowManager.getMostRecentWindow("FasterfoxLite:Options");
+      		if (fasterfoxliteWindow) {
+        		fasterfoxliteWindow.close();
+     		}
+		},
+		onWindowTitleChange: function(aXULWindow, aWindowTitle) {}
+	};
+
+	FasterFox_Lite_BigRedBrent.gWindowManager =
+	Components.classes['@mozilla.org/appshell/window-mediator;1']
+			  .getService(Components.interfaces.nsIWindowMediator);
+
+	FasterFox_Lite_BigRedBrent.gWindowManager.addListener(FasterFox_Lite_BigRedBrent.gWindowManagerListener);
+
+	// open the pref V dialog
+	openPreferences("fasterfoxlite_paneTabs");
+	window.close();
+
+	]]>
+    </script>
+
+</window>

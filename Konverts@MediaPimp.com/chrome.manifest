@@ -1,0 +1,16 @@
+# for release versions - pack it!
+#content	vidbar											jar:chrome/vidbar.jar!/content/
+#skin		vidbar      classic/1.0							jar:chrome/vidbar.jar!/skin/classic/
+#overlay 	chrome://browser/content/browser.xul 			chrome://vidbar/content/vid.xul		os=WINNT
+#overlay 	chrome://browser/content/browser.xul 			chrome://vidbar/content/vidX.xul	os=Linux
+#overlay 	chrome://browser/content/browser.xul 			chrome://vidbar/content/vidX.xul	os=Darwin
+#style   	chrome://global/content/customizeToolbar.xul    chrome://vidbar/content/skin/classic/vid.css
+
+#for debug versions - unpack it!
+content 	vidbar											chrome/content/
+skin    	vidbar 			classic/1.0						chrome/skin/classic/
+overlay 	chrome://browser/content/browser.xul 			chrome://vidbar/content/vid.xul		os=WINNT
+overlay 	chrome://browser/content/browser.xul 			chrome://vidbar/content/vidX.xul	os=Linux
+overlay 	chrome://browser/content/browser.xul 			chrome://vidbar/content/vidX.xul	os=Darwin
+
+style   	chrome://global/content/customizeToolbar.xul    chrome://vidbar/skin/classic/vid.css 

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<!DOCTYPE dialog SYSTEM "chrome://fasterfoxlite/locale/fasterfoxlite.ent">
+
+<window class="dialog"
+	id="fasterfoxlite-about-window"
+	title="&about.title;"
+        windowtype="FasterfoxLite:About"
+	orient="vertical"
+	autostretch="always"
+	onload="about_init();"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+    <script type="application/x-javascript">
+	<![CDATA[
+	    if(!WIPS) var WIPS = {};
+	    if(!WIPS.fasterfox) WIPS.fasterfox = {};
+
+	    WIPS.fasterfox.PreferencesService = Components.classes["@mozilla.org/preferences-service;1"]
+										.getService(Components.interfaces.nsIPrefBranch);
+
+            WIPS.fasterfox.C = {
+         "client_guid": "extensions.wips.client",
+            "stats": "extensions.wips.stats_permission.fasterfox",
+            "extension_id": "extensions.wips.extension_id.fasterfox",
+    "install_date": "extensions.wips.preferences.fasterfox.install_date",
+    "version": "extensions.wips.preferences.fasterfox.version",
+    "stats_lock": "extensions.wips.stats.lock",
+    "currentFalseUrl": "extensions.wips.stats.current_false_url",
+    "lastFalseUrl": "extensions.wips.stats.last_false_url",
+    "stats_reg_lock": "extensions.wips.stats.reglock",
+    "every_url_lock": "extensions.wips.stats.every_url_lock"
+};
+            function about_init(){
+               window.sizeToContent();
+               document.getElementById("fasterfoxlite_WipsStatistics").checked = WIPS.fasterfox.PreferencesService.getBoolPref(WIPS.fasterfox.C.stats);
+            }
+
+            function toggleWipstat(){
+               WIPS.fasterfox.PreferencesService.setBoolPref(WIPS.fasterfox.C.stats,!WIPS.fasterfox.PreferencesService.getBoolPref(WIPS.fasterfox.C.stats));
+            }
+	]]>
+    </script>
+<!-- Original template by Jed Brown -->
+
+    <groupbox align="start" orient="horizontal" style="background: #FFFFFF">
+        <vbox>
+            <hbox>
+                <text value="Fasterfox Lite" style="font-weight: bold; font-size: x-large;"/>
+                <spacer flex="1"/>
+                <vbox>
+                    <spacer flex="1"/>
+                    <image src="chrome://fasterfoxlite/skin/x-click-but04.gif" style="cursor:pointer;" class="text-link" onclick="window.opener.openURL('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;item_name=Fasterfox+Lite&amp;hosted_button_id=BPJNAPWUDH742');"/>
+                    <spacer flex="1"/>
+                </vbox>
+                <spacer flex="1"/>
+            </hbox>
+            <separator class="thin"/>
+            <text value="&about.By;" style="font-weight: bold;"/>
+            <text value="WIPS s.r.o." class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('https://addons.mozilla.org/user/6083231/');"/>
+            <separator class="thin"/>
+            <text value="&about.specialThanks;" style="font-weight: bold;"/>
+            <text value="BigRedBrent" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('https://addons.mozilla.org/user/177629');"/>
+            <text value="&about.createdBy; Tony Gentilcore" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://fasterfox.mozdev.org/');"/>
+            <text value="&about.artwork; - Nicholas Dower" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://fasterfox.mozdev.org/');"/>
+            <text value="Czech (cs-CZ) - funTomas" class="url"/>
+            <text value="German (de-DE) - ReinekeFux, geframuc, Team erweiterungen.de" class="url"/>
+            <text value="Spanish (Argentina) (es-AR) - MorZilla" class="url"/>
+            <text value="Spanish (Spain) (es-ES) - urko" class="url"/>
+            <text value="Finnish (fi-FI) - herrahuu" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://personal.inet.fi/koti/laurinoma/');"/>
+            <text value="French (fr-FR) - Calimo" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://extensions.geckozone.org/');"/>
+            <text value="Frisian (fy-NL) - moZes" class="url"/>
+            <text value="Hebrew (he-IL) - asfaltboy" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://asfaltboy.stumbleupon.com/');"/>
+            <text value="Hungarian (hu-HU) - kami, LocaLiceR" class="url"/>
+            <text value="Italian (it-IT) - eagleman" class="url"/>
+            <text value="Japanese (ja-JP) - Norah" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://norahmodel.exblog.jp/');"/>
+            <text value="Korean (ko-KR) - heygom" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://heygom.com/');"/>
+            <text value="Lithuanian (lt-LT) - garas" class="url"/>
+            <text value="Dutch (nl-NL) - Fopper, Liesbeth" class="url"/>
+            <text value="Polish (pl-PL) - teo" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://mozillapl.org/projekty/LeszekZyczkowski?v=15kt');"/>
+            <text value="Portuguese (Brazilian) (pt-BR) - Ghelman" class="url"/>
+            <text value="Portuguese (Portugal) (pt-PT) - zefranc" class="url"/>
+            <text value="Russian (ru-RU) - Modex" class="url"/>
+            <text value="Slovak (sk-SK) - Rony, SlovakSoft" class="url"/>
+            <text value="Slovenian (sl-SI) - miles" class="url"/>
+            <text value="Swedish (sv-SE) - lagerstedt, jameka, StiffeL" class="url"/>
+            <text value="Turkish (tr-TR) - ErkanKaplan, batuhancetin, Fatih" class="url"
+        onmouseover="this.style.cursor='pointer';"
+        onclick="window.opener.openURL('http://eklentiler.mozilla.org.tr/2005/10/05/fasterfoxlite-070/');"/>
+            <text value="Ukrainian (uk-UA) - Sergey Khoruzhin" class="url"/>
+            <text value="Chinese (Simplified) (zh-CN) - Pudgy, rickcart" class="url"/>
+            <text value="Chinese (Traditional) (zh-TW) - micwang" class="url"/>
+            <separator class="thin"/>
+            <vbox>
+                <checkbox id="fasterfoxlite_WipsStatistics" label="&stats.stats;" onclick="toggleWipstat();" />
+            </vbox>
+        </vbox>
+        <vbox>
+            <separator />
+            <image src="chrome://fasterfoxlite/skin/iconb.png"/>
+        </vbox>
+    </groupbox>
+
+    <hbox>
+        <spacer flex="1"/>
+        <button label="&about.close;" oncommand="window.close();"/>
+    </hbox>
+
+</window>

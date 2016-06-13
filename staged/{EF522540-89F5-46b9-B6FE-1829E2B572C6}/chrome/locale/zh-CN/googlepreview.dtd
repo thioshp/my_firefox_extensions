@@ -1,0 +1,8 @@
+<!ENTITY option.caption "选项">
+<!ENTITY option.insert.images.label "在 Google 和 Yahoo 搜索插入预览图像">
+<!ENTITY option.show.GP.label "在 Firefox 状态栏显示“SP”图标（单击该图标快速启用或禁用 SearchPreview ）">
+<!ENTITY gp.options.popup "SearchPreview 选项">
+<!ENTITY option.maxPerPage.GP.label "每页允许最大预览图像数量：">
+<!ENTITY option.insert.ranks.label "将站点流行度排名插入搜索结果：">
+<!ENTITY gp.options.request.image.update "请求更新该 SearchPreview 图片">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

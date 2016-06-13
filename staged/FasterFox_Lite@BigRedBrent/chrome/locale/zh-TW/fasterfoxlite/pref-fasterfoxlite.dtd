@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite選項">
+<!ENTITY main.tab "預設">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "快取">
+<!ENTITY connection.tab "連線">
+<!ENTITY pipelining.tab "管線">
+<!ENTITY rendering.tab "顯示">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Fasterfox頁面載入計時器">
+<!ENTITY timer.label "開啟頁面載入計時器">
+<!ENTITY timer.desc "當每次重新測試網頁的時候，請記得清除快取">
+<!ENTITY main.captionLabel "選擇一個預先設定好的類型，或是選自訂，自行設定進階選項。">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "預設">
+<!ENTITY defaultPreset.desc "還原所有設定為未經最佳化的Firefox預設值。">
+<!ENTITY courteousPreset.label "一般">
+<!ENTITY courteousPreset.desc "僅改變顯示設定，不會增加網路伺服器的負擔。">
+<!ENTITY optimizedPreset.label "最佳化">
+<!ENTITY optimizedPreset.desc "在RFC規格內進行網路最佳化，以取得較高的效能。">
+<!ENTITY turboPreset.label "高速">
+<!ENTITY turboPreset.desc "最高的效能，但超越RFC規格（將加重網路伺服器負載）。">
+<!ENTITY customPreset.label "自訂">
+<!ENTITY customPreset.desc "顯示進階選項，讓您自己調整您要的加速設定。">
+<!ENTITY cache.captionLabel "瀏覽器快取選項">
+<!ENTITY diskCache.label "磁碟快取量：">
+<!ENTITY memoryCache.label "記憶體快取量：">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "增加快取可以減少不必要的重新載入所浪費的時間。">
+<!ENTITY dnscache.captionLabel "網域名稱伺服器快取">
+<!ENTITY dnscacheExp.label "網域名稱伺服器快取的有效期限">
+<!ENTITY dnscacheEntries.label "網域名稱伺服器快取的數量">
+<!ENTITY dnscache.desc "增加瀏覽器的網域名稱伺服器快取可以免去不必要的查詢，以提高效能。有效期限以秒為單位來計算。">
+<!ENTITY connection.captionLabel "HTTP連線選項">
+<!ENTITY connectionMaxConn.label "最大連線數：">
+<!ENTITY connectionMaxConnServ.label "單一伺服器的最大連線數：">
+<!ENTITY connectionMaxPerConnServ.label "單一伺服器的最大固定連線數：">
+<!ENTITY connectionMaxPerConnProxy.label "單一快取伺服器的最大固定連線數：">
+<!ENTITY connection.desc "增加連線數將會使瀏覽器可以同時自一個伺服器下載多樣物件。這在一個頁面有很多圖片或內容時幫助很大。">
+<!ENTITY pipelining.captionLabel "伺服器管線選項">
+<!ENTITY pipeliningEnable.label "啟用管線">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "啟用快取伺服器管線">
+<!ENTITY pipeliningMax.label "最大的管線要求">
+<!ENTITY pipelining.desc "管線可以使多個請求同時被送到伺服器，而不必等待前一個請求的回應。這會使速度達到很大的提升。">
+<!ENTITY rendering.captionLabel "顯示選項">
+<!ENTITY fastback.label "啟用快速瀏覽">
+<!ENTITY fastback.pagesInMem "記憶體中的頁面量：">
+<!ENTITY fastback.desc "快速瀏覽將把一部份瀏覽過的網頁保存在記憶體中，使您可以快速的透過上一頁/下一頁按鈕欄瀏覽。">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "初始顯示延遲：">
+<!ENTITY rendering.desc "初始顯示延遲是指Firefox在開始顯示頁面前的等待時間（預設值為250ms）。子選單延遲則是指Firefox在顯示選單前的等待時間（預設值為300ms）。請以毫秒為單位輸入（一秒等於一千毫秒）。">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "確定">
+<!ENTITY button.cancel "取消">
+<!ENTITY    stats.stats "允许匿名统计">

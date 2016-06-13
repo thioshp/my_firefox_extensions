@@ -1,0 +1,8 @@
+<!ENTITY option.caption "Opcje">
+<!ENTITY option.insert.images.label "Wstawiaj obrazki podglądu w wynikach wyszukiwania Google i Yahoo">
+<!ENTITY option.show.GP.label "Wyświetlaj symbol &quot;SP&quot; na pasku stanu Firefoksa (pozwala na szybkie włączanie/wyłączanie rozszerzenia)">
+<!ENTITY gp.options.popup "SearchPreview - opcje...">
+<!ENTITY option.maxPerPage.GP.label "Maksymalna liczba obrazków podglądu na stronę:">
+<!ENTITY option.insert.ranks.label "Wstawiaj oceny popularności stron w wynikach wyszukiwania">
+<!ENTITY gp.options.request.image.update "Poproś o aktualizację tego podglądu SearchPreview">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

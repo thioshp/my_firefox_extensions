@@ -1,0 +1,169 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<dialog xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+    buttons="accept,cancel"
+    buttonlabelcancel="Cancel" buttonlabelaccept="OK"
+    ondialogaccept="return editProfile.onAccept()" ondialogcancel="" title="Edit AutoFill Profile" >
+
+  	<script type="application/x-javascript"  src="chrome://vidbar/content/errHandler.js"/>	
+	<script type="application/x-javascript" src="chrome://vidbar/content/consts.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/profile.js" />
+	<script type="application/x-javascript" src="chrome://vidbar/content/editProfile.js" />
+	<script type="application/x-javascript">
+	<![CDATA[
+		var editProfile = new com.VidBar.EditProfile();
+		addEventListener("load", function(event) { editProfile.onLoad(event); },	false);
+		addEventListener("unload", function(event) { editProfile.onUnload(event); },	false);
+	]]>
+	</script>
+
+  <vbox flex="1">
+    <groupbox>
+      <caption label="Name and email" />
+      <grid flex="1">
+        <rows>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+          <row/>
+        </rows>
+        <columns>
+          <column>
+            <hbox align="center">
+              <label value="First name:"
+                                 flex="1"
+                                 control="basicAFProfileFirstName" />
+              <textbox id="basicAFProfileFirstName" afid="firstname" />
+            </hbox>
+            <hbox align="center">
+              <label value="Middle name:"
+                                 flex="1"
+                                 control="basicAFProfileMiddleName" />
+              <textbox id="basicAFProfileMiddleName" afid="middlename" />
+            </hbox>
+            <hbox align="center">
+              <label value="Last name:"
+                                 flex="1"
+                                 control="basicAFProfileLastName"/>
+              <textbox id="basicAFProfileLastName" afid="lastname" />
+            </hbox>
+            <hbox align="center">
+              <label value="Email"
+                                 flex="1"
+                                 control="basicAFProfileEmail"/>
+              <textbox id="basicAFProfileEmail" afid="email" />
+            </hbox>
+            <hbox align="center">
+              <label value="Company name:"
+                                 flex="1"
+                                 control="basicAFProfileCompanyName"/>
+              <textbox id="basicAFProfileCompanyName" afid="company" />
+            </hbox>
+          </column>
+        </columns>
+      </grid>
+    </groupbox>
+    <groupbox>
+      <caption label="Address" />
+      <vbox>
+        <grid>
+          <columns>
+            <column flex="1"/>
+            <column flex="1"/>
+          </columns>
+          <rows>
+            <row>
+              <grid flex="1" id="basicAFProfileShippingGrid">
+                <columns>
+                  <column flex="1"/>
+                  <column flex="1"/>
+                </columns>
+                <rows>
+                  <row id="basicAFSAddress1FieldContainer"
+                                   align="center">
+                    <label flex="1"
+                                       class="basicAFAlignRight"
+                                       value="Address:"/>
+                    <textbox id="basicAFProfileSAddress1" afid="address1" />
+                  </row>
+                  <row id="basicAFSAddress2FieldContainer"
+                                   align="center">
+                    <label value=""/>
+                    <textbox id="basicAFProfileSAddress2" afid="address2" />
+                  </row>
+                  <row id="basicAFSCityFieldContainer"
+                                   align="center">
+                    <label flex="1"
+                                       value="City/Town:"/>
+                    <textbox id="basicAFProfileSCity" afid="city" />
+                  </row>
+                  <row id="basicAFSStateFieldContainer"
+                                   align="center">
+                    <label flex="1"
+                                       value="State:"/>
+                    <textbox id="basicAFProfileSState" afid="state" />
+                  </row>
+                  <row id="basicAFSZipFieldContainer"
+                                   align="center">
+                    <label flex="1"
+                                       value="Zip code:"/>
+                    <textbox id="basicAFProfileSZip" afid="zip" />
+                  </row>
+                  <row id="basicAFSCountryFieldContainer"
+                                   align="center">
+                    <label flex="1"
+                                       value="Country"/>
+                    <textbox id="basicAFProfileSCountry" afid="country" />
+                  </row>
+                </rows>
+              </grid>
+            </row>
+          </rows>
+        </grid>
+      </vbox>
+    </groupbox>
+    <groupbox>
+      <caption label="Contact numbers:" />
+      <grid>
+        <columns>
+          <column/>
+          <column/>
+        </columns>
+        <rows>
+          <row>
+            <vbox>
+              <spacer flex="1"/>
+              <label value=""/>
+              <spacer flex="1"/>
+              <label class="basicAFAlignRight"
+                                 value="Phone:"/>
+              <spacer flex="1"/>
+            </vbox>
+            <hbox id="basicAFPhoneBox">
+              <vbox id="basicAFPhoneBoxNumber">
+                <label value="number"/>
+                <textbox id="basicAFProfilePhoneNumber" afid="phone"
+                                 charsAllowed="0123456789" maxlength="24" />
+              </vbox>
+            </hbox>
+          </row>
+          <row>
+            <vbox>
+              <spacer flex="1"/>
+              <label class="basicAFAlignRight"
+                                 value="Fax:"/>
+              <spacer flex="1"/>
+            </vbox>
+            <hbox id="basicAFFaxBox">
+              <textbox id="basicAFProfileFaxNumber" afid="fax"
+                                 charsAllowed="0123456789" maxlength="24" />
+            </hbox>
+          </row>
+        </rows>
+      </grid>
+    </groupbox>
+  </vbox>
+
+
+</dialog>

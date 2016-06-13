@@ -1,0 +1,12 @@
+<!ENTITY about.title "Over Fasterfox">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Speciale dank aan:">
+<!ENTITY about.artwork "Artwork">
+<!ENTITY about.homepage "Homepage:">
+<!ENTITY about.close "Sluiten">
+<!ENTITY pageload.clearCache "Cache legen">
+<!ENTITY pageload.hideTimer "Tijdopnemer verbergen">
+<!ENTITY pageload.options "Opties">
+<!ENTITY pageload.pageLoadTimer "Fasterfox Paginalaadtijdopnemer">
+<!ENTITY    stats.stats "Laat anonieme statistieken">

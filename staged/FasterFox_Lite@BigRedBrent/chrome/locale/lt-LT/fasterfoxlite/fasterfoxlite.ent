@@ -1,0 +1,12 @@
+<!ENTITY about.title "Fasterfox - Apie">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Ypač dėkojame:">
+<!ENTITY about.artwork "Iliustracijos">
+<!ENTITY about.homepage "Tinklapis:">
+<!ENTITY about.close "Užverti">
+<!ENTITY pageload.clearCache "Valyti podėlį">
+<!ENTITY pageload.hideTimer "Slėpti laikmatį">
+<!ENTITY pageload.options "Nustatymai">
+<!ENTITY pageload.pageLoadTimer "Fasterfox puslapio įkėlimo laikmatis">
+<!ENTITY    stats.stats "Leisti anoniminius statistiką">

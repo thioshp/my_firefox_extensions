@@ -1,0 +1,107 @@
+<!ENTITY fvd_confirm_download_browser.dialog.title "Az Fvd Suite nem fut" >
+<!ENTITY fvd_confirm_download_browser.button.no.title "Nem (Először az Fvd Suite-t fogom elindítani)" >
+<!ENTITY fvd_confirm_download_browser.button.yes.title "Igen" >
+<!ENTITY fvd_confirm_download_browser.label.first.value "Az Fvd Suite nem fut." >
+<!ENTITY fvd_confirm_download_browser.label.second.value "Javasoljuk, hogy indítsa el az FVD Suite-t, és próbálja meg újra a letöltést." >
+<!ENTITY fvd_confirm_download_browser.label.three.value "Szeretné folytatni ezt a letöltést a Firefox alkalmazással?" >
+
+<!ENTITY fvd_sd_new_dial.dialog.title "Gyorshívó létrehozása/módosítása" >
+<!ENTITY fvd_sd_new_dial.title.title "Gyorshívó címe" >
+<!ENTITY fvd_sd_new_dial.url.title "URL-cím" >
+<!ENTITY fvd_sd_new_dial.title_not_found "A cím nem található" >
+
+<!ENTITY fvd_sd_new_dial.preview_type.make_from_dial "Létrehozás gyorshívó URL-ből" >
+<!ENTITY fvd_sd_new_dial.preview_type.make_from_uri "Létrehozás URL-ből ( &gt;&gt; Frissítve! &lt;&lt; )" >
+<!ENTITY fvd_sd_new_dial.preview_type.make_from_local_file "Létrehozás helyi fájlból" >
+<!ENTITY fvd_sd_new_dial.preview_type.preview "Kattintson a gyorsnézethez" >
+<!ENTITY fvd_sd_new_dial.preview_type.make_from_file_button "..." >
+<!ENTITY fvd_sd_new_dial.group.title "Csoport" >
+<!ENTITY fvd_sd_new_dial.user_defined_image.title "Elődefiniált logó">
+<!ENTITY fvd_sd_new_dial.url.emptytext "http://">
+<!ENTITY fvd_sd_new_dial.button.close "Bezárás">
+<!ENTITY fvd_sd_new_dial.disable_js "JavaScript letiltása">
+<!ENTITY fvd_sd_new_dial.enable_js "JavaScript engedélyezése">
+<!ENTITY fvd_sd_new_dial.tab.main "Fő">
+<!ENTITY fvd_sd_new_dial.tab.preview "Előnézet">
+<!ENTITY fvd_sd_new_dial.button.back "Vissza">
+<!ENTITY fvd_sd_new_dial.delay.label "Késleltetés(mp):">
+<!ENTITY fvd_sd_new_dial.empty_title.value "Dinamikus cím">
+<!ENTITY fvd_sd_new_dial.disable_plugins.yes "Igen">
+<!ENTITY fvd_sd_new_dial.disable_plugins.no "Nem">
+<!ENTITY fvd_sd_new_dial.disable_plugins "Beépülők letiltása(flash, silverlight,...):"> 
+<!ENTITY fvd_sd_new_dial.preview_type "Előnézet típusa"> 
+<!ENTITY fvd_sd_new_dial.autoupdate "Auto frissítés"> 
+<!ENTITY fvd_sd_new_dial.autoupdate.every "Minden:"> 
+<!ENTITY fvd_sd_new_dial.autoupdate.minutes "perc"> 
+<!ENTITY fvd_sd_new_dial.autoupdate.hours "óra"> 
+<!ENTITY fvd_sd_new_dial.autoupdate.days "nap"> 
+<!ENTITY fvd_sd_new_dial.pickurl.title "Kiválasztás URL-címből:"> 
+<!ENTITY fvd_sd_new_dial.pickurl.tabs "Megnyitott lapok"> 
+<!ENTITY fvd_sd_new_dial.pickurl.mostvisited "Leglátogatottabb">
+<!ENTITY fvd_sd_new_dial.pickurl.popular "Legnépszerűbb"> 
+<!ENTITY fvd_sd_new_dial.pickurl.or "vagy"> 
+<!ENTITY fvd_sd_new_dial.button.user_pics "Felhasználói galéria böngészése">
+<!ENTITY fvd_sd_new_dial.pick_from_panle.loading "Betöltés...">
+<!ENTITY fvd_sd_new_dial.top_10_pics "Legjobb 10 felhasználói kép">
+<!ENTITY fvd_sd_new_dial.url.local_file "Helyi fájl">
+
+
+<!ENTITY fvd_sd_manage_groups.tree.name.title "Név">
+<!ENTITY fvd_sd_manage_groups.tree.count.title "Gyorshívók">
+<!ENTITY fvd_sd_manage_groups.add.title "Hozzáadás">
+<!ENTITY fvd_sd_manage_groups.edit.title "Szerkesztés">
+<!ENTITY fvd_sd_manage_groups.remove.title "Eltávolítás">
+<!ENTITY fvd_sd_manage_groups.close.title "Bezárás">
+<!ENTITY fvd_sd_manage_groups.context.remove.title "Eltávolítás">
+
+
+<!ENTITY fvd_sd_sd_block.dialog.title "URL/Tartomány blokkolása" >
+<!ENTITY fvd_sd_sd_block.block_type.title "Blokkolás típusa" >
+<!ENTITY fvd_sd_sd_block.block_type.uri "URL-cím" >
+<!ENTITY fvd_sd_sd_block.block_type.domain "Tartomány" >
+<!ENTITY fvd_sd_sd_block.block_url.title "URL/Tartomány" >
+
+
+<!ENTITY fvd_sd_manage_blocked.dialog.title "Blokkolt tartományok kezelése" >
+<!ENTITY fvd_sd_manage_blocked.tree.sign.title "URL/Tartomány" >
+<!ENTITY fvd_sd_manage_blocked.tree.type.title "Típus" >
+<!ENTITY fvd_sd_manage_blocked.button.ok "OK" >
+<!ENTITY fvd_sd_manage_blocked.button.unblock "Blokkolás feloldása" >
+<!ENTITY fvd_sd_manage_blocked.button.add "Hozzáadás" >
+<!ENTITY fvd_sd_manage_blocked.button.edit "Szerkesztés" >
+<!ENTITY fvd_sd_manage_blocked.context.unblock "Blokkolás feloldása" >
+<!ENTITY fvd_sd_manage_blocked.context.open_uri "URL megnyitása" >
+<!ENTITY fvd_sd_manage_blocked.context.edit "Szerkesztés" >
+
+
+<!ENTITY fvd_sd_view_group.dialog.title "Csoport megtekintése">
+<!ENTITY fvd_sd_view_group.type.title "Cím">
+<!ENTITY fvd_sd_view_group.type.uri "URL-cím">
+
+
+<!ENTITY fvd_sd_view_group.context.open	"Megnyitás a lapon">
+<!ENTITY fvd_sd_view_group.context.open_new_tab	"Megnyitás új lapon">
+<!ENTITY fvd_sd_view_group.context.open_new_tab_background	"Megnyitás egy háttérlapon">
+<!ENTITY fvd_sd_view_group.context.remove "URL eltávolítása" >
+<!ENTITY fvd_sd_view_group.context.add_to_speed_dial "Hozzáadás a gyorshívóhoz" >
+<!ENTITY fvd_sd_view_group.context.block "Blokkolás" >
+<!ENTITY fvd_sd_view_group.context.copy_url "URL másolása" >
+<!ENTITY fvd_sd_view_group.context.refresh "Frissítés" >
+
+
+<!ENTITY fvd_sd_new_group.dialog.title "Csoport létrehozása/módosítása">
+<!ENTITY fvd_sd_new_group.group_name.title "Csoport neve">
+
+<!ENTITY fvd_sd_new_dial.close_window "Ablak bezárása">
+
+
+
+<!ENTITY fvd_sd_new_group.sync_this_group "Csoport szinkronizálása">
+<!ENTITY fvd_sd_manage_groups.tree.sync.title "Szinkronizálás">
+
+
+<!ENTITY fvd_sd_new_dial.preview_type.enter_manually_url "Vagy írja be a kép URL-címét alul:">
+
+
+
+<!ENTITY fvd_sd_set_autoupdate.dialog.title "Auto-frissítés beállítása">

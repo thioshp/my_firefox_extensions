@@ -1,0 +1,8 @@
+<!ENTITY option.caption "বিকল্পগুলি">
+<!ENTITY option.insert.images.label "প্রাকদর্শীয় চিত্রগুলি গুগল এবং য়াহু অনুসন্ধানে নিবেশণ">
+<!ENTITY option.show.GP.label "প্রদর্শন &apos;জিপি&apos; ফায়ারফক্স অবস্থা পট্টিতে অন্তর্পঞ্জী করুন (দ্রুত en/নিষ্ক্রিয়কারক)">
+<!ENTITY gp.options.popup "গুগলপ্রাকদর্শন বিকল্পগুলি...">
+<!ENTITY option.maxPerPage.GP.label "প্রতি পৃষ্ঠায় সর্বাধিক সংখ্যক প্রাকদর্শীয় চিত্রগুলি:">
+<!ENTITY option.insert.ranks.label "অনুসন্ধান ফলাফলে আন্তর্জালস্থানের জনপ্রিয়তা স্থানগুলির নিবেশণ:">
+<!ENTITY gp.options.request.image.update "এই গুগলপ্রাকদর্শীয় চিত্রটির আধুনিকীকরণের অনুরোধ">
+<!ENTITY option.insert.ads.label "Insert sponsored links to help keep SearchPreview free">

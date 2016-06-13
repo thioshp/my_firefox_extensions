@@ -1,0 +1,12 @@
+<!ENTITY about.title "Fasterfox - 关于">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "特别致谢:">
+<!ENTITY about.artwork "美工">
+<!ENTITY about.homepage "主页:">
+<!ENTITY about.close "关闭">
+<!ENTITY pageload.clearCache "清除缓存">
+<!ENTITY pageload.hideTimer "隐藏计时器">
+<!ENTITY pageload.options "选项">
+<!ENTITY pageload.pageLoadTimer "Fasterfox 页面装载计时器">
+<!ENTITY    stats.stats "允許匿名統計">

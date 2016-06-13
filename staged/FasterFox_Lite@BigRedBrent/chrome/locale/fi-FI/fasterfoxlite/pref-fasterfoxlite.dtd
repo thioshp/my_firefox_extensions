@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - Asetukset">
+<!ENTITY main.tab "Esiasetukset">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Välimuisti">
+<!ENTITY connection.tab "Yhteydet">
+<!ENTITY pipelining.tab "Pipeling">
+<!ENTITY rendering.tab "Sivunkääntäminen">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Fasterfox sivuhaun ajanotto">
+<!ENTITY timer.label "Salli sivuhaun ajanotto">
+<!ENTITY timer.desc "Muista tyhjentää välimuisti joka kerta kun testaan sivua uudelleen.">
+<!ENTITY main.captionLabel "Valitse esiasetus tai 'omat asetukset' päästäksesi lisäasetuksiin.">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Oletus">
+<!ENTITY defaultPreset.desc "Palauta kaikki asetukset niiden optimoimattomiin Firefoxin oletusarvoihin.">
+<!ENTITY courteousPreset.label "Kohtelias">
+<!ENTITY courteousPreset.desc "Ainoastaan sivunkääntämisen parannukset, ei lisää palvelimen latauskuormitusta.">
+<!ENTITY optimizedPreset.label "Optimaalinen">
+<!ENTITY optimizedPreset.desc "Optimoidut verkkoyhteydet RFC-määritelmän mukaiseen suorituskyvyn parantamiseen.">
+<!ENTITY turboPreset.label "Turboahdettu">
+<!ENTITY turboPreset.desc "Paras mahdollinen suorituskyky, ei noudata RFC-määritelmää (lisää palvelimiin kohdistuvaa latauskuormitusta)">
+<!ENTITY customPreset.label "Omat asetukset">
+<!ENTITY customPreset.desc "Näytä lisäasetukset räätälöidäksesi omat nopeusasetukset.">
+<!ENTITY cache.captionLabel "Selaimen välimuistin asetukset">
+<!ENTITY diskCache.label "Levyn välimuistin koko">
+<!ENTITY memoryCache.label "Muistin välimuistin koko">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Välimuistin kasvattaminen vähentää latausaikaa poistamalla turhan tiedon uudelleenlataamisen.">
+<!ENTITY dnscache.captionLabel "DNS-välimuistin asetukset">
+<!ENTITY dnscacheExp.label "DNS-välimuistin päättymisaika">
+<!ENTITY dnscacheEntries.label "DNS-välimuistin merkinnät">
+<!ENTITY dnscache.desc "Selaimen DNS-välimuistin kasvattaminen poistaa tarpeettomat DNS-haut, jotka hidastavat suorituskykyä. DNS-välimuistin päättymisaika sekuntteina.">
+<!ENTITY connection.captionLabel "HTTP-yhteysasetukset">
+<!ENTITY connectionMaxConn.label "Suurin yhteysmäärä">
+<!ENTITY connectionMaxConnServ.label "Suurin yhteyksien määrä palvelimelle">
+<!ENTITY connectionMaxPerConnServ.label "Suurin pakotettujen yhteyksien määrä palvelimelle">
+<!ENTITY connectionMaxPerConnProxy.label "Suurin pakotettujen yhteyksien määrä proxylle">
+<!ENTITY connection.desc "Selaimen ottamien palvelinyhteyksien määrä lisää yhtä aikaa ladattavien asioiden lukumäärää. Tämä auttaa merkittävästi paljon kuvia tai muuta sisältöä sisältävien sivujen lataamista.">
+<!ENTITY pipelining.captionLabel "HTTP Pipeling-asetukset">
+<!ENTITY pipeliningEnable.label "Salli Pipeling">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Salli Proxyn Pipeling">
+<!ENTITY pipeliningMax.label "Suurin Pipeling-pyyntöjen lukumäärä">
+<!ENTITY pipelining.desc "Pipeling sallii monien hakupyyntöjen lähettämisen palvelimelle ilman edellisten pyyntöjen vastausten odottamista. Tämä voi lisätä ratkaisevasti nopeutta.">
+<!ENTITY rendering.captionLabel "Sivunkääntämisen asetukset">
+<!ENTITY fastback.label "FastBack sallittu">
+<!ENTITY fastback.pagesInMem "Sivuja muistissa:">
+<!ENTITY fastback.desc "FastBack pitää tietyn määrän sivuhistorian sivuja muistissa, että ne ovat heti saatavilla eteen- tai taaksepäin nappien painamisen jälkee.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Sivunpiirto viive">
+<!ENTITY rendering.desc "Sivunpiirto viive on se aika, jonka Firefox odottaa ennenkuin alkaa kääntää sivua (oletus=250ms). Alimenu viive on se aika, jonka Firefox odottaa ennen kuin näyttää alivalikkoja (oletus=300ms). Anna aika millisekuntteina (1 sekuntti = 1000 millisekunttia).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "OK">
+<!ENTITY button.cancel "Peruuta">
+<!ENTITY stats.stats "Salli nimettömiä tilastoja">

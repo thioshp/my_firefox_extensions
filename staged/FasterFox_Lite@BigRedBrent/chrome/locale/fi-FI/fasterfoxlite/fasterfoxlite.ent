@@ -1,0 +1,12 @@
+<!ENTITY about.title "Tietoja Fasterfoxista">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "Kiitos seuraaville:">
+<!ENTITY about.artwork "Graafinen suunnittelu">
+<!ENTITY about.homepage "Kotisivu:">
+<!ENTITY about.close "Sulje">
+<!ENTITY pageload.clearCache "Tyhjennä välimuisti">
+<!ENTITY pageload.hideTimer "Piilota ajastin">
+<!ENTITY pageload.options "Asetukset">
+<!ENTITY pageload.pageLoadTimer "Fasterfoxin sivunlatauksen ajanotto">
+<!ENTITY stats.stats "Salli nimettömiä tilastoja">

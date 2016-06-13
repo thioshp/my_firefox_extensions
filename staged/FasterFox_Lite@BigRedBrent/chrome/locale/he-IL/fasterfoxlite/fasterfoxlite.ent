@@ -1,0 +1,12 @@
+<!ENTITY about.title "Fasterfox - אודות">
+<!ENTITY about.By "By:">
+<!ENTITY about.createdBy "Original Fasterfox Author:">
+<!ENTITY about.specialThanks "תודות מיוחדות ל:">
+<!ENTITY about.artwork "איורים">
+<!ENTITY about.homepage "עמוד הבית:">
+<!ENTITY about.close "סגור">
+<!ENTITY pageload.clearCache "נקה קבצים זמניים">
+<!ENTITY pageload.hideTimer "החבא שעון העצר">
+<!ENTITY pageload.options "אפשרויות">
+<!ENTITY pageload.pageLoadTimer "Fasterfox שעון העצר לטעינת עמוד של">
+<!ENTITY    stats.stats "אפשר נתונים סטטיסטיים אנונימיים">

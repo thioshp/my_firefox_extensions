@@ -1,0 +1,68 @@
+<!ENTITY options.title "Fasterfox Lite - Nustatymai">
+<!ENTITY main.tab "Ruošiniai">
+<!ENTITY options.tab "Advanced Options">
+<!ENTITY cache.tab "Podėlis">
+<!ENTITY connection.tab "Ryšys">
+<!ENTITY pipelining.tab "Paskirstymas">
+<!ENTITY rendering.tab "Vaizdavimas">
+<!ENTITY linkprefetching.label "Enable Link Prefetching">
+<!ENTITY linkprefetching.desc "Link Prefetching will download certain pages in the background when a webpage hints to the browser that those pages are likely to be visited, so that they may be displayed immediately when requested.">
+<!ENTITY disableIPv6.label "Disable IPv6 DNS lookups">
+<!ENTITY disableIPv6.desc "IPv6 DNS lookups are disabled by default only on Mac OS X prior to 2008-01-05 and OS/2. Some suggest that disabling IPv6 DNS lookups on any OS will speed up connections, though this is probably a placebo effect.">
+<!ENTITY timer.captionLabel "Fasterfox puslapio įkėlimo laikmatis">
+<!ENTITY timer.label "Įjungti puslapio įkėlimo laikmatį">
+<!ENTITY timer.desc "Įsitikinkite, kad pravalote podėlį kiekvieną kartą bandant puslapį.">
+<!ENTITY main.captionLabel "Pasirinkite ruošinį arba &apos;Pasirinktinis&apos; išplėstiniams nustatymams">
+<!ENTITY options.captionLabel "These configurations are not changed by the presets or by disabling this addon!">
+<!ENTITY defaultPreset.label "Pagal nutylėjimą">
+<!ENTITY defaultPreset.desc "Atkurti visus nustatymus į jų neoptimalias Firefox pradines reikšmes.">
+<!ENTITY courteousPreset.label "Paprastas">
+<!ENTITY courteousPreset.desc "Tik atvaizdavimo patobulinimai, nepadidina serverio apkrovos.">
+<!ENTITY optimizedPreset.label "Optimalūs">
+<!ENTITY optimizedPreset.desc "Tinklo patobulinimai pagerintai spartai pagal RFC reikalavimus.">
+<!ENTITY turboPreset.label "Ypač didelis">
+<!ENTITY turboPreset.desc "Didžiasia sparta, viršija RFC nurodymus (padidina serverių apkrovas).">
+<!ENTITY customPreset.label "Pasirinktinis">
+<!ENTITY customPreset.desc "Rodyti išplėstinius nustatymus pritaikant savo greičio nustatymus.">
+<!ENTITY cache.captionLabel "Naršyklės podėlio nustatymai">
+<!ENTITY diskCache.label "Disko podėlio talpa:">
+<!ENTITY memoryCache.label "Atminties podėlio talpa:">
+<!ENTITY diskCacheEnable.label "Enable Disk Cache">
+<!ENTITY memoryCacheEnable.label "Enable Memory Cache">
+<!ENTITY cache.desc "Padidinus jūsų podėlį sumažėja laikas, reikalingas pakartotiniui informacijos persiuntimui.">
+<!ENTITY dnscache.captionLabel "DNS podėlio nustatymai">
+<!ENTITY dnscacheExp.label "DNS podėlio galiojimo laikas:">
+<!ENTITY dnscacheEntries.label "DNS podėlio įrašai:">
+<!ENTITY dnscache.desc "Padidinus naršyklės DNS podėlį pašalina nereikalingas DNS užklausas, kurios lėtina spartą. DNS podėlio galiojimo laikas  matuojamas sekundėmis.">
+<!ENTITY connection.captionLabel "HTTP ryšio nustatymai">
+<!ENTITY connectionMaxConn.label "Daugiausia ryšių:">
+<!ENTITY connectionMaxConnServ.label "Daugiausia ryšių į serverį:">
+<!ENTITY connectionMaxPerConnServ.label "Daugiausia nuolatinių ryšių į serverį:">
+<!ENTITY connectionMaxPerConnProxy.label "Daugiausia ryšių įtarpinį serverį:">
+<!ENTITY connection.desc "Padidinus ryšių skaičių jūsų naršyklė gali siųstis daugiau elementų vienu metu. Tai padeda puslapiams su daugybe paveikslėlių ar kito turinio.">
+<!ENTITY pipelining.captionLabel "HTTP paskirstymo nustatymai:">
+<!ENTITY pipeliningEnable.label "Įjungti paskirstymą">
+<!ENTITY pipeliningSSL.label "Enable SSL Pipelining">
+<!ENTITY pipeliningEnableProxy.label "Įjungti tarpinio serverio paskirstymą">
+<!ENTITY pipeliningMax.label "Daugiausia paskirstytųjų ryšių">
+<!ENTITY pipelining.desc "Paskirstymas leidžia nusiųsti daugiau užklausų į serverį nelaukiant atsako į ankstesnę užklausą. Tai gali stipriai pagerinti greitį.">
+<!ENTITY rendering.captionLabel "Vaizdavimo pasirinktys">
+<!ENTITY fastback.label "Įjungti greitąjį grįžimą">
+<!ENTITY fastback.pagesInMem "Puslapiai atmintyje:">
+<!ENTITY fastback.desc "Greitasis grįžimas laiko duotą puslapių iš praeities skaičių atmintyje, taip kad jie būtų iškart galimi paspaudus atgal ar pirmyn mygtukus.">
+<!ENTITY fastback.default "Value -1 calculates based on available memory.">
+<!ENTITY renderingInitPait.label "Pradinio vaizdavimo atidėjimas:">
+<!ENTITY rendering.desc "Pradinio vaizdavimo atidėjimas yra laiko kiekis, kurį Firefox laukia iki pradeda vaizduoti puslapį (paprastai 250 ms). Submeniu atidėjimas yra laiko kiekis, kurį Firefox laukia prieš rodant submeniu (paprastai 300 ms). Įveskite laiką milisekundėmis (1 sekundė = 1000 milisekundžių).">
+<!ENTITY backoffcount.label "Maximum Content Reflows:">
+<!ENTITY backoffcount.desc "Maximum times to reflow a loading page. Value -1 allows unlimited reflows.">
+<!ENTITY ontimer.label "Allow Content Reflow Delay">
+<!ENTITY interval.label "Minimum Content Reflow Delay (microseconds):">
+<!ENTITY interval.desc "Lowering this decreases perceived page load time but increases total loading time.">
+<!ENTITY interrupt.label "Allow Parsing Interruptions">
+<!ENTITY tokenizing.label "Maximum Unresponsive UI Time (microseconds):">
+<!ENTITY tokenizing.desc "Lowering this will make the browser more responsive at the expense of page load time.">
+<!ENTITY threshold.label "Low Frequency Interrupt Mode Delay (microseconds):">
+<!ENTITY threshold.desc "Amount of time the user must be inactive before switching to low frequency mode. Raising this will make the application more responsive at the expense of page load time.">
+<!ENTITY button.ok "Gerai">
+<!ENTITY button.cancel "Atšaukti">
+<!ENTITY    stats.stats "Leisti anoniminius statistiką">
